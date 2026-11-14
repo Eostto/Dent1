@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DENT1 — magazin dentar pentru cabinet și laborator</title>
+<meta name="description" content="DENT1 — consumabile și echipamente pentru cabinete stomatologice și laboratoare dentare: implantologie, CAD/CAM, imprimare 3D, sterilizare. Chișinău, str. Nicolai Zelinski 7/1.">
+<meta property="og:title" content="DENT1 — magazin dentar pentru cabinet și laborator">
+<meta property="og:image" content="/img/logo-dent1.png">
+<link rel="icon" href="/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span>Str. Nicolai Zelinski 7/1, Chișinău · Luni–vineri, 9:00–18:00</span>
+    <span class="topbar-r">
+      <a href="mailto:dentonemd@gmail.com">dentonemd@gmail.com</a>
+      <a class="mono accent" href="tel:+37379663311">079 66 33 11</a>
+    </span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="wrap header-in">
+    <a href="#/" class="brand" aria-label="DENT1 — acasă"><img src="/img/logo-dent1.png" alt="DENT1" width="142" height="44"></a>
+    <div class="seg" role="group" aria-label="Pentru cine cumperi">
+      <button type="button" data-seg="cabinet">Cabinet</button>
+      <button type="button" data-seg="laborator">Laborator</button>
+    </div>
+    <form class="search" id="searchForm" role="search">
+      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input id="searchInput" type="search" aria-label="Caută în catalog" placeholder="Caută produs, brand sau categorie — ex. autoclav, zirconiu, ROOTT">
+    </form>
+    <nav class="nav" aria-label="Principal">
+      <a href="#/catalog">Catalog</a>
+      <a href="#/branduri">Branduri</a>
+      <a href="#/contact">Contact</a>
+      <a href="#/cos" class="cart-btn" aria-label="Coș">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h2l2.5 11h9L20 8H7"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+        <span>Coș</span><span class="cart-count" id="cartCount">0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div class="footer-brand">
+      <img src="/img/logo-dent1.png" alt="DENT1" width="142" height="44">
+      <p>Împreună putem aduce practica stomatologică la cel mai înalt nivel.</p>
+      <p class="muted small">© 2026 DENT ONE GROUP SRL</p>
+    </div>
+    <nav aria-label="Categorii" class="footer-col" id="footerCats"></nav>
+    <div class="footer-col">
+      <a class="mono" href="tel:+37379663311">079 66 33 11</a>
+      <a href="mailto:dentonemd@gmail.com">dentonemd@gmail.com</a>
+      <span>Str. Nicolai Zelinski 7/1, Chișinău</span>
+      <span>Luni–vineri, 9:00–18:00</span>
+    </div>
+    <nav aria-label="Rețele sociale" class="footer-col">
+      <a href="https://facebook.com/dent1.md" rel="noopener">Facebook</a>
+      <a href="https://instagram.com/dent1.md" rel="noopener">Instagram</a>
+      <a href="https://tiktok.com/@dent1.md" rel="noopener">TikTok</a>
+      <a href="https://youtube.com/@DentOneMedia" rel="noopener">YouTube</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="/assets/data.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
