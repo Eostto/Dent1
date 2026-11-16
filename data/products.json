@@ -5876,6 +5876,40 @@
   "hq": true
  },
  {
+  "id": "major-temporary-cold-v",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "prov",
+  "brand": "MAJOR",
+  "name": "Temporary Cold.V",
+  "note": "Acrilat pentru provizorii",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină acrilică autopolimerizabilă (PMMA) pentru coroane și punți provizorii, tehnica cu cheie de gips sau silicon, și reparații.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A2",
+     "A3",
+     "A3.5",
+     "B3",
+     "C2",
+     "D3"
+    ]
+   },
+   {
+    "label": "Ambalaj",
+    "values": [
+     "Set standard",
+     "Dentină 100 g",
+     "Dentină 500 g"
+    ]
+   }
+  ]
+ },
+ {
   "id": "coxo-db686-nano",
   "seg": "cabinet",
   "cat": "resto",
@@ -6137,6 +6171,177 @@
   "hq": true
  },
  {
+  "id": "major-ormactivator-gel",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormactivator Gel",
+  "note": "Catalizator pentru siliconi de condensare",
+  "price": "",
+  "photo": true,
+  "desc": "Catalizator gel roșu pentru siliconii de condensare Major, tub de 60 ml.",
+  "hq": true
+ },
+ {
+  "id": "major-ormadent-putty",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormadent Putty",
+  "note": "Silicon de condensare putty",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare cu consistență putty pentru amprente preliminare în doi timpi; elasticitate și rezistență la rupere superioare. 900 ml (1500 g).",
+  "hq": true,
+  "specs": [
+   {
+    "g": "Timpi",
+    "rows": [
+     [
+      "Amestec",
+      "35″"
+     ],
+     [
+      "Lucru",
+      "1′30″"
+     ],
+     [
+      "Priză în gură",
+      "3′00″"
+     ],
+     [
+      "Priză totală",
+      "4′30″"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-ormakit-light",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormakit Light",
+  "note": "Kit silicon de condensare, light",
+  "price": "",
+  "photo": true,
+  "desc": "Kit complet de silicon de condensare pentru prima și a doua amprentă, corector light.",
+  "hq": true
+ },
+ {
+  "id": "major-ormakit-regular",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormakit Regular",
+  "note": "Kit silicon de condensare, regular",
+  "price": "",
+  "photo": true,
+  "desc": "Kit complet de silicon de condensare pentru prima și a doua amprentă, corector regular.",
+  "hq": true
+ },
+ {
+  "id": "major-ormamax-light",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormamax Light",
+  "note": "Silicon de condensare light",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare fluid (light), albastru, pentru amprente de precizie în tehnica putty/wash cu Ormadent Putty. 150 ml.",
+  "hq": true
+ },
+ {
+  "id": "major-ormamax-regular",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormamax Regular",
+  "note": "Silicon de condensare regular",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare cu consistență medie, verde: elasticitate și rezistență superioare, hipoalergenic.",
+  "hq": true
+ },
+ {
+  "id": "major-ormaplus-bite",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Neo Bite",
+  "note": "Silicon pentru înregistrarea ocluziei",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție pentru înregistrarea ocluziei, priză rapidă și reproducere precisă a detaliilor ocluzale.",
+  "hq": true
+ },
+ {
+  "id": "major-ormaplus-lv",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Neo LV",
+  "note": "Silicon de adiție light",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție cu viscozitate scăzută pentru tehnica în doi timpi sau simultană; scanabil CAD, stabil peste 3 săptămâni.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Priză",
+    "values": [
+     "Fast 4’00”",
+     "Regular 5’30”"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-ormaplus-monophase",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Neo Monophase",
+  "note": "Silicon de adiție monofazic",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție cu viscozitate medie pentru tehnica monofazică, priză rapidă, scanabil CAD.",
+  "hq": true
+ },
+ {
+  "id": "major-ormaplus-putty",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Neo Putty",
+  "note": "Silicon de adiție putty",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție cu viscozitate mare pentru tehnica în doi timpi sau simultană.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Priză",
+    "values": [
+     "Fast 4’00”",
+     "Regular 5’30”"
+    ]
+   }
+  ]
+ },
+ {
   "id": "dsi-dsi-alginate",
   "seg": "cabinet",
   "cat": "amprenta",
@@ -6161,6 +6366,180 @@
   "photo": true,
   "desc": "Material DSI pentru amprentă. Variantele, dimensiunile și ambalajele le confirmăm la comandă.",
   "hq": true
+ },
+ {
+  "id": "major-algeniux-fast",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Algeniux Fast",
+  "note": "Alginat premium, priză rapidă",
+  "price": "",
+  "photo": true,
+  "desc": "Alginat de top cu reproducere a detaliilor până la 5 µm, potrivit pentru lucrări pe implanturi. Cel mai mare indice de curgere din gamă, compatibil cu scanarea CAD, aromă de mentă, fără praf. Turnarea modelului posibilă până la 5 zile.",
+  "hq": true,
+  "keys": [
+   [
+    "5 µm",
+    "detaliu"
+   ],
+   [
+    "6 ani",
+    "valabilitate"
+   ],
+   [
+    "CAD",
+    "scanabil"
+   ]
+  ]
+ },
+ {
+  "id": "major-algeniux-normal",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Algeniux Normal",
+  "note": "Alginat premium, priză normală",
+  "price": "",
+  "photo": true,
+  "desc": "Versiunea cu priză normală a Algeniux: detaliu de 5 µm, elasticitate și rezistență la rupere ridicate, compatibil CAD, hipoalergenic, fără praf.",
+  "hq": true,
+  "keys": [
+   [
+    "5 µm",
+    "detaliu"
+   ],
+   [
+    "6 ani",
+    "valabilitate"
+   ]
+  ]
+ },
+ {
+  "id": "major-alginkid",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Alginkid",
+  "note": "Alginat ultra-rapid pentru copii",
+  "price": "",
+  "photo": true,
+  "desc": "Cel mai rapid alginat din categorie (priză 1’50”), creat pentru copii și ortodonție; aromă plăcută, fără praf.",
+  "hq": true,
+  "keys": [
+   [
+    "1’50”",
+    "priză"
+   ],
+   [
+    "Kids",
+    "ortodonție"
+   ]
+  ]
+ },
+ {
+  "id": "major-alginmajor",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Alginmajor",
+  "note": "Alginat cu priză rapidă",
+  "price": "",
+  "photo": true,
+  "desc": "Alginat cremos, portocaliu, cu priză rapidă și curgere optimizată pentru amprente ortodontice și de studiu. Ambalaj 453 g.",
+  "hq": true,
+  "keys": [
+   [
+    "453 g",
+    "ambalaj"
+   ]
+  ]
+ },
+ {
+  "id": "major-alginmax",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Alginmax",
+  "note": "Alginat cu indicator cromatic",
+  "price": "",
+  "photo": true,
+  "desc": "Alginat de înaltă precizie cu indicator cromatic în trei faze (violet / roz / bleu), tixotrop, scanabil CAD, stabil dimensional până la 6 zile. Arome vanilie-mentă sau fructe, fără praf. Valabilitate 6 ani (ambalaj MAP).",
+  "hq": true,
+  "keys": [
+   [
+    "3 faze",
+    "culoare"
+   ],
+   [
+    "6 zile",
+    "stabilitate"
+   ],
+   [
+    "6 ani",
+    "valabilitate"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Aromă",
+    "values": [
+     "Vanilie-mentă",
+     "Fructe"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-alginplus",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Alginplus",
+  "note": "Alginat cu indicator de fază",
+  "price": "",
+  "photo": true,
+  "desc": "Alginat de înaltă precizie cu schimbare de culoare (portocaliu închis → galben), detaliu fin, elasticitate și memorie bune, scanabil CAD.",
+  "hq": true,
+  "keys": [
+   [
+    "CAD",
+    "scanabil"
+   ],
+   [
+    "6 ani",
+    "valabilitate"
+   ]
+  ]
+ },
+ {
+  "id": "major-alginplus-tropical",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "alg",
+  "brand": "MAJOR",
+  "name": "Alginplus Tropical",
+  "note": "Alginat pentru climă caldă",
+  "price": "",
+  "photo": true,
+  "desc": "Versiune Alginplus cu priză normală și formulă pentru temperaturi ridicate; indicator cromatic, rezistență mare la rupere, permite turnări multiple.",
+  "hq": true,
+  "keys": [
+   [
+    "Tropical",
+    "formulă"
+   ],
+   [
+    "6 ani",
+    "valabilitate"
+   ]
+  ]
  },
  {
   "id": "dsi-ds-cord",
@@ -6201,6 +6580,36 @@
   "photo": true,
   "desc": "Material DSI pentru amprentă. Variantele, dimensiunile și ambalajele le confirmăm la comandă.",
   "hq": true
+ },
+ {
+  "id": "major-major-tray",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "linguri",
+  "brand": "MAJOR",
+  "name": "Major.Tray",
+  "note": "Acrilat pentru linguri individuale",
+  "price": "",
+  "photo": true,
+  "desc": "Polimer autopolimerizabil (PMMA, pulbere + lichid) pentru linguri individuale de amprentă; polimerizare rapidă, stabil dimensional.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Galben",
+     "Verde",
+     "Albastru"
+    ]
+   },
+   {
+    "label": "Set",
+    "values": [
+     "Intro (100 g + 100 ml)",
+     "Standard (2 × 500 g + 500 ml)"
+    ]
+   }
+  ]
  },
  {
   "id": "bisico-dispenser-25",
@@ -6257,6 +6666,69 @@
   "desc": "Vârfuri de amestec. Material Bisico pentru stomatologia restauratoare.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "major-majormix-300",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "disp",
+  "brand": "MAJOR",
+  "name": "MajorMix 300",
+  "note": "Malaxor pentru alginat",
+  "price": "",
+  "photo": true,
+  "desc": "Malaxor pentru alginat cu motor puternic, pornire lină, carcasă din oțel și memorii: amestec omogen, fără bule, mai puțin material pierdut.",
+  "hq": true,
+  "keys": [
+   [
+    "3600",
+    "rpm max."
+   ],
+   [
+    "1–20 s",
+    "timer"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Turație",
+      "2900–3600 rpm"
+     ],
+     [
+      "Timer",
+      "1–20 s"
+     ],
+     [
+      "Greutate",
+      "17 kg"
+     ],
+     [
+      "Dimensiuni",
+      "300 × 205 × 245 mm"
+     ],
+     [
+      "Include",
+      "spatulă, baghetă, 4 boluri, suport magnetic"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-ormamix-dispenser",
+  "seg": "cabinet",
+  "cat": "amprenta",
+  "sub": "disp",
+  "brand": "MAJOR",
+  "name": "Ormamix Dispenser",
+  "note": "Dispenser pentru siliconi",
+  "price": "",
+  "photo": true,
+  "desc": "Dispenser pentru materiale light sau medium.",
+  "hq": true
  },
  {
   "id": "coxo-pt-master",
@@ -13406,6 +13878,232 @@
   "price": "",
   "photo": true,
   "desc": "Dinți artificiali din rășină sintetică pentru proteze totale și parțiale, cu forme și nuanțe naturale.",
+  "hq": true
+ },
+ {
+  "id": "major-major-chrom-shade-guide",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Chrom Shade Guide",
+  "note": "Cheie de culori Major Plus",
+  "price": "",
+  "photo": true,
+  "desc": "Cheie de culori pentru dinții Major Plus, nuanțe A1–D4, ordonată pe grupe cromatice și intensitate.",
+  "hq": true
+ },
+ {
+  "id": "major-major-dent",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Dent",
+  "note": "Dinți acrilici",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți acrilici cu estetică naturală și transparență a smalțului, pentru proteze totale, parțiale și scheletate. 36 de forme frontale și 20 laterale.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-dent-classic",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Dent Classic",
+  "note": "Dinți acrilici în 2 straturi",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți acrilici bistrat pentru proteze parțiale, totale și scheletate, în nuanțele Major Dent.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-dent-shade-guide",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Dent Shade Guide",
+  "note": "Cheie de culori Major Dent",
+  "price": "",
+  "photo": true,
+  "desc": "Cheie de culori pentru dinții acrilici Major Dent, nuanțe 2C-3R.",
+  "hq": true
+ },
+ {
+  "id": "major-major-dent-v",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Dent-V",
+  "note": "Dinți acrilici, nuanțe A1–D4",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți acrilici Major Dent în nuanțe VITA A1–D4: 36 de forme frontale și 20 laterale, pentru proteze parțiale și scheletate.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-dent-v-shade-guide",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Dent-V Shade Guide",
+  "note": "Cheie de culori A1–D4",
+  "price": "",
+  "photo": true,
+  "desc": "Cheie de culori pentru Major Dent-V, nuanțe A1–D4.",
+  "hq": true
+ },
+ {
+  "id": "major-major-plus",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Plus",
+  "note": "Dinți acrilici de înaltă rezistență",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți cu duritate și rezistență la abraziune mari, profile ocluzale precise; 48 de forme frontale și 26 laterale (anatomici, tehnici și WFA după Gerber).",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-plus-comp",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Plus Comp",
+  "note": "Dinți din compozit",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți cu duritate de suprafață foarte mare, rezistență excelentă la abraziune și aspect natural al nuanțelor și formelor.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-super-lux",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Super Lux",
+  "note": "Dinți acrilici premium",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți cu duritate și rezistență la abraziune mari și transparență naturală a stratului incizal.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Frontali x6",
+     "Laterali x8"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-major-super-lux-shade-guide",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "MAJOR",
+  "name": "Major Super Lux Shade Guide",
+  "note": "Cheie de culori Super Lux",
+  "price": "",
+  "photo": true,
+  "desc": "Cheie de culori pentru dinții Super Lux, nuanțe A1–D4 și 1A–6D.",
   "hq": true
  },
  {
@@ -20578,6 +21276,184 @@
   "hidden": true
  },
  {
+  "id": "major-ormactivator-lab",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormactivator Lab",
+  "note": "Catalizator pentru Ormalab",
+  "price": "",
+  "photo": true,
+  "desc": "Catalizator gel pentru siliconii de condensare de laborator Ormalab, tub de 60 ml.",
+  "hq": true
+ },
+ {
+  "id": "major-ormaduplo-22",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaduplo 22",
+  "note": "Silicon de duplicare",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție pentru duplicare, raport 1:1, duritate 22 Shore A, revenire după deformare 99,95%.",
+  "hq": true,
+  "keys": [
+   [
+    "22",
+    "Shore A"
+   ],
+   [
+    "1:1",
+    "raport"
+   ]
+  ]
+ },
+ {
+  "id": "major-ormalab-75",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormalab 75",
+  "note": "Silicon de laborator 75 Shore A",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare pentru laborator: compatibil cu acrilatele, rezistent peste 110 °C, compatibil CAD. Chei pentru proteze fixe/totale, duplicări, reparații.",
+  "hq": true,
+  "keys": [
+   [
+    "75",
+    "Shore A"
+   ],
+   [
+    "110 °C",
+    "rezistență"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Ambalaj",
+    "values": [
+     "1,6 kg",
+     "5 kg"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "major-ormalab-85",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormalab 85",
+  "note": "Silicon de laborator 85 Shore A",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare pentru laborator, 85 Shore A: contra-tipare pentru proteze, măști gingivale și pentru provizorii, reparații.",
+  "hq": true,
+  "keys": [
+   [
+    "85",
+    "Shore A"
+   ],
+   [
+    "110 °C",
+    "rezistență"
+   ]
+  ]
+ },
+ {
+  "id": "major-ormalab-95",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormalab 95",
+  "note": "Silicon de laborator 95 Shore A",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de condensare foarte dur (95 Shore A), rezistent peste 120 °C, compatibil cu acrilatele auto- și termopolimerizabile.",
+  "hq": true,
+  "keys": [
+   [
+    "95",
+    "Shore A"
+   ],
+   [
+    "120 °C",
+    "rezistență"
+   ]
+  ]
+ },
+ {
+  "id": "major-ormaplus-lab-70",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Lab 70",
+  "note": "Silicon de adiție de laborator 70",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție pentru laborator, 70 Shore A, compatibil cu acrilatele, precizie mare.",
+  "hq": true,
+  "keys": [
+   [
+    "70",
+    "Shore A"
+   ]
+  ]
+ },
+ {
+  "id": "major-ormaplus-lab-90",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Lab 90",
+  "note": "Silicon de adiție de laborator 90",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție pentru laborator, 90 Shore A, raport 1:1, revenire 99,5%, priză 4’30”. Chei, duplicări, reparații, compatibil CAD.",
+  "hq": true,
+  "keys": [
+   [
+    "90",
+    "Shore A"
+   ],
+   [
+    "1:1",
+    "raport"
+   ]
+  ]
+ },
+ {
+  "id": "major-ormaplus-neo-gum",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "sil",
+  "brand": "MAJOR",
+  "name": "Ormaplus Neo Gum",
+  "note": "Silicon pentru mască gingivală",
+  "price": "",
+  "photo": true,
+  "desc": "Silicon de adiție premium pentru măști gingivale în laborator.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Duritate",
+    "values": [
+     "Soft",
+     "Hard"
+    ]
+   }
+  ]
+ },
+ {
   "id": "protechno-labosil-80-90",
   "seg": "laborator",
   "cat": "gips",
@@ -20603,6 +21479,29 @@
   "desc": "Întăritor lichid. Material Bisico pentru laboratorul dentar.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "major-isolmajor",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "izol",
+  "brand": "MAJOR",
+  "name": "Isolmajor",
+  "note": "Separator gips/rășină",
+  "price": "",
+  "photo": true,
+  "desc": "Separator universal gips/rășină pentru laborator.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Ambalaj",
+    "values": [
+     "500 ml",
+     "1000 ml",
+     "25 l"
+    ]
+   }
+  ]
  },
  {
   "id": "protechno-isogips",
@@ -20631,6 +21530,81 @@
   "desc": "Separator pentru laborator. Material Protechno pentru laboratorul dentar.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "major-major-base-20",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "acril",
+  "brand": "MAJOR",
+  "name": "Major.Base.20",
+  "note": "Rășină pentru baze de proteză",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină acrilică pentru baze de proteză, disponibilă în multe nuanțe, polimerizare rapidă, stabilitate dimensională și de culoare ridicată, monomer rezidual scăzut.",
+  "hq": true
+ },
+ {
+  "id": "major-major-ortho",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "acril",
+  "brand": "MAJOR",
+  "name": "Major.Ortho",
+  "note": "Rășină pentru aparate ortodontice",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină acrilică pentru aparate ortodontice mobile, stabilă dimensional și ca nuanță, potrivită pentru diverse tehnici.",
+  "hq": true
+ },
+ {
+  "id": "major-major-repair",
+  "seg": "laborator",
+  "cat": "gips",
+  "sub": "acril",
+  "brand": "MAJOR",
+  "name": "Major.Repair",
+  "note": "Acrilat autopolimerizabil pentru reparații",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină autopolimerizabilă (PMMA, pulbere + lichid) pentru reparații și rebazări de proteze și proteze provizorii. Nuanțe asortate cu Major.Base.20.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "Date tehnice",
+    "rows": [
+     [
+      "Standard",
+      "ISO 20795-1 tip 2 clasa 1"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "66,4 MPa"
+     ],
+     [
+      "Modul de elasticitate",
+      "2217 MPa"
+     ],
+     [
+      "Monomer rezidual",
+      "4,0%"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "K",
+     "KV",
+     "I",
+     "IV",
+     "M",
+     "MV"
+    ]
+   }
+  ]
  },
  {
   "id": "hpdent-dlight",
