@@ -255,10 +255,10 @@
     app.innerHTML = '<div class="wrap two"><div><p class="kicker">Contact</p><h1 style="font-size:clamp(34px,4vw,56px);margin:10px 0 20px">Hai să vorbim despre ce îți trebuie.</h1>' +
       '<div class="contact-list"><a href="tel:+37379663311"><span>Telefon</span><span class="mono">079 66 33 11</span></a>' +
       '<a href="mailto:dentonemd@gmail.com"><span>E-mail</span><span>dentonemd@gmail.com</span></a>' +
-      '<div><span>Adresă</span><span>Str. Nicolai Zelinski 7/1, Chișinău</span></div>' +
-      '<div><span>Program</span><span>Luni–vineri, 9:00–18:00</span></div>' +
+      '<div><span>Adresă</span><span>Str. Nicolae Zelinski 7/1, Chișinău</span></div>' +
+      '<div><span>Program</span><span>Luni – Vineri | 09:00–18:00</span></div>' +
       '<div><span>Companie</span><span>DENT ONE GROUP SRL</span></div></div>' +
-      '<p style="margin-top:20px"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Strada Nicolai Zelinski 7/1, Chișinău') + '" rel="noopener" target="_blank">Deschide în Google Maps</a></p></div>' +
+      '<p style="margin-top:20px"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Strada Nicolae Zelinski 7/1, Chișinău') + '" rel="noopener" target="_blank">Deschide în Google Maps</a></p></div>' +
       '<form class="panel" id="msgForm"><h2 style="font-size:26px;margin-bottom:16px">Cere o ofertă</h2>' +
       '<div class="field"><label for="m1">Nume</label><input id="m1" name="nume" required autocomplete="name"></div>' +
       '<div class="field"><label for="m2">Telefon</label><input id="m2" name="tel" required autocomplete="tel" inputmode="tel"></div>' +
