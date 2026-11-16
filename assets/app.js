@@ -112,6 +112,16 @@
     }
     var src = term ? [] : (cat ? catProducts(cat.id) : P.filter(function (p) { return p.seg === seg; }));
     var bset = []; src.forEach(function (p) { if (bset.indexOf(p.brand) < 0) bset.push(p.brand); });
+    var sort = q.sort || '';
+    var SORTS = [['', 'Recomandate'], ['pret-asc', 'Preț: mic → mare'], ['pret-desc', 'Preț: mare → mic'], ['nume', 'Nume: A → Z'], ['brand', 'Brand: A → Z']];
+    function pv(p) { return p.price ? num(p.price) : null; }
+    list = list.slice();
+    if (sort === 'pret-asc' || sort === 'pret-desc') {
+      var dir = sort === 'pret-asc' ? 1 : -1;
+      list.sort(function (a, b) { var x = pv(a), y = pv(b); if (x === null && y === null) return 0; if (x === null) return 1; if (y === null) return -1; return (x - y) * dir; });
+    } else if (sort === 'nume') list.sort(function (a, b) { return a.name.localeCompare(b.name, 'ro'); });
+    else if (sort === 'brand') list.sort(function (a, b) { return brandName(a.brand).localeCompare(brandName(b.brand), 'ro') || a.name.localeCompare(b.name, 'ro'); });
+    var sortSel = '<label class="sort"><span>Sortează</span><select id="sortSel">' + SORTS.map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === sort ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select></label>';
     var base = '#/catalog?seg=' + seg + (cat ? '&cat=' + cat.id : '');
     var chips = term ? '' : '<div class="chips" role="group" aria-label="Filtru după brand">' +
       '<a class="chip txt" href="' + base + '" aria-pressed="' + (!brand) + '" style="text-decoration:none">Toate brandurile</a>' +
@@ -124,7 +134,7 @@
     app.innerHTML = '<div class="wrap cat-layout"><nav class="side" aria-label="Categorii"><p class="kicker">' + (seg === 'cabinet' ? 'Cabinet' : 'Laborator') + ' · ' + P.filter(function (p) { return p.seg === seg; }).length + ' produse</p>' +
       '<a href="#/catalog?seg=' + seg + '" style="text-decoration:none"><button type="button" aria-pressed="' + (!cat && !term) + '"><span>Toate categoriile</span><span></span></button></a>' +
       cats.map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '" style="text-decoration:none" tabindex="-1"><button type="button" aria-pressed="' + (cat && cat.id === c.id && !term) + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></button></a>'; }).join('') +
-      '</nav><div class="cat-main"><div class="cat-title"><h1>' + title + '</h1><span class="mono muted">' + list.length + ' produse</span></div>' + chips +
+      '</nav><div class="cat-main"><div class="cat-title"><h1>' + title + '</h1><span class="cat-meta"><span class="mono muted">' + list.length + ' produse</span>' + sortSel + '</span></div>' + chips +
       (list.length ? '<div class="grid">' + list.map(card).join('') + '</div>' : '<p class="empty">Nu am găsit nimic. Sună la <a href="tel:+37379663311">079 66 33 11</a> și îți spunem dacă putem aduce produsul.</p>') +
       '</div></div>';
     setSeg(seg, true);
@@ -237,6 +247,11 @@
     location.hash = v ? '#/catalog?q=' + encodeURIComponent(v) : '#/catalog';
   });
   document.getElementById('footerCats').innerHTML = CATS.slice(0, 6).map(function (c) { return '<a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>'; }).join('') + '<a href="#/catalog">Tot catalogul</a>';
+  document.addEventListener('change', function (e) {
+    if (e.target.id !== 'sortSel') return;
+    var r = parse(); r.q.sort = e.target.value; if (!r.q.sort) delete r.q.sort;
+    location.hash = '#/catalog?' + Object.keys(r.q).map(function (k) { return k + '=' + encodeURIComponent(r.q[k]); }).join('&');
+  });
   window.addEventListener('hashchange', route);
   setSeg(state.seg, true); updateCount(); route();
 })

@@ -272,3 +272,8 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .buy .qty{border-color:#4A5255}
 @media (max-width:760px){.icons a span.lbl{display:none}.icons a{min-width:48px}.banner.big{padding:28px}.banner.big img{height:180px}}
 @media (max-width:760px){.shop-side{display:none}.topbar-in>span:first-child{display:none}}
+
+.cat-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.sort{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
+.sort select{min-height:44px;padding:0 36px 0 14px;border:1px solid var(--line2);border-radius:10px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2311181A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;appearance:none;font:500 14px Inter,sans-serif;color:var(--ink);cursor:pointer}
+.sort select:focus-visible{outline:3px solid var(--accent)}
