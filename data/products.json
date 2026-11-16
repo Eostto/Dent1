@@ -309,6 +309,137 @@
   "hq": true
  },
  {
+  "id": "oneday-mt-act-fixture",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "impl",
+  "brand": "ONEDAYBIOTECH",
+  "name": "MT-ACT Fixture",
+  "note": "Implant pentru încărcare imediată",
+  "price": "",
+  "photo": true,
+  "desc": "Implant cu filet hibrid „tăiere + condensare” pentru stabilitate primară ridicată și încărcare imediată; folosit cu sistemul OneDrill.",
+  "hq": true,
+  "keys": [
+   [
+    "Ti",
+    "grad 4"
+   ],
+   [
+    "SLA",
+    "suprafață"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Diametru (mm)",
+    "values": [
+     "3,5",
+     "4,0",
+     "4,5",
+     "5,0",
+     "5,5"
+    ]
+   },
+   {
+    "label": "Lungime (mm)",
+    "values": [
+     "7",
+     "8,5",
+     "10",
+     "11,5",
+     "13"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "oneday-mini-fixture",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "impl",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Mini Fixture",
+  "note": "Implant cu diametru redus",
+  "price": "",
+  "photo": true,
+  "desc": "Implant ONEDAYBIOTECH cu diametru redus pentru creste înguste și spații mici, zona frontală inferioară și incisivii laterali.",
+  "hq": true,
+  "keys": [
+   [
+    "Ti",
+    "grad 4"
+   ],
+   [
+    "SLA",
+    "suprafață"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Diametru (mm)",
+    "values": [
+     "3,0",
+     "3,3"
+    ]
+   },
+   {
+    "label": "Lungime (mm)",
+    "values": [
+     "8,5",
+     "10",
+     "11,5",
+     "13"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "oneday-s-fixture",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "impl",
+  "brand": "ONEDAYBIOTECH",
+  "name": "S Fixture",
+  "note": "Implant conic standard",
+  "price": "",
+  "photo": true,
+  "desc": "Implant conic ONEDAYBIOTECH cu conexiune internă, potrivit pentru majoritatea indicațiilor protetice.",
+  "hq": true,
+  "keys": [
+   [
+    "Ti",
+    "grad 4"
+   ],
+   [
+    "SLA",
+    "suprafață"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Diametru (mm)",
+    "values": [
+     "3,5",
+     "4,0",
+     "4,5",
+     "5,0",
+     "5,5"
+    ]
+   },
+   {
+    "label": "Lungime (mm)",
+    "values": [
+     "7",
+     "8,5",
+     "10",
+     "11,5",
+     "13"
+    ]
+   }
+  ]
+ },
+ {
   "id": "roott-roott-b-bs",
   "seg": "cabinet",
   "cat": "implant",
@@ -922,6 +1053,45 @@
   "price": "",
   "photo": true,
   "desc": "Componentă protetică DSI pentru restaurarea finală pe implanturi cu conexiune conică. Variantele, dimensiunile și ambalajele le confirmăm la comandă.",
+  "hq": true
+ },
+ {
+  "id": "oneday-angled-abutment",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "prot",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Angled Abutment",
+  "note": "Bont angulat",
+  "price": "",
+  "photo": true,
+  "desc": "Bont angulat pentru corectarea axului implantului în restaurări cimentate.",
+  "hq": true
+ },
+ {
+  "id": "oneday-healing-abutment",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "prot",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Healing Abutment",
+  "note": "Bont de vindecare",
+  "price": "",
+  "photo": true,
+  "desc": "Bont de vindecare pentru formarea profilului de emergență al gingiei după inserarea implantului.",
+  "hq": true
+ },
+ {
+  "id": "oneday-transfer-abutment",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "prot",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Transfer Abutment",
+  "note": "Bont drept de transfer",
+  "price": "",
+  "photo": true,
+  "desc": "Bont drept pentru restaurări cimentate pe implanturile ONEDAYBIOTECH.",
   "hq": true
  },
  {
@@ -2416,6 +2586,123 @@
   "hq": true
  },
  {
+  "id": "oneday-compact-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Compact KIT",
+  "note": "Kit chirurgical compact",
+  "price": "",
+  "photo": true,
+  "desc": "Kit chirurgical compact cu frezele și instrumentele esențiale pentru inserarea implanturilor ONEDAYBIOTECH.",
+  "hq": true
+ },
+ {
+  "id": "oneday-complete-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Complete KIT",
+  "note": "Kit chirurgical complet",
+  "price": "",
+  "photo": true,
+  "desc": "Kit chirurgical complet cu freze pentru toate diametrele și lungimile, stopuri și instrumente protetice.",
+  "hq": true
+ },
+ {
+  "id": "oneday-guide-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Guide KIT",
+  "note": "Kit pentru chirurgie ghidată",
+  "price": "",
+  "photo": true,
+  "desc": "Kit pentru chirurgie ghidată cu ghid chirurgical, cu freze și bucșe dedicate.",
+  "hq": true
+ },
+ {
+  "id": "oneday-onedrill-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "OneDrill KIT",
+  "note": "Kit cu o singură freză",
+  "price": "",
+  "photo": true,
+  "desc": "Sistemul OneDrill reduce numărul de freze necesare: osteotomie rapidă, mai puțin timp operator, folosit cu MT-ACT.",
+  "hq": true
+ },
+ {
+  "id": "oneday-onedrill-kit-plus",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "OneDrill KIT PLUS",
+  "note": "OneDrill extins",
+  "price": "",
+  "photo": true,
+  "desc": "Varianta extinsă a kitului OneDrill, cu freze și accesorii suplimentare pentru mai multe indicații.",
+  "hq": true
+ },
+ {
+  "id": "oneday-plasma-one",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Plasma One",
+  "note": "Activator cu plasmă",
+  "price": "",
+  "photo": true,
+  "desc": "Dispozitiv de activare cu plasmă a suprafeței implanturilor înainte de inserare, pentru hidrofilie crescută.",
+  "hq": true
+ },
+ {
+  "id": "oneday-sinus-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Sinus KIT",
+  "note": "Kit pentru sinus lift",
+  "price": "",
+  "photo": true,
+  "desc": "Kit pentru elevarea sinusului prin abord crestal și lateral.",
+  "hq": true
+ },
+ {
+  "id": "oneday-torque-driver",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Torque Driver",
+  "note": "Șurubelniță electrică dinamometrică",
+  "price": "",
+  "photo": true,
+  "desc": "Șurubelniță electrică cu cuplu controlat pentru strângerea precisă a șuruburilor protetice.",
+  "hq": true
+ },
+ {
+  "id": "oneday-universal-kit",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Universal KIT",
+  "note": "Kit protetic universal",
+  "price": "",
+  "photo": true,
+  "desc": "Kit universal cu șurubelnițe și instrumente protetice pentru sistemul ONEDAYBIOTECH.",
+  "hq": true
+ },
+ {
   "id": "roott-abutment-removers-extractors",
   "seg": "cabinet",
   "cat": "implant",
@@ -2665,6 +2952,19 @@
   "price": "",
   "photo": true,
   "desc": "Instrument DSI pentru chirurgia și protetica pe implanturi. Variantele, dimensiunile și ambalajele le confirmăm la comandă.",
+  "hq": true
+ },
+ {
+  "id": "oneday-implant-motor",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "motor",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Implant Motor",
+  "note": "Fiziodispenser pentru implantologie",
+  "price": "",
+  "photo": true,
+  "desc": "Motor chirurgical pentru implantologie cu control al cuplului și turației, pompă de irigare și pedală.",
   "hq": true
  },
  {
@@ -9366,6 +9666,19 @@
   ]
  },
  {
+  "id": "oneday-onedaydent-scanner",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "ios",
+  "brand": "ONEDAYBIOTECH",
+  "name": "OnedayDent Scanner",
+  "note": "Scanner intraoral",
+  "price": "",
+  "photo": true,
+  "desc": "Scanner intraoral ONEDAYBIOTECH pentru amprentă digitală, integrat în fluxul digital de implantologie.",
+  "hq": true
+ },
+ {
   "id": "shining-3d-aoralscan-3",
   "seg": "cabinet",
   "cat": "digital",
@@ -9590,6 +9903,19 @@
     ]
    }
   ]
+ },
+ {
+  "id": "oneday-face-scan",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "face",
+  "brand": "ONEDAYBIOTECH",
+  "name": "Face Scan",
+  "note": "Scanner facial 3D",
+  "price": "",
+  "photo": true,
+  "desc": "Scanner facial 3D pentru planificare estetică și integrarea feței pacientului în designul digital.",
+  "hq": true
  },
  {
   "id": "shining-3d-metismile",
@@ -9880,6 +10206,19 @@
     ]
    }
   ]
+ },
+ {
+  "id": "oneday-milling-machine",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "mill",
+  "brand": "ONEDAYBIOTECH",
+  "name": "ONEDAY Milling Machine",
+  "note": "Freză chairside",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat compactă pentru cabinet, pentru restaurări chairside în aceeași zi.",
+  "hq": true
  },
  {
   "id": "shining-3d-ceramix-nano",
@@ -17373,6 +17712,19 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D DLP pentru modele dentare și ghiduri chirurgicale.",
+  "hq": true
+ },
+ {
+  "id": "oneday-3d-printer",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "ONEDAYBIOTECH",
+  "name": "ONEDAY 3D Printer",
+  "note": "Imprimantă 3D dentară",
+  "price": "",
+  "photo": true,
+  "desc": "Imprimantă 3D pentru ghiduri chirurgicale, modele și provizorii în fluxul digital ONEDAYBIOTECH.",
   "hq": true
  },
  {
