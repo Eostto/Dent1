@@ -3344,6 +3344,81 @@
   "hidden": true
  },
  {
+  "id": "aidite-elegant-3",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "ios",
+  "brand": "AIDITE",
+  "name": "Elegant 3",
+  "note": "Scaner intraoral",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner intraoral cu lumină structurată, cu vârf standard și vârf mini, pentru amprente digitale rapide în cabinet.",
+  "hq": true,
+  "keys": [
+   [
+    "240 g",
+    "greutate"
+   ],
+   [
+    "22 mm",
+    "adâncime"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "281 × 33 × 46 mm"
+     ],
+     [
+      "Greutate",
+      "240 ± 10 g, fără cablu"
+     ],
+     [
+      "Adâncime de scanare",
+      "-2 … 20 mm"
+     ],
+     [
+      "Câmp",
+      "Vârf standard 16 × 12 × 22 mm, mini 12 × 9 × 22 mm"
+     ],
+     [
+      "Principiu",
+      "Lumină structurată, fără contact"
+     ],
+     [
+      "Formate",
+      "STL, OBJ, PLY"
+     ],
+     [
+      "Conexiune",
+      "USB 3.0"
+     ],
+     [
+      "Alimentare",
+      "12 V DC / 3 A"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-rapid-3",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "ios",
+  "brand": "AIDITE",
+  "name": "Rapid 3",
+  "note": "Scaner intraoral",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner intraoral pentru fluxul chairside Aidite: amprentă digitală rapidă și transfer direct către frezare sau laborator.",
+  "hq": true
+ },
+ {
   "id": "cybermed-intra-oral-scanner",
   "seg": "cabinet",
   "cat": "digital",
@@ -3520,6 +3595,270 @@
   "hidden": true
  },
  {
+  "id": "aidite-cmd-500",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "mill",
+  "brand": "AIDITE",
+  "name": "CMD-500",
+  "note": "Mașină de frezat uscat chairside",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe pentru sistemul chairside Cameo: zirconiu, PMMA și compozit direct în cabinet, cu ecran tactil de 10,1″.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "10,1″",
+    "ecran"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Axe",
+      "5 simultane"
+     ],
+     [
+      "Unghiuri",
+      "A +135° / -30°, B 360°"
+     ],
+     [
+      "Ax principal",
+      "0,5 kW, max. 60.000 rpm"
+     ],
+     [
+      "Scule",
+      "ø 4 mm, magazie 8"
+     ],
+     [
+      "Control lungime sculă",
+      "≤ 0,002 mm"
+     ],
+     [
+      "Ecran",
+      "Tactil 10,1″"
+     ],
+     [
+      "Software CAM",
+      "hyperDENT, Millbox"
+     ],
+     [
+      "Greutate",
+      "130 kg"
+     ],
+     [
+      "Dimensiuni",
+      "520 × 685 × 750 mm"
+     ],
+     [
+      "Alimentare",
+      "AC 100–240 V"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-cmm-600",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "mill",
+  "brand": "AIDITE",
+  "name": "CMM-600",
+  "note": "Mașină de frezat umed și uscat chairside",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat chairside umed și uscat în 5 axe: zirconiu, PMMA, vitroceramică, compozit, prefrezate și PEEK, cu schimbare modulară a sculelor.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "24",
+    "scule (4 module)"
+   ],
+   [
+    "±5 μm",
+    "precizie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "520 × 724 × 809 mm"
+     ],
+     [
+      "Greutate",
+      "160 kg"
+     ],
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Indicații",
+      "Coroane, punți, inlay-uri, fațete, pivoți, suprastructuri pe implant, bonturi, proteze"
+     ],
+     [
+      "Mod de frezare",
+      "Umed și uscat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, vitroceramică, compozit, prefrezate, PEEK; disc 98 mm, bloc"
+     ],
+     [
+      "Grosime disc",
+      "10–35 mm"
+     ],
+     [
+      "Precizie",
+      "± 5 μm"
+     ],
+     [
+      "Scule",
+      "6 pe modul, 4 module"
+     ],
+     [
+      "Curse XYZ",
+      "200 × 110 × 90 mm"
+     ],
+     [
+      "Axe rotative",
+      "B ± 180°, A ± 30°"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Putere",
+      "DC 500 W"
+     ],
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Alimentare",
+    "rows": [
+     [
+      "Rețea",
+      "AC 220 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "2,0 kW, 10 A"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-cmw-400",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "mill",
+  "brand": "AIDITE",
+  "name": "CMW-400",
+  "note": "Mașină de frezat umed chairside",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed în 4 axe pentru cabinet: vitroceramică, bonturi prefrezate și PMMA, cu trei module de scule cu schimbare rapidă.",
+  "hq": true,
+  "keys": [
+   [
+    "4",
+    "axe"
+   ],
+   [
+    "80 kg",
+    "greutate"
+   ],
+   [
+    "10,1″",
+    "ecran"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Axe",
+      "4 simultane"
+     ],
+     [
+      "Unghi",
+      "A 360°"
+     ],
+     [
+      "Ax principal",
+      "0,5 kW, max. 60.000 rpm"
+     ],
+     [
+      "Scule",
+      "ø 4 mm, 4 × 3 module (vitroceramică / prefrezate / PMMA)"
+     ],
+     [
+      "Control lungime sculă",
+      "≤ 0,002 mm"
+     ],
+     [
+      "Ecran",
+      "Tactil 10,1″"
+     ],
+     [
+      "Software CAM",
+      "hyperDENT, Millbox"
+     ],
+     [
+      "Greutate",
+      "80 kg"
+     ],
+     [
+      "Dimensiuni",
+      "430 × 570 × 621 mm"
+     ],
+     [
+      "Alimentare",
+      "AC 100–240 V"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "shining-3d-ceramix-nano",
   "seg": "cabinet",
   "cat": "digital",
@@ -3544,19 +3883,6 @@
   "price": "",
   "photo": true,
   "desc": "Freză chairside umedă, 5 axe. Soluție digitală Zotion pentru fluxul de lucru chairside.",
-  "hidden": true
- },
- {
-  "id": "aidite-cmw400",
-  "seg": "cabinet",
-  "cat": "digital",
-  "sub": "mill",
-  "brand": "AIDITE",
-  "name": "CMW400",
-  "note": "Freză chairside",
-  "price": "",
-  "photo": false,
-  "desc": "Freză chairside. Soluție digitală Aidite pentru fluxul de lucru chairside.",
   "hidden": true
  },
  {
@@ -4120,6 +4446,19 @@
   "hidden": true
  },
  {
+  "id": "aidite-aidite-stain-glaze",
+  "seg": "laborator",
+  "cat": "ceramica",
+  "sub": "glaze",
+  "brand": "AIDITE",
+  "name": "Aidite Stain/Glaze",
+  "note": "Pigmenți și glazură pentru integral ceramic",
+  "price": "",
+  "photo": true,
+  "desc": "Paste de pictare externă și glazură create pentru zirconiu și restaurările integral ceramice minim invazive.",
+  "hq": true
+ },
+ {
   "id": "deprag-glossing-agent",
   "seg": "laborator",
   "cat": "ceramica",
@@ -4286,32 +4625,6 @@
   "hidden": true
  },
  {
-  "id": "aidite-aidite-stain-glaze",
-  "seg": "laborator",
-  "cat": "ceramica",
-  "sub": "glaze",
-  "brand": "AIDITE",
-  "name": "Aidite Stain/Glaze",
-  "note": "Pigmenți și glazură",
-  "price": "",
-  "photo": false,
-  "desc": "Pigmenți și glazură. Material Aidite pentru restaurări ceramice în laborator.",
-  "hidden": true
- },
- {
-  "id": "aidite-biomic-stain-glaze",
-  "seg": "laborator",
-  "cat": "ceramica",
-  "sub": "glaze",
-  "brand": "AIDITE",
-  "name": "Biomic Stain/Glaze",
-  "note": "Pigmenți și glazură",
-  "price": "",
-  "photo": false,
-  "desc": "Pigmenți și glazură. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
   "id": "mpf-brush-cerano-lc-stain-glaze-kit",
   "seg": "laborator",
   "cat": "ceramica",
@@ -4419,6 +4732,64 @@
   "hidden": true
  },
  {
+  "id": "aidite-biomic-lisi-connect",
+  "seg": "laborator",
+  "cat": "ceramica",
+  "sub": "acc",
+  "brand": "AIDITE",
+  "name": "Biomic Lisi Connect",
+  "note": "Pretratament de adeziune pentru zirconiu",
+  "price": "",
+  "photo": true,
+  "desc": "Se pulverizează pe suprafața de lipire a zirconiului și, după o ardere, formează un strat de disilicat de litiu care se gravează și se silanizează ca o vitroceramică, pentru o adeziune sigură.",
+  "hq": true,
+  "keys": [
+   [
+    "895 °C",
+    "ardere"
+   ],
+   [
+    "1",
+    "ardere"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Program de ardere",
+    "rows": [
+     [
+      "Temperatură de pornire",
+      "450 °C"
+     ],
+     [
+      "Uscare",
+      "1 min"
+     ],
+     [
+      "Viteză de încălzire",
+      "80 °C/min (55 °C/min alternativ)"
+     ],
+     [
+      "Temperatură maximă",
+      "895 °C"
+     ],
+     [
+      "Menținere",
+      "1,5 min"
+     ],
+     [
+      "Vid",
+      "100%"
+     ],
+     [
+      "Temperatură finală",
+      "700 °C"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "hass-hole-keeper",
   "seg": "laborator",
   "cat": "ceramica",
@@ -4447,19 +4818,6 @@
   "hidden": true
  },
  {
-  "id": "aidite-biomic-lisi-connect",
-  "seg": "laborator",
-  "cat": "ceramica",
-  "sub": "acc",
-  "brand": "AIDITE",
-  "name": "Biomic Lisi Connect",
-  "note": "Soluție de adeziune",
-  "price": "",
-  "photo": false,
-  "desc": "Soluție de adeziune. Material Aidite pentru restaurări ceramice în laborator.",
-  "hidden": true
- },
- {
   "id": "mpf-brush-modeling-liquid-hv",
   "seg": "laborator",
   "cat": "ceramica",
@@ -4471,6 +4829,511 @@
   "photo": false,
   "desc": "Lichid de modelare. Material MPF Brush pentru restaurări ceramice în laborator.",
   "hidden": true
+ },
+ {
+  "id": "aidite-3d-pro-zir-ultra",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "3D Pro Zir Ultra",
+  "note": "Zirconiu multistrat 4Y+5Y, sinterizare rapidă",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu cu gradient 4Y+5Y: zona de dentină rezistentă și zona incizală translucentă, ca la dintele natural. Cu cuptorul CSF-400 Pro permite sinterizare rapidă de 2 ore pentru coroane și punți scurte; suportă punți de până la 14 elemente.",
+  "hq": true,
+  "keys": [
+   [
+    "1250",
+    "MPa"
+   ],
+   [
+    "2 h",
+    "sinterizare rapidă"
+   ],
+   [
+    "14",
+    "elemente punte"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Structură",
+      "Gradient 4Y + 5Y"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "1250 MPa"
+     ],
+     [
+      "Sinterizare rapidă",
+      "2 ore cu CSF-400 Pro"
+     ],
+     [
+      "Indicații",
+      "Coroane, punți până la 14 elemente"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-aizir-flash",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "AiZir Flash Long Span Bridges",
+  "note": "Zirconiu precolorat pentru punți lungi, sinterizare 5,7 h",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu precolorat de rezistență mare pentru punți lungi: sinterizare rapidă a punții totale în 5,7 ore fără fisuri, cu cuptorul CSF-400 Pro. Cu lichidul incizal se obține o margine incizală naturală.",
+  "hq": true,
+  "keys": [
+   [
+    "5,7 h",
+    "arcadă completă"
+   ],
+   [
+    "4",
+    "grosimi"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Coeficient de dilatare termică (25–500 °C)",
+      "(10,5 ± 0,5) × 10⁻⁶ K⁻¹"
+     ],
+     [
+      "Solubilitate chimică",
+      "≤ 100 μg/cm²"
+     ],
+     [
+      "Tenacitate",
+      "≥ 5 MPa·m½"
+     ],
+     [
+      "Densitate după sinterizare",
+      "≥ 6,0 g/cm³"
+     ],
+     [
+      "Duritate Vickers",
+      "≥ 1250 HV10"
+     ],
+     [
+      "Grosimi",
+      "20, 22, 25, 30 mm"
+     ],
+     [
+      "Sinterizare rapidă",
+      "5,7 h, punte totală (CSF-400 Pro)"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "20 mm",
+     "22 mm",
+     "25 mm",
+     "30 mm"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-aizir",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "Aizir",
+  "note": "Zirconiu pentru toate indicațiile",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu pentru toate indicațiile, cu gradient tridimensional stabil și interval larg de temperatură de sinterizare. Parte din fluxul digital complet Aidite, de la scanare la restaurarea finală.",
+  "hq": true,
+  "keys": [
+   [
+    "toate",
+    "indicațiile"
+   ],
+   [
+    "2 h",
+    "sinterizare"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Coeficient de dilatare termică (25–500 °C)",
+      "(10,5 ± 0,5) × 10⁻⁶ K⁻¹"
+     ],
+     [
+      "Solubilitate chimică",
+      "≤ 100 μg/cm²"
+     ],
+     [
+      "Tenacitate",
+      "≥ 5 MPa·m½"
+     ],
+     [
+      "Densitate după sinterizare",
+      "≥ 6,0 g/cm³"
+     ],
+     [
+      "Duritate Vickers",
+      "≥ 1250 HV10"
+     ],
+     [
+      "Sisteme disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-ezneer",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "EZneer",
+  "note": "Zirconiu pentru fațete, ultra-translucent",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu dezvoltat special pentru fațete: translucență foarte mare, rezistență mult peste vitroceramica clasică pentru fațete și lipire ușoară cu Biomic Lisi Connect.",
+  "hq": true,
+  "keys": [
+   [
+    "4",
+    "nuanțe precolorate"
+   ],
+   [
+    "3",
+    "sisteme disc"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Nuanțe precolorate",
+      "EW, BW, HV, LV"
+     ],
+     [
+      "Coeficient de dilatare termică (25–500 °C)",
+      "(10 ± 0,5) × 10⁻⁶ K⁻¹"
+     ],
+     [
+      "Solubilitate chimică",
+      "≤ 100 μg/cm²"
+     ],
+     [
+      "Tenacitate",
+      "≥ 3,5 MPa·m½"
+     ],
+     [
+      "Densitate după sinterizare",
+      "≥ 6,0 g/cm³"
+     ],
+     [
+      "Duritate Vickers",
+      "≥ 1250 HV10"
+     ],
+     [
+      "Sisteme disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "EW",
+     "BW",
+     "HV",
+     "LV"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-honor-zir",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "Honor Zir",
+  "note": "Zirconiu SHT Plus, alb și precolorat",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu super-translucent SHT Plus, disponibil alb sau precolorat. Aidite oferă și cheie de culori dedicată, pentru transmiterea exactă a culorii între cabinet și laborator.",
+  "hq": true,
+  "keys": [
+   [
+    "1250",
+    "MPa"
+   ],
+   [
+    "48%",
+    "translucență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Coeficient de dilatare termică (25–500 °C)",
+      "(10,5 ± 0,5) × 10⁻⁶ K⁻¹"
+     ],
+     [
+      "Solubilitate chimică",
+      "≤ 100 μg/cm²"
+     ],
+     [
+      "Tenacitate",
+      "≥ 5 MPa·m½"
+     ],
+     [
+      "Densitate după sinterizare",
+      "≥ 6,0 g/cm³"
+     ],
+     [
+      "Duritate Vickers",
+      "≥ 1250 HV10"
+     ],
+     [
+      "Culoare",
+      "Alb, Hollywood bleach, precolorat"
+     ],
+     [
+      "Estetică",
+      "Translucență super-ridicată"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "1250 MPa"
+     ],
+     [
+      "Translucență",
+      "48%"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Alb",
+     "Alb / Hollywood bleach",
+     "Precolorat"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-superfect-zir",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "AIDITE",
+  "name": "Superfect Zir",
+  "note": "Zirconiu pentru restaurări integral ceramice",
+  "price": "",
+  "photo": true,
+  "desc": "Gama de zirconiu Superfect Zir: varianta SHT-PC este precolorată după sinterizare, fără colorare manuală, cu contracție uniformă, potrivită pentru punți lungi. Varianta SHT-PW are translucență ridicată și rezistență la încovoiere de 1450 MPa.",
+  "hq": true,
+  "keys": [
+   [
+    "1450",
+    "MPa (SHT-PW)"
+   ],
+   [
+    "fără",
+    "colorare manuală (SHT-PC)"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Variante",
+    "rows": [
+     [
+      "SHT-PC",
+      "Precolorat, fără colorare, pentru punți lungi"
+     ],
+     [
+      "SHT-PW",
+      "Alb, translucență ridicată, 1450 MPa"
+     ],
+     [
+      "Sisteme disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Variantă",
+    "values": [
+     "SHT-PC (precolorat)",
+     "SHT-PW (alb)"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-3d-air",
@@ -5117,95 +5980,56 @@
   "hidden": true
  },
  {
-  "id": "aidite-3d-pro-zir",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "3D Pro Zir",
-  "note": "Zirconiu",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-aizir",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "AiZir",
-  "note": "Zirconiu",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-aizir-flash",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "AiZir Flash",
-  "note": "Zirconiu",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-ezneer",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "EZneer",
-  "note": "Zirconiu pentru fațete",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu pentru fațete. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-honor-zir",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "Honor Zir",
-  "note": "Zirconiu",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-superfect-zir",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "zr",
-  "brand": "AIDITE",
-  "name": "Superfect Zir",
-  "note": "Zirconiu",
-  "price": "",
-  "photo": false,
-  "desc": "Zirconiu. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
   "id": "aidite-coloring-liquid",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "color",
   "brand": "AIDITE",
   "name": "Coloring Liquid",
-  "note": "Lichid de colorare",
+  "note": "Lichid de colorare pentru zirconiu",
   "price": "",
-  "photo": false,
-  "desc": "Lichid de colorare. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Lichide de colorare pentru zirconiu alb: 16 culori VITA, 26 de culori 3D-Master, lichide de opacitate și lichide incizale/efect.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "Seturi",
+    "rows": [
+     [
+      "SHT 16 culori",
+      "A1–D4 (VITA), pentru SHTW / HTW"
+     ],
+     [
+      "SHT-PW 16 + 26 culori",
+      "VITA + 3D-Master, pentru SHT-PW"
+     ],
+     [
+      "SHT 26 culori",
+      "1M1 … 5M3 (3D-Master), pentru SHTW"
+     ],
+     [
+      "Opacitate",
+      "Scăzută, medie, ridicată"
+     ],
+     [
+      "Incizal / efect",
+      "T1, G1–G3, O1–O2, P1–P3"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "SHT 16 culori (VITA)",
+     "SHT-PW 16 + 26 culori",
+     "SHT 26 culori (3D-Master)",
+     "Opacitate (low / medium / high)",
+     "Incizal și efect (T1, G1–G3, O1–O2, P1–P3)"
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-pmma",
@@ -5299,19 +6123,6 @@
   "price": "",
   "photo": true,
   "desc": "Discuri PMMA. Material Zotion pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "aidite-monochromatic-pmma",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "pmma",
-  "brand": "AIDITE",
-  "name": "Monochromatic PMMA",
-  "note": "Discuri PMMA",
-  "price": "",
-  "photo": false,
-  "desc": "Discuri PMMA. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
   "hidden": true
  },
  {
@@ -5464,6 +6275,304 @@
   "photo": true,
   "desc": "Mașină de frezat dentară în 5 axe pentru zirconiu, PMMA, ceară și compozit.",
   "hq": true
+ },
+ {
+  "id": "aidite-amd-500dcs",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "AIDITE",
+  "name": "AMD-500DCs",
+  "note": "Mașină de frezat cu schimbător automat de discuri",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe cu 8 discuri în schimbătorul automat: lucrează fără supraveghere, cu recunoaștere automată a suportului și curățare cu aer ionizat.",
+  "hq": true,
+  "keys": [
+   [
+    "8",
+    "discuri automat"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "10",
+    "scule"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu turnat"
+     ],
+     [
+      "Dimensiuni",
+      "826 × 793 × 835 mm"
+     ],
+     [
+      "Greutate",
+      "230 kg"
+     ],
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Scule",
+      "10"
+     ],
+     [
+      "Schimbător discuri",
+      "8"
+     ],
+     [
+      "Grosime material",
+      "10–30 mm"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, rășină, ceară, PMMA, PEEK"
+     ],
+     [
+      "Axe rotative",
+      "B ± 360°, A ± 28°"
+     ],
+     [
+      "Funcții",
+      "Recunoaștere suport, durata sculelor, zero-point, ușă de siguranță, curățare cu aer ionizat"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Răcire",
+      "Cu apă"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Putere",
+      "AC 1,8 kW"
+     ],
+     [
+      "Bucșă",
+      "6 mm / 4 mm"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-amd-500e-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "AIDITE",
+  "name": "AMD-500E Pro",
+  "note": "Mașină de frezat uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe, compactă, pentru zirconiu, PMMA, ceară, PEEK și compozit. Sistem CAM deschis și frezare vestibulară la 90°.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "130 kg",
+    "greutate"
+   ],
+   [
+    "< 10 min",
+    "coroană"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu turnat"
+     ],
+     [
+      "Dimensiuni",
+      "520 × 685 × 757 mm"
+     ],
+     [
+      "Greutate",
+      "130 kg"
+     ],
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Scule",
+      "8"
+     ],
+     [
+      "Prindere",
+      "Disc 98 mm sau bloc (opțional)"
+     ],
+     [
+      "Grosime material",
+      "10–35 mm"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară, PEEK, HPP, metal moale"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay-uri, bonturi, punți înșurubate, proteze totale (opțional)"
+     ],
+     [
+      "Software CAM",
+      "Deschis"
+     ],
+     [
+      "Aer comprimat",
+      "0,2 MPa"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Putere",
+      "500 W"
+     ],
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Timp de frezare",
+    "rows": [
+     [
+      "Coroană",
+      "< 10 min"
+     ],
+     [
+      "Punte",
+      "< 3 h"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-amd-500s-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "AIDITE",
+  "name": "AMD-500S Pro",
+  "note": "Mașină de frezat uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe pentru zirconiu, PMMA și ceară: frezare vestibulară la 90°, 20 de scule cu schimbare rapidă și ușă de siguranță.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "20",
+    "scule"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu turnat"
+     ],
+     [
+      "Dimensiuni",
+      "590 × 730 × 820 mm"
+     ],
+     [
+      "Greutate",
+      "180 kg"
+     ],
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară"
+     ],
+     [
+      "Grosime material",
+      "10–35 mm"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay-uri, bonturi, coroane și punți înșurubate"
+     ],
+     [
+      "Repetabilitate",
+      "± 5 μm"
+     ],
+     [
+      "Scule",
+      "10 × 2, schimbare rapidă"
+     ],
+     [
+      "Curse X / Y / Z",
+      "180 × 110 × 100 mm"
+     ],
+     [
+      "Axe rotative",
+      "B ± 30°, A ± 360°"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Putere",
+      "AC 1800 W"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ],
+     [
+      "Turație",
+      "60.000 rpm"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-d5-air-free",
@@ -5788,58 +6897,6 @@
   "hidden": true
  },
  {
-  "id": "aidite-amd500dcs",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "AIDITE",
-  "name": "AMD500DCs",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-amd500e",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "AIDITE",
-  "name": "AMD500E",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-amd500s",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "AIDITE",
-  "name": "AMD500S",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-cmd500",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "AIDITE",
-  "name": "CMD500",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
   "id": "up3d-p53",
   "seg": "laborator",
   "cat": "frezare",
@@ -5877,6 +6934,321 @@
   "photo": true,
   "desc": "Mașină de frezat dentară în 5 axe pentru frezare uscată și umedă, inclusiv vitroceramică și titan.",
   "hq": true
+ },
+ {
+  "id": "aidite-amm-530",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "AIDITE",
+  "name": "AMM-530",
+  "note": "Mașină de frezat umed și uscat",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat multifuncțională, umed și uscat, în 5 axe: zirconiu, PMMA, vitroceramică, bonturi prefrezate, PEEK, titan, CoCr și compozit, cu schimbare rapidă între suporturi.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "10–40 mm",
+    "grosime material"
+   ],
+   [
+    "±5 μm",
+    "repetabilitate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Axe",
+      "5 (X/Y/Z/A/B)"
+     ],
+     [
+      "Mod de frezare",
+      "Umed și uscat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, vitroceramică, prefrezate, PEEK, titan, CoCr, compozit"
+     ],
+     [
+      "Grosime material",
+      "10–40 mm"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, proteze, gutiere, schelete parțiale, bonturi, bare pe implant, punți înșurubate"
+     ],
+     [
+      "Software CAM",
+      "Millbox, hyperDENT, WorkNC"
+     ],
+     [
+      "Dimensiuni",
+      "596 × 704 × 1690 mm"
+     ],
+     [
+      "Greutate",
+      "220 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Repetabilitate",
+      "± 5 μm"
+     ],
+     [
+      "Ghidaje",
+      "Liniare cu șurub cu bile"
+     ],
+     [
+      "Axe rotative",
+      "Reductor armonic"
+     ],
+     [
+      "Prindere",
+      "Sistem zero-point"
+     ],
+     [
+      "Control",
+      "CNC încorporat, servomotoare AC"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-amm-580",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "AIDITE",
+  "name": "AMM-580",
+  "note": "Mașină de frezat metal pentru implantologie",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat robustă, umed și uscat, pentru lucrări pe implanturi: bare, punți înșurubate, bonturi individuale și locatoare din titan și CoCr.",
+  "hq": true,
+  "keys": [
+   [
+    "25",
+    "scule"
+   ],
+   [
+    "500 kg",
+    "greutate"
+   ],
+   [
+    "±5 μm",
+    "repetabilitate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, bare pe implant, punți înșurubate, bonturi, locatoare"
+     ],
+     [
+      "Mod de frezare",
+      "Umed și uscat"
+     ],
+     [
+      "Materiale",
+      "Titan, CoCr, prefrezate, vitroceramică, PEEK, PMMA"
+     ],
+     [
+      "Software CAM",
+      "WorkNC"
+     ],
+     [
+      "Grosime material",
+      "10–25 mm"
+     ],
+     [
+      "Prindere",
+      "Disc 98 mm, bloc"
+     ],
+     [
+      "Dimensiuni",
+      "750 × 885 × 1663 mm"
+     ],
+     [
+      "Greutate",
+      "500 kg"
+     ],
+     [
+      "Schimbător scule",
+      "25"
+     ],
+     [
+      "Curse",
+      "X/Y/Z 320 × 120 × 130 mm, A 360°, B -110°…+30°"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ],
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Alimentare",
+    "rows": [
+     [
+      "Rețea",
+      "AC 220 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "3,8 kW"
+     ],
+     [
+      "Aer comprimat",
+      "0,6–0,8 MPa"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-amw-400s-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "AIDITE",
+  "name": "AMW-400S Pro",
+  "note": "Mașină de frezat umed",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed pentru vitroceramică, bonturi prefrezate și PMMA în blocuri. Protecție dintr-o singură bucată de silicon, frezare verticală la 90° și gestionarea duratei sculelor.",
+  "hq": true,
+  "keys": [
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "18",
+    "blocuri / ciclu"
+   ],
+   [
+    "≤ 20 min",
+    "coroană vitroceramică"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu turnat"
+     ],
+     [
+      "Dimensiuni",
+      "590 × 730 × 820 mm"
+     ],
+     [
+      "Greutate",
+      "180 kg"
+     ],
+     [
+      "Mod de frezare",
+      "Umed"
+     ],
+     [
+      "Scule",
+      "10"
+     ],
+     [
+      "Materiale",
+      "Bonturi prefrezate, vitroceramică, PMMA în blocuri"
+     ],
+     [
+      "Capacitate",
+      "6 vitroceramică, 6 prefrezate, 6 PMMA"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, inlay-uri, fațete, coroane înșurubate, bonturi"
+     ],
+     [
+      "Axa B",
+      "± 360°"
+     ],
+     [
+      "Aer comprimat",
+      "≥ 6 bar"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Răcire",
+      "Cu apă"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Putere",
+      "AC 1800 W"
+     ],
+     [
+      "Bucșă",
+      "6 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Timp de frezare",
+    "rows": [
+     [
+      "Bont prefrezat",
+      "≤ 15 min"
+     ],
+     [
+      "Vitroceramică",
+      "≤ 20 min"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-w4",
@@ -6391,58 +7763,6 @@
   ]
  },
  {
-  "id": "aidite-amm520",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "AIDITE",
-  "name": "AMM520",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-amm580",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "AIDITE",
-  "name": "AMM580",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-amw400s",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "AIDITE",
-  "name": "AMW400S",
-  "note": "Mașină de frezat",
-  "price": "",
-  "photo": false,
-  "desc": "Mașină de frezat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "aidite-cmm600",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "AIDITE",
-  "name": "CMM600",
-  "note": "Freză umed/uscat",
-  "price": "",
-  "photo": false,
-  "desc": "Freză umed/uscat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
   "id": "up3d-iron-core-i5-pro",
   "seg": "laborator",
   "cat": "frezare",
@@ -6467,6 +7787,19 @@
   "photo": false,
   "desc": "Freză 5 axe, umed și uscat. Echipament UP3D pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
   "hidden": true
+ },
+ {
+  "id": "aidite-cad-cam-milling-bur",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "tools",
+  "brand": "AIDITE",
+  "name": "CAD/CAM Milling Bur",
+  "note": "Freze CAD/CAM",
+  "price": "",
+  "photo": true,
+  "desc": "Freze pentru mașinile de frezat CAD/CAM, gamă completă, eficiente și rezistente la uzură, cu calitate constantă.",
+  "hq": true
  },
  {
   "id": "paragon-varioaxis-toolset",
@@ -6497,19 +7830,6 @@
   "hidden": true
  },
  {
-  "id": "aidite-cad-cam-milling-bur",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "tools",
-  "brand": "AIDITE",
-  "name": "CAD/CAM Milling Bur",
-  "note": "Freze CAD/CAM",
-  "price": "",
-  "photo": false,
-  "desc": "Freze CAD/CAM. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
   "id": "zotion-dental-vacuum-cleaner",
   "seg": "laborator",
   "cat": "frezare",
@@ -6521,6 +7841,431 @@
   "photo": true,
   "desc": "Aspirator pentru freză. Echipament Zotion pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
   "hidden": true
+ },
+ {
+  "id": "aidite-agt-s-agt-l",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "AIDITE",
+  "name": "AGT-S / AGT-L",
+  "note": "Cuptor de sinterizare rapidă pentru zirconiu",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor de sinterizare rapidă pentru zirconiu, fără contaminare, în două mărimi: AGT-S și AGT-L.",
+  "hq": true,
+  "keys": [
+   [
+    "2,5 h",
+    "cel mai rapid ciclu (S)"
+   ],
+   [
+    "2,5 kW",
+    "putere"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "AGT-S",
+    "rows": [
+     [
+      "Dimensiuni (L × Î × A)",
+      "600 × 300 × 715 mm"
+     ],
+     [
+      "Cameră",
+      "ø 90 × 100 mm"
+     ],
+     [
+      "Greutate",
+      "40 kg"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "2,5 h"
+     ]
+    ]
+   },
+   {
+    "g": "AGT-L",
+    "rows": [
+     [
+      "Dimensiuni (L × Î × A)",
+      "600 × 400 × 790 mm"
+     ],
+     [
+      "Cameră",
+      "ø 110 × 100 mm"
+     ],
+     [
+      "Greutate",
+      "45 kg"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "3,5 h"
+     ]
+    ]
+   },
+   {
+    "g": "Comun",
+    "rows": [
+     [
+      "Alimentare",
+      "220 V / 50 Hz"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Elemente de încălzire",
+      "3 bare SiC"
+     ],
+     [
+      "Moduri",
+      "Sinterizare rapidă și standard"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Model",
+    "values": [
+     "AGT-S",
+     "AGT-L"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-csf-200s-csf-200l",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "AIDITE",
+  "name": "CSF-200S / CSF-200L",
+  "note": "Cuptor de sinterizare rapidă",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor pentru sinterizarea rapidă a zirconiului, adaptat materialelor Aidite, în două mărimi.",
+  "hq": true,
+  "keys": [
+   [
+    "2,5 h",
+    "ciclu rapid (S)"
+   ],
+   [
+    "70",
+    "coroane (L)"
+   ],
+   [
+    "20",
+    "curbe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "CSF-200S",
+    "rows": [
+     [
+      "Dimensiuni",
+      "440 × 370 × 750 mm"
+     ],
+     [
+      "Cameră",
+      "ø 70 × 80 mm"
+     ],
+     [
+      "Greutate",
+      "40 kg"
+     ],
+     [
+      "Alimentare",
+      "220 V / 50 Hz"
+     ],
+     [
+      "Putere",
+      "1,5 kW"
+     ],
+     [
+      "Elemente",
+      "3 bare SiC"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "2,5 h"
+     ],
+     [
+      "Coroane / ciclu",
+      "max. 30"
+     ]
+    ]
+   },
+   {
+    "g": "CSF-200L",
+    "rows": [
+     [
+      "Dimensiuni",
+      "500 × 430 × 850 mm"
+     ],
+     [
+      "Cameră",
+      "ø 100 × 120 mm"
+     ],
+     [
+      "Greutate",
+      "47 kg"
+     ],
+     [
+      "Alimentare",
+      "200–250 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Elemente",
+      "4 bare SiC"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "3 h"
+     ],
+     [
+      "Coroane / ciclu",
+      "max. 70"
+     ]
+    ]
+   },
+   {
+    "g": "Comun",
+    "rows": [
+     [
+      "Moduri",
+      "Rapid și lent"
+     ],
+     [
+      "Curbe de sinterizare",
+      "20"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Model",
+    "values": [
+     "CSF-200S",
+     "CSF-200L"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-csf-400",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "AIDITE",
+  "name": "CSF-400",
+  "note": "Cuptor de sinterizare rapidă",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor creat pentru AiZir Flash, compatibil și cu Aizir și 3D Pro Zir. Modul de gestiune inteligent, termocuplu tip B și creuzete pe două niveluri.",
+  "hq": true,
+  "keys": [
+   [
+    "1560 °C",
+    "temperatură max."
+   ],
+   [
+    "160 °C",
+    "pe minut (max.)"
+   ],
+   [
+    "±1 °C",
+    "precizie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Cameră",
+      "ø 75 × 275 mm"
+     ],
+     [
+      "Dimensiuni",
+      "468 × 360 × 785 mm"
+     ],
+     [
+      "Greutate",
+      "65 kg"
+     ],
+     [
+      "Alimentare",
+      "220–240 V, 50/60 Hz, 16 A"
+     ],
+     [
+      "Putere",
+      "3,5 kW"
+     ],
+     [
+      "Capacitate",
+      "Pe fiecare nivel: 7 coroane sau 3 punți de 3 elemente"
+     ],
+     [
+      "Curbe",
+      "4 presetate, 4 personalizate"
+     ],
+     [
+      "Temperatură",
+      "până la 1560 °C"
+     ],
+     [
+      "Precizie",
+      "≤ ± 1 °C"
+     ],
+     [
+      "Termocuplu",
+      "Tip B"
+     ],
+     [
+      "Elemente",
+      "Bare SiC"
+     ],
+     [
+      "Viteză de încălzire",
+      "medie ≤ 60 °C/min, max. ≤ 160 °C/min"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-new-csf-200",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "AIDITE",
+  "name": "New CSF-200",
+  "note": "Cuptor de sinterizare rapidă, generație nouă",
+  "price": "",
+  "photo": true,
+  "desc": "Noua generație CSF-200 pentru sinterizarea rapidă sau standard a zirconiului, cu culoare stabilă după 200 de cicluri.",
+  "hq": true,
+  "keys": [
+   [
+    "2,5 h",
+    "ciclu rapid (S)"
+   ],
+   [
+    "30",
+    "curbe"
+   ],
+   [
+    "70",
+    "coroane (L)"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "CSF-200S",
+    "rows": [
+     [
+      "Dimensiuni",
+      "330 × 470 × 700 mm"
+     ],
+     [
+      "Cameră",
+      "ø 70 × 80 mm"
+     ],
+     [
+      "Greutate",
+      "37,5 kg"
+     ],
+     [
+      "Putere",
+      "1,5 kW"
+     ],
+     [
+      "Elemente",
+      "3 bare SiC"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "2,5 h"
+     ],
+     [
+      "Coroane / ciclu",
+      "max. 30"
+     ]
+    ]
+   },
+   {
+    "g": "CSF-200L",
+    "rows": [
+     [
+      "Dimensiuni",
+      "370 × 510 × 780 mm"
+     ],
+     [
+      "Cameră",
+      "ø 100 × 120 mm"
+     ],
+     [
+      "Greutate",
+      "50 kg"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Elemente",
+      "4 bare SiC"
+     ],
+     [
+      "Cel mai rapid ciclu",
+      "3 h"
+     ],
+     [
+      "Coroane / ciclu",
+      "max. 70"
+     ]
+    ]
+   },
+   {
+    "g": "Comun",
+    "rows": [
+     [
+      "Alimentare",
+      "220 V / 50 Hz"
+     ],
+     [
+      "Curbe",
+      "30"
+     ],
+     [
+      "Stabilitate culoare",
+      "ΔL 0,7 după 200 de cicluri (A3)"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Model",
+    "values": [
+     "CSF-200S",
+     "CSF-200L"
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-s9",
@@ -6770,30 +8515,86 @@
   "hidden": true
  },
  {
-  "id": "aidite-csf200",
+  "id": "aidite-cfp-200",
   "seg": "laborator",
   "cat": "sinter",
-  "sub": "sint",
+  "sub": "cer",
   "brand": "AIDITE",
-  "name": "CSF200",
-  "note": "Cuptor de sinterizare",
+  "name": "CFP-200",
+  "note": "Cuptor de ceramică cu vid",
   "price": "",
-  "photo": false,
-  "desc": "Cuptor de sinterizare. Echipament Aidite pentru tratamentul termic al restaurărilor în laborator.",
-  "hidden": true
- },
- {
-  "id": "aidite-csf400",
-  "seg": "laborator",
-  "cat": "sinter",
-  "sub": "sint",
-  "brand": "AIDITE",
-  "name": "CSF400",
-  "note": "Cuptor de sinterizare",
-  "price": "",
-  "photo": false,
-  "desc": "Cuptor de sinterizare. Echipament Aidite pentru tratamentul termic al restaurărilor în laborator.",
-  "hidden": true
+  "photo": true,
+  "desc": "Cuptor de ceramică cu vid pentru stratificare și glazurare, cu control inteligent al temperaturii și platformă cu lift.",
+  "hq": true,
+  "keys": [
+   [
+    "1200 °C",
+    "temperatură max."
+   ],
+   [
+    "95%",
+    "vid"
+   ],
+   [
+    "±1 °C",
+    "precizie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "362 × 316 × 596 mm"
+     ],
+     [
+      "Greutate",
+      "28 kg (34 kg ambalat)"
+     ],
+     [
+      "Viteză de încălzire",
+      "1–100 °C/min"
+     ],
+     [
+      "Cameră",
+      "95 × 65 mm"
+     ],
+     [
+      "Încălzire",
+      "Tub de cuarț spiralat, fir NiCr"
+     ],
+     [
+      "Alimentare",
+      "220 V / 110 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "1,5 kW"
+     ],
+     [
+      "Temperatură maximă",
+      "1200 °C"
+     ],
+     [
+      "Vid",
+      "max. 95%"
+     ],
+     [
+      "Precizie",
+      "± 1 °C"
+     ],
+     [
+      "Răcire",
+      "Ventilator"
+     ],
+     [
+      "Garanție",
+      "1 an"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-p9",
@@ -6880,6 +8681,274 @@
   "desc": "Imprimantă 3D LCD pentru rășină, rapidă și precisă, pentru modele și piese dentare.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "aidite-cpd-100",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "AIDITE",
+  "name": "CPD-100",
+  "note": "Imprimantă 3D DLP",
+  "price": "",
+  "photo": true,
+  "desc": "Imprimantă 3D DLP pentru restaurări și implantologie, potrivită pentru ghiduri, fațete, coroane și punți care cer precizie mare.",
+  "hq": true,
+  "keys": [
+   [
+    "30 μm",
+    "precizie"
+   ],
+   [
+    "405 nm",
+    "lumină"
+   ],
+   [
+    "144×81",
+    "platformă, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Greutate",
+      "30 kg"
+     ],
+     [
+      "Dimensiuni",
+      "333 × 377 × 726 mm"
+     ],
+     [
+      "Alimentare",
+      "100–240 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "50 W"
+     ],
+     [
+      "Suprafață XY",
+      "144 × 81 mm"
+     ],
+     [
+      "Precizie",
+      "30 μm"
+     ],
+     [
+      "Rezoluție XY",
+      "75 μm"
+     ],
+     [
+      "Lumină",
+      "405 nm"
+     ],
+     [
+      "Strat",
+      "0,05–0,1 mm"
+     ],
+     [
+      "Viteză maximă",
+      "26 mm/h"
+     ],
+     [
+      "Format",
+      "STL"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-ezprint-f1",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "AIDITE",
+  "name": "EZPRINT-F1",
+  "note": "Imprimantă 3D LCD 16K",
+  "price": "",
+  "photo": true,
+  "desc": "Imprimantă 3D cu ecran 16K, uniformitate a luminii de 95% și platformă mare, pentru producție rapidă.",
+  "hq": true,
+  "keys": [
+   [
+    "16K",
+    "ecran 9,6″"
+   ],
+   [
+    "60 mm/h",
+    "viteză"
+   ],
+   [
+    "211×118×100",
+    "volum, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Ecran",
+      "9,6″ 16K"
+     ],
+     [
+      "Lumină",
+      "COB 405 nm + lentilă Fresnel"
+     ],
+     [
+      "Volum de lucru",
+      "211 × 118 × 100 mm"
+     ],
+     [
+      "Rezoluție",
+      "15120 × 6230"
+     ],
+     [
+      "Pixel",
+      "14 × 19 μm"
+     ],
+     [
+      "Strat",
+      "0,05–0,1 mm"
+     ],
+     [
+      "Viteză",
+      "max. 60 mm/h"
+     ],
+     [
+      "Încălzire",
+      "20–35 °C"
+     ],
+     [
+      "Ecran tactil",
+      "5″ color"
+     ],
+     [
+      "Formate",
+      "STL, OBJ"
+     ],
+     [
+      "Conexiune",
+      "USB, Wi-Fi"
+     ],
+     [
+      "Putere",
+      "650 W"
+     ],
+     [
+      "Dimensiuni",
+      "440 × 400 × 536 mm"
+     ],
+     [
+      "Greutate",
+      "23 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Pachet",
+    "rows": [
+     [
+      "Conținut",
+      "Imprimantă, lampă CL-100, baie cu ultrasunete ZC-050M, 1 kg rășină pentru modele"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-ezprint-p1",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "AIDITE",
+  "name": "EZPRINT-P1",
+  "note": "Imprimantă 3D DLP",
+  "price": "",
+  "photo": true,
+  "desc": "Imprimantă 3D DLP rapidă, cu aranjare automată și fără calibrare. Pachetul include lampa de polimerizare CL-100, baie cu ultrasunete și rășini.",
+  "hq": true,
+  "keys": [
+   [
+    "30 μm",
+    "precizie"
+   ],
+   [
+    "72 mm/h",
+    "viteză max."
+   ],
+   [
+    "405 nm",
+    "lumină"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tehnologie",
+      "DLP"
+     ],
+     [
+      "Volum de lucru",
+      "144 × 81 × 130 mm"
+     ],
+     [
+      "Precizie",
+      "30 μm"
+     ],
+     [
+      "Rezoluție",
+      "75 μm"
+     ],
+     [
+      "Strat",
+      "0,05–0,1 mm"
+     ],
+     [
+      "Viteză",
+      "36–72 mm/h"
+     ],
+     [
+      "Încălzire",
+      "20–35 °C"
+     ],
+     [
+      "Format",
+      "STL"
+     ],
+     [
+      "Lumină",
+      "UV LED 405 nm"
+     ],
+     [
+      "Alimentare",
+      "100–240 V"
+     ],
+     [
+      "Putere",
+      "≤ 220 W"
+     ],
+     [
+      "Greutate",
+      "35 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Pachet",
+    "rows": [
+     [
+      "Conținut",
+      "Imprimantă, lampă CL-100, baie cu ultrasunete, 1 kg rășină pentru modele, 1 kg rășină pentru ghiduri"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "cybermed-3d-printer",
@@ -7268,45 +9337,6 @@
   "hidden": true
  },
  {
-  "id": "aidite-cpd100",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "resin",
-  "brand": "AIDITE",
-  "name": "CPD100",
-  "note": "Imprimantă 3D DLP",
-  "price": "",
-  "photo": false,
-  "desc": "Imprimantă 3D DLP. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
-  "id": "aidite-ezprint-f1",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "resin",
-  "brand": "AIDITE",
-  "name": "EZPRINT F1",
-  "note": "Imprimantă 3D",
-  "price": "",
-  "photo": false,
-  "desc": "Imprimantă 3D. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
-  "id": "aidite-ezprint-p1",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "resin",
-  "brand": "AIDITE",
-  "name": "EZPRINT P1",
-  "note": "Imprimantă 3D",
-  "price": "",
-  "photo": false,
-  "desc": "Imprimantă 3D. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
   "id": "riton-metal-3d-printer-m-150",
   "seg": "laborator",
   "cat": "print",
@@ -7417,6 +9447,232 @@
   "desc": "Rășină. Produs RITON pentru imprimarea 3D dentară.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "aidite-model-resin-almond",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "rasini",
+  "brand": "AIDITE",
+  "name": "Dental Model Resin (Almond)",
+  "note": "Rășină pentru modele, culoare migdală",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină pentru modele dentare, culoare migdală, cu duritate mare și suprafață fină.",
+  "hq": true,
+  "keys": [
+   [
+    "> 77",
+    "MPa la încovoiere"
+   ],
+   [
+    "> 85",
+    "Shore D"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Proprietăți",
+    "rows": [
+     [
+      "Rezistență la încovoiere (ISO 178)",
+      "> 77 MPa"
+     ],
+     [
+      "Modul de încovoiere (ISO 178)",
+      "> 1960 MPa"
+     ],
+     [
+      "Duritate",
+      "> 85 Shore D"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-model-resin-yellow",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "rasini",
+  "brand": "AIDITE",
+  "name": "Dental Model Resin (Yellow)",
+  "note": "Rășină pentru modele, galbenă",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină pentru modele dentare: duritate mare, rezistentă la zgârieturi, ușor de lucrat.",
+  "hq": true,
+  "keys": [
+   [
+    "> 88",
+    "MPa la încovoiere"
+   ],
+   [
+    "> 91",
+    "Shore D"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Proprietăți",
+    "rows": [
+     [
+      "Rezistență la încovoiere (ISO 178)",
+      "> 88 MPa"
+     ],
+     [
+      "Modul de încovoiere (ISO 178)",
+      "> 1860 MPa"
+     ],
+     [
+      "Duritate",
+      "> 91 Shore D"
+     ],
+     [
+      "Tg",
+      "> 140 °C"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-model-resin-thermoforming",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "rasini",
+  "brand": "AIDITE",
+  "name": "Dental Model Resin for Thermoforming",
+  "note": "Rășină pentru modele de termoformare",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină Model T pentru modele folosite la termoformare: duritate foarte mare și rezistență la temperatură, pentru modele protetice și ortodontice.",
+  "hq": true,
+  "keys": [
+   [
+    "≤ 175 °C",
+    "termoformare"
+   ],
+   [
+    "> 87",
+    "Shore D"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Proprietăți",
+    "rows": [
+     [
+      "Temperatură de termoformare",
+      "≤ 175 °C"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "> 70 MPa"
+     ],
+     [
+      "Modul de încovoiere",
+      "> 1590 MPa"
+     ],
+     [
+      "Rezistență la tracțiune",
+      "> 50 MPa"
+     ],
+     [
+      "Duritate",
+      "> 87 Shore D"
+     ],
+     [
+      "Vâscozitate",
+      "1200 mPa·s"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-surgical-guide-resin",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "rasini",
+  "brand": "AIDITE",
+  "name": "Dental Surgical Guide Resin",
+  "note": "Rășină pentru ghiduri chirurgicale",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină precisă și durabilă pentru ghiduri chirurgicale de implantologie, cu rezistență și modul de încovoiere ridicate.",
+  "hq": true,
+  "keys": [
+   [
+    "> 60",
+    "MPa la încovoiere"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Proprietăți",
+    "rows": [
+     [
+      "Rezistență la încovoiere (GB/T 2567)",
+      "> 60 MPa"
+     ],
+     [
+      "Modul de încovoiere",
+      "> 1310 MPa"
+     ],
+     [
+      "Rezistență la tracțiune",
+      "> 35 MPa"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aidite-try-in-resin",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "rasini",
+  "brand": "AIDITE",
+  "name": "TRY-IN Resin",
+  "note": "Rășină pentru probă",
+  "price": "",
+  "photo": true,
+  "desc": "Rășină pentru coroane și punți de probă, dispozitiv medical clasa IIa, biocompatibilă; umpluturile speciale împiedică fisurarea restaurării.",
+  "hq": true,
+  "keys": [
+   [
+    "60",
+    "MPa la încovoiere"
+   ],
+   [
+    "85",
+    "Shore D"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Proprietăți",
+    "rows": [
+     [
+      "Rezistență la încovoiere",
+      "60 MPa"
+     ],
+     [
+      "Rezistență la tracțiune",
+      "45 MPa"
+     ],
+     [
+      "Alungire la rupere",
+      "15%"
+     ],
+     [
+      "Duritate",
+      "85 Shore D"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-resin-casting-wax",
@@ -7556,58 +9812,6 @@
   "photo": true,
   "desc": "Rășină pentru probă. Produs RITON pentru imprimarea 3D dentară.",
   "hq": true,
-  "hidden": true
- },
- {
-  "id": "aidite-dental-gingiva-resin",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "rasini",
-  "brand": "AIDITE",
-  "name": "Dental Gingiva Resin",
-  "note": "Rășină pentru gingie",
-  "price": "",
-  "photo": false,
-  "desc": "Rășină pentru gingie. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
-  "id": "aidite-dental-model-resin",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "rasini",
-  "brand": "AIDITE",
-  "name": "Dental Model Resin",
-  "note": "Rășină pentru modele",
-  "price": "",
-  "photo": false,
-  "desc": "Rășină pentru modele. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
-  "id": "aidite-model-resin-for-thermoforming",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "rasini",
-  "brand": "AIDITE",
-  "name": "Model Resin for Thermoforming",
-  "note": "Rășină pentru termoformare",
-  "price": "",
-  "photo": false,
-  "desc": "Rășină pentru termoformare. Produs Aidite pentru imprimarea 3D dentară.",
-  "hidden": true
- },
- {
-  "id": "aidite-surgical-guide-resin",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "rasini",
-  "brand": "AIDITE",
-  "name": "Surgical Guide Resin",
-  "note": "Rășină pentru ghiduri chirurgicale",
-  "price": "",
-  "photo": false,
-  "desc": "Rășină pentru ghiduri chirurgicale. Produs Aidite pentru imprimarea 3D dentară.",
   "hidden": true
  },
  {
@@ -7874,6 +10078,101 @@
   "desc": "Mașină automată de îndoit sârmă ortodontică: arcuri și aparate cu precizie constantă.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "aidite-a-is-pro-3",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "scan",
+  "brand": "AIDITE",
+  "name": "A-IS Pro 3",
+  "note": "Scaner de laborator",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner 3D de laborator pentru amprente, modele, articulatoare și bonturi, cu transfer de articulator.",
+  "hq": true,
+  "keys": [
+   [
+    "≤ 8 μm",
+    "precizie"
+   ],
+   [
+    "2 × 5 MP",
+    "camere"
+   ],
+   [
+    "7 s",
+    "ocluzie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Camere",
+      "2 × 5,0 MP"
+     ],
+     [
+      "Precizie",
+      "≤ 8 μm"
+     ],
+     [
+      "Format",
+      "STL, PLY, OBJ"
+     ],
+     [
+      "Lumină",
+      "Albastră"
+     ],
+     [
+      "Dimensiuni",
+      "385 × 260 × 270 mm"
+     ],
+     [
+      "Greutate",
+      "5,0 kg"
+     ],
+     [
+      "Conexiune",
+      "USB 3.0"
+     ],
+     [
+      "Alimentare",
+      "DC 24 V"
+     ]
+    ]
+   },
+   {
+    "g": "Timpi de scanare",
+    "rows": [
+     [
+      "Ocluzie",
+      "7 s"
+     ],
+     [
+      "Maxilar / mandibulă",
+      "14 s"
+     ],
+     [
+      "1–4 bonturi",
+      "18 s"
+     ],
+     [
+      "5–8 bonturi",
+      "30 s"
+     ],
+     [
+      "Amprentă",
+      "66 s"
+     ],
+     [
+      "Articulator",
+      "Transfer suportat"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-ds7",
@@ -8258,6 +10557,65 @@
   "hidden": true
  },
  {
+  "id": "aidite-grinding-polishing-bur",
+  "seg": "laborator",
+  "cat": "motoare",
+  "sub": "freze",
+  "brand": "AIDITE",
+  "name": "Dental Grinding and Polishing Bur",
+  "note": "Freze și polipanți pentru zirconiu și vitroceramică",
+  "price": "",
+  "photo": true,
+  "desc": "Freze și polipanți pentru separarea și ajustarea zirconiului crud, finisarea marginilor și lustruirea zirconiului și vitroceramicii.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "Exemple",
+    "rows": [
+     [
+      "GB0502Z",
+      "0,9 × 4 mm, cross-cut fin, 20.000–35.000 rpm"
+     ],
+     [
+      "GB0501Z",
+      "2,3 × 16 mm, cross-cut fin, 20.000–35.000 rpm"
+     ],
+     [
+      "GB0204ZG",
+      "16 × 1,5 mm, mediu-grosier, 15.000–30.000 rpm"
+     ],
+     [
+      "PB0205ZG",
+      "19 × 2 mm, mediu-grosier, 15.000–25.000 rpm"
+     ],
+     [
+      "PB0401ZG",
+      "26 × 3 mm, ultra-fin"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Cod",
+    "values": [
+     "GB0502Z",
+     "GB0501Z",
+     "GB0101ZG",
+     "GB0204ZG",
+     "PB0205ZG",
+     "PB0204ZG",
+     "PB0203ZG",
+     "GB0301ZG",
+     "GB0402ZG",
+     "GB0406ZG",
+     "PB0101ZG",
+     "PB0401ZG"
+    ]
+   }
+  ]
+ },
+ {
   "id": "hpdent-freza-cool-grinder",
   "seg": "laborator",
   "cat": "motoare",
@@ -8348,6 +10706,19 @@
   "photo": false,
   "desc": "Discuri de separare. Produs ökoDENT pentru laboratorul dentar.",
   "hidden": true
+ },
+ {
+  "id": "aidite-hybrid-ceramic-polishing-set",
+  "seg": "laborator",
+  "cat": "motoare",
+  "sub": "lustr",
+  "brand": "AIDITE",
+  "name": "Hybrid-ceramic Grinding and Polishing Set",
+  "note": "Set de finisare pentru ceramică hibridă",
+  "price": "",
+  "photo": true,
+  "desc": "Set de freze și polipanți pentru ceramica hibridă Aidite: ajustarea marginilor, a crestelor marginale, lustruirea și luciul final.",
+  "hq": true
  },
  {
   "id": "hpdent-polipant-one-for-all",
@@ -8742,6 +11113,56 @@
   "hidden": true
  },
  {
+  "id": "aidite-3d-pro-shade-matcher",
+  "seg": "laborator",
+  "cat": "pensule",
+  "sub": "acc",
+  "brand": "AIDITE",
+  "name": "3D Pro Shade Matcher",
+  "note": "Cheie de culori din zirconiu 3D Pro",
+  "price": "",
+  "photo": true,
+  "desc": "Cheie de culori realizată din zirconiu 3D Pro, pentru alegerea exactă a nuanței restaurării.",
+  "hq": true
+ },
+ {
+  "id": "aidite-biomic-aesthetic-kit",
+  "seg": "laborator",
+  "cat": "pensule",
+  "sub": "acc",
+  "brand": "AIDITE",
+  "name": "Biomic Aesthetic Kit",
+  "note": "Paletă, mixer și cheie de culori",
+  "price": "",
+  "photo": true,
+  "desc": "Accesorii Biomic pentru ceramist: paletă, mixer electric dentar și cheie de culori pentru zirconiu.",
+  "hq": true
+ },
+ {
+  "id": "aidite-firing-paste",
+  "seg": "laborator",
+  "cat": "pensule",
+  "sub": "acc",
+  "brand": "AIDITE",
+  "name": "Firing Paste",
+  "note": "Pastă și perle de sinterizare",
+  "price": "",
+  "photo": true,
+  "desc": "Pastă de ardere și perle din zirconiu pentru susținerea lucrărilor la sinterizare.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Perle de sinterizare",
+    "values": [
+     "0,6 mm",
+     "1,0 mm",
+     "1,8 mm",
+     "3,0 mm"
+    ]
+   }
+  ]
+ },
+ {
   "id": "hpdent-cerafirm",
   "seg": "laborator",
   "cat": "pensule",
@@ -8795,19 +11216,6 @@
   "photo": true,
   "desc": "Pastă de lustruit rapid pentru ceramică. Instrument HPdent pentru ceramist și tehnician dentar.",
   "hq": true,
-  "hidden": true
- },
- {
-  "id": "aidite-firing-paste",
-  "seg": "laborator",
-  "cat": "pensule",
-  "sub": "acc",
-  "brand": "AIDITE",
-  "name": "Firing Paste",
-  "note": "Pastă de ardere",
-  "price": "",
-  "photo": false,
-  "desc": "Pastă de ardere. Material Aidite pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
   "hidden": true
  },
  {
