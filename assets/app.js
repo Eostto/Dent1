@@ -21,7 +21,7 @@
   function brandName(b) { return (BR[b] && BR[b].label) || b; }
   function brandLogo(b) { return BR[b] && BR[b].logo; }
   function isDark(b) { return BR[b] && BR[b].dark; }
-  function img(p) { return '/img/p/' + p.id + '.webp'; }
+  function img(p) { return (p.hq ? '/img/hq/' : '/img/p/') + p.id + '.webp'; }
   function catProducts(id) { return P.filter(function (p) { return p.cat === id; }); }
   function norm(x) { return String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
   function subOf(cid, sid) { var c = catById[cid]; if (!c || !c.subs) return null; for (var i = 0; i < c.subs.length; i++) if (c.subs[i].id === sid) return c.subs[i]; return null; }
