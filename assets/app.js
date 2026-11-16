@@ -21,7 +21,7 @@
   // ---------- cart ----------
   function getCart() { try { return JSON.parse(localStorage.getItem('cart') || '{}'); } catch (e) { return {}; } }
   function setCart(c) { try { localStorage.setItem('cart', JSON.stringify(c)); } catch (e) {} updateCount(); }
-  function updateCount() { var c = getCart(), n = 0; for (var k in c) n += c[k]; document.getElementById('cartCount').textContent = n; }
+  function updateCount() { var c = getCart(), n = 0; var t = 0; for (var k in c) { n += c[k]; if (byId[k]) t += num(byId[k].price) * c[k]; } document.getElementById('cartCount').textContent = n; document.getElementById('cartTotal').textContent = t ? fmt(t) + ' MDL' : 'Coș'; }
   function addToCart(id, q) { var c = getCart(); c[id] = (c[id] || 0) + (q || 1); setCart(c); toast('Adăugat în coș: ' + byId[id].name); }
   var tt; function toast(msg) { var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(function () { t.classList.remove('show'); }, 2200); }
 
@@ -33,7 +33,7 @@
       '<h3 class="card-name"><a href="#/p/' + p.id + '">' + esc(p.name) + '</a></h3>' +
       (p.note ? '<p class="card-note">' + esc(p.note) + '</p>' : '') +
       '<div class="card-f">' + priceHtml(p) +
-      (p.price ? '<button class="btn sm" data-add="' + p.id + '">Adaugă</button>' : '<a class="btn sm ghost" href="#/p/' + p.id + '">Detalii</a>') +
+      (p.price ? '<button class="btn sm add" data-add="' + p.id + '"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h2l2.5 11h9L20 8H7"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>În coș</button>' : '<a class="btn sm ghost" href="#/p/' + p.id + '">Detalii</a>') +
       '</div></div></article>';
   }
   function brandTile(b, href, count) {
@@ -44,37 +44,44 @@
   }
 
   // ---------- views ----------
+  var ICON = {
+    truck: '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>',
+    doc: '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>',
+    chat: '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg>',
+    tool: '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 6a4 4 0 015 5l-9 9-4-4 9-9"/><path d="M14 6l4 4"/></svg>'
+  };
+  function firstPhoto(catId) { var x = catProducts(catId).filter(function (p) { return p.photo; })[0]; return x ? img(x) : ''; }
   function home() {
-    var seg = state.seg, cats = segCats(seg).slice().sort(function (a, b) { return catProducts(b.id).length - catProducts(a.id).length; });
-    var tiles = cats.slice(0, 4).map(function (c, i) {
-      return '<a class="tile' + (i === 0 ? ' on' : '') + '" href="#/catalog?cat=' + c.id + '"><div class="tile-top"><span class="kicker" style="color:inherit">' + (seg === 'cabinet' ? 'Cabinet' : 'Laborator') + '</span>' +
-        '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></svg></div>' +
-        '<div><div class="n">' + catProducts(c.id).length + '</div><div class="t">' + esc(c.name) + '</div></div></a>';
-    }).join('');
-    var feat = P.filter(function (p) { return p.seg === seg && p.price && p.photo && num(p.price) < 20000; }).slice(0, 8);
-    var eq = P.filter(function (p) { return p.seg === seg && p.price && num(p.price) >= 10000; }).sort(function (a, b) { return num(b.price) - num(a.price); }).slice(0, 6);
+    var seg = state.seg, cats = segCats(seg);
+    var side = cats.map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></a>'; }).join('');
+    var hero = seg === 'cabinet'
+      ? { id: 'shining-3d-aoralscan-3', tag: 'SHINING 3D · CABINET', h: 'Aoralscan 3 — scanare intraorală fără pulbere', p: 'Amprentă digitală rapidă pentru coroane, implanturi și ortodonție. Demonstrație în cabinetul tău.', price: 'La cerere', go: 'Vezi produsul' }
+      : { id: 'hass-amber-mill-q', tag: 'HASS · LABORATOR', h: 'Amber® Mill — disilicat de litiu pentru frezare', p: 'Blocuri CAD/CAM pentru fațete, coroane și inlay-uri, în nuanțe multiple.', price: 'La cerere', go: 'Vezi produsul' };
+    var hp = byId[hero.id];
+    var b1 = byId['yeson-autoclav-22-l-clasa-b'], b2 = byId[seg === 'cabinet' ? 'shining-3d-aoralscan-elf' : 'shining-3d-accufab-cel'];
+    var pops = cats.map(function (c) { return '<a class="pop" href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + (firstPhoto(c.id) ? '<img loading="lazy" src="' + firstPhoto(c.id) + '" alt="">' : '') + '</span>' + esc(c.name) + '</a>'; }).join('');
+    var feat = P.filter(function (p) { return p.seg === seg && p.price && p.photo; }).sort(function (a, b) { return num(a.price) - num(b.price); });
+    var pick = []; var seen = {}; feat.forEach(function (p) { if (pick.length < 10 && !seen[p.cat + p.brand]) { seen[p.cat + p.brand] = 1; pick.push(p); } });
+    feat.forEach(function (p) { if (pick.length < 10 && pick.indexOf(p) < 0) pick.push(p); });
     var brands = Object.keys(BR).filter(function (b) { return BR[b].logo; });
-    var nb = Object.keys(BR).length;
     app.innerHTML =
-      '<section class="wrap hero"><div class="hero-l"><p class="kicker">Magazin dentar · DENT ONE GROUP SRL</p>' +
-      '<h1>Tot ce consumă un cabinet. Tot ce construiește un laborator.</h1>' +
-      '<p class="lead">' + P.length + ' de produse de la ' + nb + ' de producători — de la ROOTT și HASS la Shining 3D și YESON — împărțite pe ' + CATS.length + ' categorii clare.</p>' +
-      '<div class="hero-cta"><a class="btn lime" href="#/catalog">Vezi catalogul <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>' +
-      '<a class="btn ghost" href="#/contact">Cere o ofertă</a></div></div><div class="tiles">' + tiles + '</div></section>' +
-      '<section class="wrap section"><div class="section-h"><h2>Recomandate pentru ' + (seg === 'cabinet' ? 'cabinet' : 'laborator') + '</h2><a class="link" href="#/catalog">Tot catalogul →</a></div><div class="grid">' + feat.map(card).join('') + '</div></section>' +
-      '<section class="dark"><div class="wrap"><div class="dark-l"><p class="kicker">Echipamente</p><h2>Echipamentele mari se aleg împreună cu un om.</h2>' +
-      '<p>Un autoclav, un unit dentar sau o imprimantă 3D pentru metal: stabilim configurația, livrarea și instalarea înainte de factură.</p>' +
-      '<div class="hero-cta"><a class="btn lime" href="#/contact">Cere ofertă</a><a class="btn dark-ghost mono" href="tel:+37379663311">079 66 33 11</a></div></div>' +
-      '<div class="eq">' + eq.map(function (p) {
-        return '<a href="#/p/' + p.id + '"><img loading="lazy" src="' + img(p) + '" alt=""><span class="eq-b">' + esc(brandName(p.brand)) + '</span><span class="eq-name">' + esc(p.name) + '</span><span class="eq-p">' + esc(p.price) + ' MDL</span></a>';
-      }).join('') + '</div></div></section>' +
+      '<div class="wrap shop"><nav class="shop-side" aria-label="Categorii ' + seg + '"><h2>' + (seg === 'cabinet' ? 'Pentru cabinet' : 'Pentru laborator') + '</h2>' + side +
+      '<a class="all" href="#/catalog">Toate cele ' + CATS.length + ' categorii →</a></nav><div class="shop-main">' +
+      '<a class="banner big" href="#/p/' + hp.id + '"><div class="bt"><span class="tag">' + hero.tag + '</span><h2>' + hero.h + '</h2><p>' + hero.p + '</p><div class="row"><span class="go">' + hero.go + '</span></div></div><img src="' + img(hp) + '" alt=""></a>' +
+      '<a class="banner sm dk" href="#/catalog?seg=cabinet&cat=steril"><div class="bt"><span>ECHIPAMENTE</span><h3>Autoclave și sterilizare</h3><span>Cere ofertă cu instalare</span></div><img src="' + img(b1) + '" alt=""></a>' +
+      '<a class="banner sm bl" href="#/p/' + b2.id + '"><div class="bt"><span>DIGITAL</span><h3>' + esc(b2.name) + '</h3><span>Demonstrație la cerere</span></div><img src="' + img(b2) + '" alt=""></a>' +
+      '</div></div>' +
+      '<section class="wrap"><div class="bens">' +
+      '<div class="ben"><i>' + ICON.truck + '</i><div><b>Livrare în toată Moldova</b><span>Termenul îl confirmăm la comandă</span></div></div>' +
+      '<div class="ben"><i>' + ICON.doc + '</i><div><b>Factură pe firmă</b><span>Pentru cabinete, clinici și laboratoare</span></div></div>' +
+      '<div class="ben"><i>' + ICON.chat + '</i><div><b>Consultanță</b><span>079 66 33 11, luni–vineri 9–18</span></div></div>' +
+      '<div class="ben"><i>' + ICON.tool + '</i><div><b>Instalare și service</b><span>Pentru echipamente</span></div></div></div></section>' +
+      '<section class="wrap section"><div class="section-h"><h2>Categorii populare</h2><a class="link" href="#/catalog">Tot catalogul →</a></div><div class="pops">' + pops + '</div></section>' +
+      '<section class="wrap section"><div class="section-h"><h2>Cele mai căutate pentru ' + (seg === 'cabinet' ? 'cabinet' : 'laborator') + '</h2><a class="link" href="#/catalog?seg=' + seg + '">Vezi toate →</a></div><div class="grid">' + pick.map(card).join('') + '</div></section>' +
+      '<section class="wrap section"><div class="cta"><div><h2>Deschizi un cabinet sau un laborator?</h2><p>Facem lista de echipamente și consumabile, cu livrare și instalare.</p></div>' +
+      '<div class="hero-cta"><a class="btn lime" href="#/contact">Cere ofertă</a><a class="btn dark-ghost" href="tel:+37379663311">079 66 33 11</a></div></div></section>' +
       '<section class="wrap section"><div class="section-h"><h2>Branduri în catalog</h2><a class="link" href="#/branduri">Toate brandurile →</a></div><div class="brands">' +
-      brands.map(function (b) { return brandTile(b, '#/catalog?brand=' + encodeURIComponent(b)); }).join('') + '</div></section>' +
-      '<section class="wrap section"><div class="info">' +
-      '<div><h3>Livrare</h3><p>Livrăm în toată Moldova; termenul și costul le confirmăm odată cu comanda.</p></div>' +
-      '<div><h3>Factură pe firmă</h3><p>Lucrăm cu cabinete, clinici și laboratoare. Modalitatea de plată o stabilim la confirmarea comenzii.</p></div>' +
-      '<div><h3>Instalare și service</h3><p>Pentru echipamente: punere în funcțiune, instruire și suport după vânzare.</p></div>' +
-      '<div><h3>Ridicare din depozit</h3><p>Str. Nicolai Zelinski 7/1, Chișinău · luni–vineri, 9:00–18:00.</p></div></div></section>';
+      brands.map(function (b) { return brandTile(b, '#/catalog?brand=' + encodeURIComponent(b)); }).join('') + '</div></section>';
   }
 
   function catalog(q) {
@@ -206,6 +213,7 @@
   function setSeg(seg, quiet) {
     state.seg = seg; try { localStorage.setItem('seg', seg); } catch (e) {}
     document.querySelectorAll('.seg button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.seg === seg)); });
+    document.getElementById('catNav').innerHTML = segCats(seg).map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>'; }).join('');
     if (!quiet) { var r = parse(); if (r.path === '/catalog') location.hash = '#/catalog?seg=' + seg; else route(); }
   }
 
