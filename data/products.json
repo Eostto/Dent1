@@ -3564,9 +3564,107 @@
   "name": "UP610",
   "note": "Scaner intraoral",
   "price": "",
-  "photo": false,
-  "desc": "Scaner intraoral. Soluție digitală UP3D pentru fluxul de lucru chairside.",
-  "hidden": true
+  "photo": true,
+  "desc": "Scaner intraoral ușor (210 g) și precis, cu lumină RGB, pentru amprentă digitală rapidă: arcadă completă în cel mult 2 minute.",
+  "hq": true,
+  "keys": [
+   [
+    "10 μm",
+    "precizie"
+   ],
+   [
+    "210 g",
+    "greutate"
+   ],
+   [
+    "≤ 2 min",
+    "arcadă completă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Scaner",
+    "rows": [
+     [
+      "Lumină",
+      "LED roșu, verde, albastru"
+     ],
+     [
+      "Dimensiuni",
+      "227 × 42,5 × 33,3 mm"
+     ],
+     [
+      "Greutate",
+      "210 g"
+     ],
+     [
+      "Precizie",
+      "10 μm (un dinte)"
+     ],
+     [
+      "Câmp",
+      "14,5 × 16,2 mm"
+     ],
+     [
+      "Adâncime",
+      "27 ± 3 mm"
+     ],
+     [
+      "Arcadă completă",
+      "≤ 2 min"
+     ],
+     [
+      "Vârf",
+      "20,5 × 18 mm"
+     ],
+     [
+      "Formate",
+      "STL, PLY, OBJ"
+     ],
+     [
+      "Alimentare",
+      "DC 12 V, 3 A"
+     ],
+     [
+      "Cadre",
+      "22–24 FPS"
+     ],
+     [
+      "Cablu",
+      "2 m"
+     ]
+    ]
+   },
+   {
+    "g": "Calculator recomandat",
+    "rows": [
+     [
+      "Sistem",
+      "Windows 11 Pro 64-bit"
+     ],
+     [
+      "Procesor",
+      "Intel Core i7 gen. 12 sau mai nou"
+     ],
+     [
+      "Placă video",
+      "NVIDIA RTX seria 30, min. 8 GB"
+     ],
+     [
+      "Memorie",
+      "16 GB RAM"
+     ],
+     [
+      "Disc",
+      "SSD 512 GB"
+     ],
+     [
+      "Porturi",
+      "USB-C PD 5 V/3 A, 3 × USB 3.0"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "shining-3d-metismile",
@@ -3873,6 +3971,119 @@
   "hidden": true
  },
  {
+  "id": "up3d-p42-plus",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "mill",
+  "brand": "UP3D",
+  "name": "P42 PLUS",
+  "note": "Mașină de frezat umed compactă, fără compresor",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed în 4 axe, compactă, cu apă pură și fără compresor: vitroceramică, compozit, PMMA și titan pentru restaurări în aceeași zi.",
+  "hq": true,
+  "keys": [
+   [
+    "4",
+    "axe"
+   ],
+   [
+    "80 kg",
+    "greutate"
+   ],
+   [
+    "0",
+    "compresor necesar"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Indicații",
+      "Coroane, punți, coroane înșurubate, inlay/onlay, fațete, bonturi individuale"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Tip",
+      "Înaltă frecvență, schimbare automată, fără răcire cu aer"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ],
+     [
+      "Putere",
+      "max. 800 W, S1 450 W"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Batiu",
+      "Aluminiu turnat"
+     ],
+     [
+      "Axe",
+      "4"
+     ],
+     [
+      "Axa A",
+      "360°"
+     ],
+     [
+      "Magazie",
+      "6 scule"
+     ]
+    ]
+   },
+   {
+    "g": "Conectare",
+    "rows": [
+     [
+      "Alimentare",
+      "AC 100–240 V, 50–60 Hz"
+     ],
+     [
+      "Date",
+      "Wi-Fi, USB, Ethernet"
+     ],
+     [
+      "Dimensiuni",
+      "564 × 402 × 564 mm"
+     ],
+     [
+      "Greutate",
+      "80 kg"
+     ],
+     [
+      "Software CAM",
+      "UPCAM"
+     ],
+     [
+      "Suporturi opționale",
+      "TK pentru bonturi DESS, Geo CMFit, Dentium, Osstem, Arum, MEDENTiKA"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "zotion-t20w-e",
   "seg": "cabinet",
   "cat": "digital",
@@ -3883,32 +4094,6 @@
   "price": "",
   "photo": true,
   "desc": "Freză chairside umedă, 5 axe. Soluție digitală Zotion pentru fluxul de lucru chairside.",
-  "hidden": true
- },
- {
-  "id": "up3d-p42",
-  "seg": "cabinet",
-  "cat": "digital",
-  "sub": "mill",
-  "brand": "UP3D",
-  "name": "P42",
-  "note": "Freză compactă pentru vitroceramică",
-  "price": "",
-  "photo": false,
-  "desc": "Freză compactă pentru vitroceramică. Soluție digitală UP3D pentru fluxul de lucru chairside.",
-  "hidden": true
- },
- {
-  "id": "up3d-soreal-chairside",
-  "seg": "cabinet",
-  "cat": "digital",
-  "sub": "mill",
-  "brand": "UP3D",
-  "name": "Soreal Chairside",
-  "note": "Soluție chairside completă",
-  "price": "",
-  "photo": false,
-  "desc": "Soluție chairside completă. Soluție digitală UP3D pentru fluxul de lucru chairside.",
   "hidden": true
  },
  {
@@ -5954,16 +6139,129 @@
   "hidden": true
  },
  {
-  "id": "luhluh-dental-material",
+  "id": "luhluh-ld-z150",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "zr",
   "brand": "LUHLUH",
-  "name": "Dental Material",
-  "note": "Materiale dentare",
+  "name": "LD-Z150",
+  "note": "Zirconiu translucent",
   "price": "",
   "photo": true,
-  "desc": "Materiale dentare. Material Luhluh pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
+  "desc": "Zirconiu translucent LUHLUH pentru restaurări frontale estetice și laterale rezistente, biocompatibil și stabil, compatibil cu toate echipamentele LUHLUH.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "id": "luhluh-zirconia-block",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "LUHLUH",
+  "name": "Zirconiu translucent (High / Super Translucent)",
+  "note": "Discuri de zirconiu HT și ST",
+  "price": "",
+  "photo": true,
+  "desc": "Zirconiu cu granulație nanometrică, certificat ISO 13356, diferență de culoare între loturi ΔE < 1,5. Compatibil cu Ceramill Motion, Roland DWX-52D/51D, VHF, imes-icore, Zirkonzahn și alte mașini.",
+  "hq": true,
+  "keys": [
+   [
+    "49%",
+    "translucență"
+   ],
+   [
+    "1200",
+    "MPa"
+   ],
+   [
+    "ΔE < 1,5",
+    "între loturi"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Translucență",
+      "45–49% (HT), 40–44% (ST)"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "≥ 900 MPa (HT), ≥ 1200 MPa (ST)"
+     ],
+     [
+      "Granulație",
+      "≤ 0,3 μm"
+     ],
+     [
+      "Densitate",
+      "≥ 6,0 g/cm³"
+     ],
+     [
+      "Sinterizare",
+      "1450–1550 °C"
+     ],
+     [
+      "Certificare",
+      "ISO 13356"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Tip",
+    "values": [
+     "High Translucent",
+     "Super Translucent"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   }
+  ],
   "hidden": true
  },
  {
@@ -6871,17 +7169,707 @@
   ]
  },
  {
-  "id": "luhluh-milling-machines",
+  "id": "luhluh-43w",
   "seg": "laborator",
   "cat": "frezare",
   "sub": "dry",
   "brand": "LUHLUH",
-  "name": "Milling Machines",
-  "note": "Mașini de frezat",
+  "name": "43W",
+  "note": "Mașină de frezat uscat, 4 axe",
   "price": "",
   "photo": true,
-  "desc": "Mașini de frezat. Echipament Luhluh pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
+  "desc": "Mașină de frezat uscat în 4 axe, accesibilă, pentru laboratoare la început de drum: coroane și punți din zirconiu, provizorii și machete din ceară.",
+  "hq": true,
+  "keys": [
+   [
+    "4",
+    "axe"
+   ],
+   [
+    "6",
+    "scule"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Axe",
+      "4 simultane"
+     ],
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară, rășină"
+     ],
+     [
+      "Precizie",
+      "± 0,02 mm"
+     ],
+     [
+      "Magazie",
+      "6 scule"
+     ],
+     [
+      "Alimentare",
+      "AC 220 V, 50 Hz"
+     ],
+     [
+      "Dimensiuni",
+      "circa 650 × 550 × 700 mm"
+     ]
+    ]
+   }
+  ],
   "hidden": true
+ },
+ {
+  "id": "luhluh-52w",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "LUHLUH",
+  "name": "52W",
+  "note": "Mașină de frezat uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe pentru zirconiu, vitroceramică, compozit, PMMA, ceară și metale moi.",
+  "hq": true,
+  "keys": [
+   [
+    "±0,003 mm",
+    "repetabilitate"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "8",
+    "scule"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Axe",
+      "5 (X/Y/Z/A/C)"
+     ],
+     [
+      "Curse",
+      "X 300 / Y 250 / Z 150 mm"
+     ],
+     [
+      "Precizie de poziționare",
+      "± 0,005 mm"
+     ],
+     [
+      "Repetabilitate",
+      "± 0,003 mm"
+     ],
+     [
+      "Turație",
+      "10.000–60.000 rpm"
+     ],
+     [
+      "Deplasare rapidă",
+      "max. 15.000 mm/min"
+     ],
+     [
+      "Magazie",
+      "8 scule"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, vitroceramică, compozit, PMMA, ceară, metale moi"
+     ]
+    ]
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "id": "up3d-p53-plus",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "UP3D",
+  "name": "P53 PLUS",
+  "note": "Mașină de frezat uscat, 5 axe, fără aer",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe, fără aer comprimat, compactă, pentru toată gama de lucrări din zirconiu, ceară, PMMA și PEEK.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "11",
+    "scule"
+   ],
+   [
+    "90 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Disc",
+      "ø 98,5 mm, 10–30 mm"
+     ],
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Indicații",
+      "Bonturi, coroane, punți, coroane înșurubate, inlay/onlay, fațete, pivoți, schelete de proteze parțiale, punți pe implant, proteze totale, gutiere, suprastructuri pe bară, alignere estetice, modele"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Batiu",
+      "Aluminiu turnat"
+     ],
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Axe rotative",
+      "A ± 30°, B 360°"
+     ],
+     [
+      "Putere",
+      "0,5 kW"
+     ],
+     [
+      "Magazie",
+      "11 scule"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ],
+     [
+      "Putere",
+      "max. 900 W, S1 350 W"
+     ]
+    ]
+   },
+   {
+    "g": "Conectare",
+    "rows": [
+     [
+      "Alimentare",
+      "100–240 V AC, 50–60 Hz"
+     ],
+     [
+      "Aspirație",
+      "Filtru clasa M, 2500 l/min"
+     ],
+     [
+      "Date",
+      "Ethernet"
+     ],
+     [
+      "Dimensiuni",
+      "719 × 444 × 630 mm"
+     ],
+     [
+      "Greutate",
+      "90 kg"
+     ],
+     [
+      "Software CAM",
+      "UPCAM"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Material",
+    "values": [
+     "Disc 98,5 mm",
+     "Bloc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "up3d-p53dc",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "UP3D",
+  "name": "P53DC",
+  "note": "Mașină de frezat cu schimbător de 12 discuri",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe pentru laboratoare cu volum mare: schimbător automat de 12 discuri pentru lucru 24/7, gestiune inteligentă a materialelor, frezare la 90° și ionizator.",
+  "hq": true,
+  "keys": [
+   [
+    "12",
+    "discuri automat"
+   ],
+   [
+    "11",
+    "scule"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Disc",
+      "ø 98,5 mm, 10–30 mm"
+     ],
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Indicații",
+      "Bonturi, coroane, punți, coroane înșurubate, inlay/onlay, fațete, pivoți, schelete de proteze parțiale, punți pe implant, proteze totale, gutiere, suprastructuri pe bară, alignere estetice, modele"
+     ]
+    ]
+   },
+   {
+    "g": "Timp de frezare",
+    "rows": [
+     [
+      "Capă",
+      "zirconiu 10 min, ceară 4,5 min"
+     ],
+     [
+      "Coroană",
+      "zirconiu 13 min, ceară 5,5 min"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Schimbare sculă",
+      "Pneumatică"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Avans maxim",
+      "3000 mm/min"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ],
+     [
+      "Putere",
+      "max. 900 W, S6 500 W, S1 350 W"
+     ],
+     [
+      "Răcire",
+      "Cu aer"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Batiu",
+      "Aluminiu turnat"
+     ],
+     [
+      "Axe",
+      "5 simultane"
+     ],
+     [
+      "Axe rotative",
+      "A ± 30°, B 360°"
+     ],
+     [
+      "Acționare",
+      "Motoare pas cu pas"
+     ],
+     [
+      "Magazie",
+      "11 scule"
+     ],
+     [
+      "Schimbător discuri",
+      "12"
+     ],
+     [
+      "Putere",
+      "0,55 kW"
+     ]
+    ]
+   },
+   {
+    "g": "Conectare",
+    "rows": [
+     [
+      "Aer comprimat",
+      "0,5–0,8 MPa, 60 l/min"
+     ],
+     [
+      "Alimentare",
+      "AC 100–240 V, 50–60 Hz"
+     ],
+     [
+      "Aspirație",
+      "Filtru clasa M, 3500 l/min"
+     ],
+     [
+      "Date",
+      "Ethernet"
+     ],
+     [
+      "Dimensiuni",
+      "719 × 872 × 639 mm"
+     ],
+     [
+      "Greutate",
+      "138 kg"
+     ],
+     [
+      "Software CAM",
+      "UPCAM"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Material",
+    "values": [
+     "Disc 98,5 mm",
+     "Bloc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "up3d-p53r",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "UP3D",
+  "name": "P53R",
+  "note": "Mașină de frezat uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe pentru zirconiu, ceară, PMMA, PEEK, CoCr sinterizabil și compozit, cu 11 scule și schimbare automată.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "11",
+    "scule"
+   ],
+   [
+    "87 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "444 × 719 × 630 mm"
+     ],
+     [
+      "Greutate",
+      "87 kg"
+     ],
+     [
+      "Alimentare",
+      "100–120 V sau 200–240 V AC, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "1,1 kW"
+     ],
+     [
+      "Axe",
+      "5 simultane"
+     ],
+     [
+      "Curse",
+      "X/Y/Z 167 / 200 / 90 mm, A ± 30°, B 360°"
+     ],
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, ceară, PMMA, PEEK, CoCr sinterizabil, compozit"
+     ],
+     [
+      "Disc",
+      "ø 98,5 mm, 10–30 mm"
+     ],
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Software CAM",
+      "UPCAM, Millbox"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "max. 900 W, S1 350 W"
+     ],
+     [
+      "Avans maxim",
+      "3000 mm/min"
+     ],
+     [
+      "Scule",
+      "11, schimbare automată (aer > 0,5 MPa)"
+     ],
+     [
+      "Răcire",
+      "Aer comprimat 0,15–0,20 MPa"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Material",
+    "values": [
+     "Disc 98,5 mm",
+     "Bloc"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "up3d-p54d",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "UP3D",
+  "name": "P54D",
+  "note": "Mașină de frezat uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe UP3D pentru laborator. Configurația și parametrii îi confirmăm la ofertă.",
+  "hq": true
+ },
+ {
+  "id": "up3d-p55d",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "UP3D",
+  "name": "P55D",
+  "note": "Mașină de frezat uscat, fără compresor",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe, fără aer comprimat: ax principal german de 60.000 rpm, servo inteligent, ionizator încorporat și protecție la praf îmbunătățită cu 98%. Licență UPCAM inclusă.",
+  "hq": true,
+  "keys": [
+   [
+    "0",
+    "compresor necesar"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "13",
+    "scule"
+   ],
+   [
+    "106 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Disc",
+      "ø 98,5 mm, 10–30 mm"
+     ],
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Indicații",
+      "Bonturi, coroane, punți, coroane înșurubate, inlay/onlay, fațete, pivoți, schelete de proteze parțiale, punți pe implant, proteze totale, gutiere, suprastructuri pe bară, alignere estetice, modele"
+     ]
+    ]
+   },
+   {
+    "g": "Timp de frezare",
+    "rows": [
+     [
+      "Capă",
+      "zirconiu 10 min, ceară 4,5 min"
+     ],
+     [
+      "Coroană",
+      "zirconiu 13 min, ceară 5,5 min"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Tip",
+      "Înaltă frecvență, schimbare automată, fără răcire cu aer"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Avans maxim",
+      "3000 mm/min"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ],
+     [
+      "Putere",
+      "max. 800 W, S1 450 W"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Batiu",
+      "Aluminiu turnat"
+     ],
+     [
+      "Axe",
+      "5 simultane"
+     ],
+     [
+      "Axe rotative",
+      "A 360°, B ± 33°"
+     ],
+     [
+      "Acționare",
+      "Servo complet pe 5 axe"
+     ],
+     [
+      "Magazie",
+      "13 scule, măsurare lungime și detectare rupere"
+     ],
+     [
+      "Putere",
+      "750 W"
+     ]
+    ]
+   },
+   {
+    "g": "Conectare",
+    "rows": [
+     [
+      "Alimentare",
+      "AC 200–240 V, 50/60 Hz"
+     ],
+     [
+      "Aspirație",
+      "Filtru clasa M, 2500 l/min"
+     ],
+     [
+      "Date",
+      "Ethernet"
+     ],
+     [
+      "Dimensiuni",
+      "442 × 595 × 704 mm"
+     ],
+     [
+      "Greutate",
+      "106 kg"
+     ],
+     [
+      "Temperatură de lucru",
+      "5–40 °C"
+     ],
+     [
+      "Software CAM",
+      "UPCAM"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Material",
+    "values": [
+     "Disc 98,5 mm",
+     "Bloc"
+    ]
+   }
+  ]
  },
  {
   "id": "zotion-c5",
@@ -6894,32 +7882,6 @@
   "price": "",
   "photo": true,
   "desc": "Freză uscată. Echipament Zotion pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "up3d-p53",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "UP3D",
-  "name": "P53",
-  "note": "Freză uscată, 5 axe",
-  "price": "",
-  "photo": false,
-  "desc": "Freză uscată, 5 axe. Echipament UP3D pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "up3d-p53dc",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "UP3D",
-  "name": "P53DC",
-  "note": "P53 cu schimbător de discuri",
-  "price": "",
-  "photo": false,
-  "desc": "P53 cu schimbător de discuri. Echipament UP3D pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
   "hidden": true
  },
  {
@@ -7763,30 +8725,214 @@
   ]
  },
  {
+  "id": "luhluh-52dc-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "LUHLUH",
+  "name": "52DC Pro",
+  "note": "Mașină de frezat umed și uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe, umed și uscat, cu trecere dintr-o singură apăsare între moduri, pentru toate tipurile de materiale.",
+  "hq": true,
+  "hidden": true
+ },
+ {
+  "id": "luhluh-lm-5x-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "LUHLUH",
+  "name": "LM-5X Pro",
+  "note": "Mașină de frezat 5 axe, uscat/umed",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe pentru frezare uscată, umedă sau combinată: zirconiu, vitroceramică, PMMA, compozit, ceară și, opțional, CoCr. Garanție 2 ani.",
+  "hq": true,
+  "keys": [
+   [
+    "±0,005 mm",
+    "precizie"
+   ],
+   [
+    "60.000",
+    "rpm"
+   ],
+   [
+    "8",
+    "scule"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Curse",
+      "X 100 / Y 100 / Z 60 mm, A ± 30°, C 360°"
+     ],
+     [
+      "Ax principal",
+      "max. 60.000 rpm, 1,5 kW"
+     ],
+     [
+      "Precizie de poziționare",
+      "± 0,005 mm"
+     ],
+     [
+      "Magazie",
+      "8 scule, schimbare ≤ 8 s"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, vitroceramică, PMMA, compozit, ceară, CoCr (opțional)"
+     ],
+     [
+      "Control",
+      "LUHLUH MotionStudio, STL/STEP"
+     ],
+     [
+      "Dimensiuni",
+      "850 × 780 × 1100 mm"
+     ],
+     [
+      "Greutate",
+      "circa 180 kg"
+     ],
+     [
+      "Garanție",
+      "2 ani"
+     ]
+    ]
+   }
+  ],
+  "hidden": true
+ },
+ {
   "id": "up3d-iron-core-i5-pro",
   "seg": "laborator",
   "cat": "frezare",
   "sub": "wet",
   "brand": "UP3D",
   "name": "IRON CORE i5 PRO",
-  "note": "Freză pentru metal",
+  "note": "Mașină de frezat metal, 5 axe",
   "price": "",
-  "photo": false,
-  "desc": "Freză pentru metal. Echipament UP3D pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "up3d-p55d",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "UP3D",
-  "name": "P55D",
-  "note": "Freză 5 axe, umed și uscat",
-  "price": "",
-  "photo": false,
-  "desc": "Freză 5 axe, umed și uscat. Echipament UP3D pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe pentru lucru greu cu metal: batiu din fontă, ax principal de 2,5 kW răcit cu apă și servo inteligent, pentru frezarea stabilă a titanului în laboratoarele de implantologie.",
+  "hq": true,
+  "keys": [
+   [
+    "2,5 kW",
+    "ax principal"
+   ],
+   [
+    "18",
+    "scule"
+   ],
+   [
+    "500 kg",
+    "fontă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Bloc",
+      "max. 40 × 20 × 20 mm"
+     ],
+     [
+      "Disc",
+      "ø 98,5 mm, 10–30 mm"
+     ],
+     [
+      "Indicații",
+      "Coroane și punți anatomice, coroane înșurubate, inlay/onlay, fațete, bonturi individuale, bare, bonturi angulate, schelete pe implant"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Batiu",
+      "Fontă masivă"
+     ],
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Axe rotative",
+      "A 360°, B ± 30°"
+     ],
+     [
+      "Iluminare",
+      "LED în camera de lucru"
+     ],
+     [
+      "Putere",
+      "5,5 kW"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Tip",
+      "Electric de înaltă frecvență, schimbare pneumatică a sculei"
+     ],
+     [
+      "Turație",
+      "max. 60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ],
+     [
+      "Putere",
+      "max. 2,5 kW"
+     ],
+     [
+      "Magazie",
+      "18 scule, măsurare lungime și detectare rupere"
+     ]
+    ]
+   },
+   {
+    "g": "Conectare",
+    "rows": [
+     [
+      "Alimentare",
+      "220 V AC, 50–60 Hz"
+     ],
+     [
+      "Aer comprimat",
+      "0,6–0,9 MPa, 80 l/min"
+     ],
+     [
+      "Date",
+      "Wi-Fi, USB, Ethernet"
+     ],
+     [
+      "Dimensiuni",
+      "660 × 660 × 1750 mm"
+     ],
+     [
+      "Greutate",
+      "500 kg"
+     ],
+     [
+      "Software CAM",
+      "UPCAM, Millbox"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "aidite-cad-cam-milling-bur",
@@ -8476,16 +9622,110 @@
   ]
  },
  {
-  "id": "luhluh-furnaces",
+  "id": "luhluh-f1",
   "seg": "laborator",
   "cat": "sinter",
   "sub": "sint",
   "brand": "LUHLUH",
-  "name": "Furnaces",
-  "note": "Cuptoare de sinterizare",
+  "name": "F1",
+  "note": "Cuptor de sinterizare 1600 °C",
   "price": "",
   "photo": true,
-  "desc": "Cuptoare de sinterizare. Echipament Luhluh pentru tratamentul termic al restaurărilor în laborator.",
+  "desc": "Cuptor de sinterizare cu temperatură maximă 1600 °C, 30 de programe, elemente MoSi₂ și protecții duble la supraîncălzire.",
+  "hq": true,
+  "keys": [
+   [
+    "1600 °C",
+    "temperatură max."
+   ],
+   [
+    "±3 °C",
+    "uniformitate"
+   ],
+   [
+    "30",
+    "programe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Temperatură maximă",
+      "1600 °C"
+     ],
+     [
+      "Uniformitate",
+      "± 3 °C în centrul camerei"
+     ],
+     [
+      "Programe",
+      "30, câte 8 trepte"
+     ],
+     [
+      "Viteză de încălzire",
+      "1–30 °C/min"
+     ],
+     [
+      "Volum cameră",
+      "5 l sau 10 l"
+     ],
+     [
+      "Elemente",
+      "MoSi₂"
+     ],
+     [
+      "Alimentare",
+      "AC 220 V, 50 Hz"
+     ]
+    ]
+   },
+   {
+    "g": "Siguranță",
+    "rows": [
+     [
+      "Supraîncălzire",
+      "Dublă protecție, oprire automată"
+     ],
+     [
+      "Ușă",
+      "Întrerupe încălzirea la deschidere"
+     ],
+     [
+      "Curent",
+      "Protecție la scurgeri, monitorizare împământare"
+     ],
+     [
+      "Pană de curent",
+      "Reia programul de unde s-a oprit"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Volum cameră",
+    "values": [
+     "5 l",
+     "10 l"
+    ]
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "id": "luhluh-lf-1600",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "LUHLUH",
+  "name": "LF-1600",
+  "note": "Cuptor de sinterizare 1600 °C",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor de sinterizare de precizie până la 1600 °C, cu încălzire uniformă, pentru sinterizarea zirconiului și cristalizarea vitroceramicii.",
+  "hq": true,
   "hidden": true
  },
  {
@@ -8653,6 +9893,20 @@
     ]
    }
   ]
+ },
+ {
+  "id": "luhluh-f2",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "cer",
+  "brand": "LUHLUH",
+  "name": "F2",
+  "note": "Cuptor de cristalizare",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor dedicat cristalizării vitroceramicii, cu control precis al temperaturii.",
+  "hq": true,
+  "hidden": true
  },
  {
   "id": "hpdent-plunger",
@@ -9240,16 +10494,31 @@
   ]
  },
  {
-  "id": "luhluh-3d-printer",
+  "id": "luhluh-lp-300",
   "seg": "laborator",
   "cat": "print",
   "sub": "resin",
   "brand": "LUHLUH",
-  "name": "3D Printer",
-  "note": "Imprimantă 3D",
+  "name": "LP-300",
+  "note": "Imprimantă 3D DLP",
   "price": "",
   "photo": true,
-  "desc": "Imprimantă 3D. Produs Luhluh pentru imprimarea 3D dentară.",
+  "desc": "Imprimantă 3D DLP de precizie pentru modele, ghiduri chirurgicale și coroane provizorii.",
+  "hq": true,
+  "hidden": true
+ },
+ {
+  "id": "luhluh-p1",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "LUHLUH",
+  "name": "P1",
+  "note": "Imprimantă 3D DLP",
+  "price": "",
+  "photo": true,
+  "desc": "Imprimantă 3D DLP pentru modele dentare și ghiduri chirurgicale.",
+  "hq": true,
   "hidden": true
  },
  {
@@ -10262,17 +11531,147 @@
   ]
  },
  {
-  "id": "luhluh-desktop-scanner",
+  "id": "luhluh-ls-d100",
   "seg": "laborator",
   "cat": "scan",
   "sub": "scan",
   "brand": "LUHLUH",
-  "name": "Desktop Scanner",
+  "name": "LS-D100",
   "note": "Scaner de laborator",
   "price": "",
   "photo": true,
-  "desc": "Scaner de laborator. Produs Luhluh pentru digitalizarea modelelor în laborator.",
+  "desc": "Scaner de laborator de precizie pentru digitalizare rapidă, cu import și export STL, integrat în fluxul CAD/CAM al laboratorului.",
+  "hq": true,
   "hidden": true
+ },
+ {
+  "id": "luhluh-s1",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "scan",
+  "brand": "LUHLUH",
+  "name": "S1",
+  "note": "Scaner de laborator",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner de masă cu calibrare automată, pentru modele, amprente și articulatoare. Export STL, PLY, OBJ și API deschis.",
+  "hq": true,
+  "keys": [
+   [
+    "0,02 mm",
+    "precizie"
+   ],
+   [
+    "1,5 mil.",
+    "puncte/s"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Precizie",
+      "0,02 mm"
+     ],
+     [
+      "Viteză",
+      "1,5 milioane de puncte/s"
+     ],
+     [
+      "Calibrare automată",
+      "Da"
+     ],
+     [
+      "Zgomot de date",
+      "< 0,05%"
+     ],
+     [
+      "Zonă de scanare",
+      "200 × 200 × 150 mm"
+     ],
+     [
+      "Formate",
+      "STL, PLY, OBJ"
+     ]
+    ]
+   }
+  ],
+  "hidden": true
+ },
+ {
+  "id": "up3d-up560hd",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "scan",
+  "brand": "UP3D",
+  "name": "UP560HD",
+  "note": "Scaner de laborator",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner de laborator cu precizie de 4 μm, două camere de 5 MP și scanare în 10 secunde; scanează modele nesecționate, rășină, ceară și metal. Sistem deschis, compatibil exocad, 3Shape și Dental Wings.",
+  "hq": true,
+  "keys": [
+   [
+    "4 μm",
+    "precizie"
+   ],
+   [
+    "2 × 5 MP",
+    "camere"
+   ],
+   [
+    "10 s",
+    "scanare"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "298 × 304 × 543 mm"
+     ],
+     [
+      "Greutate",
+      "10 kg"
+     ],
+     [
+      "Precizie",
+      "4 μm"
+     ],
+     [
+      "Proiecție",
+      "Lumină albastră, scanare color"
+     ],
+     [
+      "Conexiune",
+      "USB 3.0"
+     ],
+     [
+      "Formate",
+      "STL, PLY, OBJ"
+     ],
+     [
+      "Alimentare",
+      "AC 100–240 V, 50/60 Hz"
+     ],
+     [
+      "Axe",
+      "2"
+     ],
+     [
+      "Sistem",
+      "Deschis"
+     ],
+     [
+      "Funcții",
+      "Scanare model nesecționat, fără contact"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "shining-3d-autoscan-ds-ex-pro-c",
@@ -10301,30 +11700,56 @@
   "hidden": true
  },
  {
-  "id": "up3d-up560",
+  "id": "up3d-ai-design",
   "seg": "laborator",
   "cat": "scan",
-  "sub": "scan",
+  "sub": "soft",
   "brand": "UP3D",
-  "name": "UP560",
-  "note": "Scaner de laborator",
+  "name": "UP3D AI Design",
+  "note": "Design de coroane cu inteligență artificială",
   "price": "",
-  "photo": false,
-  "desc": "Scaner de laborator. Produs UP3D pentru digitalizarea modelelor în laborator.",
-  "hidden": true
+  "photo": true,
+  "desc": "Serviciu online UP3D care generează automat coroane din modelele scanate, recunoscând linia coletului și poziția restaurării.",
+  "hq": true
  },
  {
-  "id": "up3d-up560hd",
+  "id": "up3d-upcad",
   "seg": "laborator",
   "cat": "scan",
-  "sub": "scan",
+  "sub": "soft",
   "brand": "UP3D",
-  "name": "UP560HD",
-  "note": "Scaner de laborator",
+  "name": "UPCAD",
+  "note": "Software de design dentar",
   "price": "",
-  "photo": false,
-  "desc": "Scaner de laborator. Produs UP3D pentru digitalizarea modelelor în laborator.",
-  "hidden": true
+  "photo": true,
+  "desc": "Software CAD UP3D pentru designul restaurărilor protetice în laborator și cabinet.",
+  "hq": true
+ },
+ {
+  "id": "up3d-upcam",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "soft",
+  "brand": "UP3D",
+  "name": "UPCAM",
+  "note": "Software CAM pentru frezare",
+  "price": "",
+  "photo": true,
+  "desc": "Software CAM UP3D pentru aranjarea și generarea traseelor de frezare pe mașinile UP3D; licență globală inclusă la mașini.",
+  "hq": true
+ },
+ {
+  "id": "up3d-upcnc",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "soft",
+  "brand": "UP3D",
+  "name": "UPCNC",
+  "note": "Software de control al mașinii de frezat",
+  "price": "",
+  "photo": true,
+  "desc": "Software de control pentru mașinile de frezat UP3D: gestionarea lucrărilor, a sculelor și a stării mașinii.",
+  "hq": true
  },
  {
   "id": "shining-3d-accudesign",
@@ -10337,19 +11762,6 @@
   "price": "",
   "photo": false,
   "desc": "Software de design. Produs Shining 3D pentru digitalizarea modelelor în laborator.",
-  "hidden": true
- },
- {
-  "id": "up3d-software-de-design-cu-ai",
-  "seg": "laborator",
-  "cat": "scan",
-  "sub": "soft",
-  "brand": "UP3D",
-  "name": "Software de design cu AI",
-  "note": "CAD dentar",
-  "price": "",
-  "photo": false,
-  "desc": "CAD dentar. Produs UP3D pentru digitalizarea modelelor în laborator.",
   "hidden": true
  },
  {
