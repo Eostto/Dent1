@@ -10069,19 +10069,6 @@
   ]
  },
  {
-  "id": "zotion-t20w-e",
-  "seg": "cabinet",
-  "cat": "digital",
-  "sub": "mill",
-  "brand": "ZOTION",
-  "name": "T20W-E",
-  "note": "Freză chairside umedă, 5 axe",
-  "price": "",
-  "photo": true,
-  "desc": "Freză chairside umedă, 5 axe. Soluție digitală Zotion pentru fluxul de lucru chairside.",
-  "hidden": true
- },
- {
   "id": "cybermed-in2guide",
   "seg": "cabinet",
   "cat": "digital",
@@ -10676,12 +10663,45 @@
   "cat": "ceramica",
   "sub": "bloc",
   "brand": "ZOTION",
-  "name": "Glass Ceramic",
-  "note": "Blocuri vitroceramice",
+  "name": "Zotion Lithium Disilicate Blocks",
+  "note": "Blocuri vitroceramică CAD/CAM",
   "price": "",
   "photo": true,
-  "desc": "Blocuri vitroceramice. Material Zotion pentru restaurări ceramice în laborator.",
-  "hidden": true
+  "desc": "Blocuri de disilicat de litiu pentru CAD/CAM, translucență HT/LT, pentru coroane, fațete și inlay/onlay.",
+  "hq": true,
+  "keys": [
+   [
+    "HT",
+    "LT"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "B1",
+     "BL"
+    ]
+   },
+   {
+    "label": "Translucență",
+    "values": [
+     "HT",
+     "LT"
+    ]
+   },
+   {
+    "label": "Mărime",
+    "values": [
+     "C14",
+     "B40"
+    ]
+   }
+  ]
  },
  {
   "id": "hass-amber-press",
@@ -12386,17 +12406,352 @@
   "hidden": true
  },
  {
-  "id": "zotion-zirconia-block",
+  "id": "zotion-zirconia-3d-multilayer",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "zr",
   "brand": "ZOTION",
-  "name": "Zirconia Block",
-  "note": "Blocuri de zirconiu",
+  "name": "Zotion Zirconia 3D Multilayer ATM",
+  "note": "Zirconiu multistrat cu gradient",
   "price": "",
   "photo": true,
-  "desc": "Blocuri de zirconiu. Material Zotion pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "desc": "Disc multistrat 3D cu gradient de culoare și rezistență, pentru restaurări estetice anterioare și posterioare.",
+  "hq": true,
+  "keys": [
+   [
+    "900–1200 MPa",
+    "rezistență"
+   ],
+   [
+    "45–57%",
+    "translucență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tip",
+      "ZrO₂ stabilizat cu ytriu"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "900–1200 MPa"
+     ],
+     [
+      "Translucență",
+      "45–57%"
+     ],
+     [
+      "Sinterizare",
+      "1450–1530 °C"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru",
+    "values": [
+     "98 mm",
+     "95 mm (AG)",
+     "Bloc CEREC"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "10",
+     "12",
+     "14",
+     "16",
+     "18",
+     "20",
+     "22",
+     "25"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "C1",
+     "C2",
+     "D2",
+     "BL",
+     "White"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-zirconia-ht",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "ZOTION",
+  "name": "Zotion Zirconia HT",
+  "note": "Zirconiu High Translucent",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu HT pentru restaurări monolitice cu translucență ridicată.",
+  "hq": true,
+  "keys": [
+   [
+    "1100 MPa",
+    "rezistență"
+   ],
+   [
+    "49%",
+    "translucență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tip",
+      "ZrO₂ stabilizat cu ytriu"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "1100 MPa"
+     ],
+     [
+      "Translucență",
+      "49%"
+     ],
+     [
+      "Sinterizare",
+      "1450–1530 °C"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru",
+    "values": [
+     "98 mm",
+     "95 mm (AG)",
+     "Bloc CEREC"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "10",
+     "12",
+     "14",
+     "16",
+     "18",
+     "20",
+     "22",
+     "25"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "C1",
+     "C2",
+     "D2",
+     "BL",
+     "White"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-zirconia-st",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "ZOTION",
+  "name": "Zotion Zirconia ST",
+  "note": "Zirconiu alb, rezistență mare",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu ST (Super Translucent) pentru coroane și punți posterioare și schelete lungi.",
+  "hq": true,
+  "keys": [
+   [
+    "1200 MPa",
+    "rezistență"
+   ],
+   [
+    "43%",
+    "translucență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tip",
+      "ZrO₂ stabilizat cu ytriu"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "1200 MPa"
+     ],
+     [
+      "Translucență",
+      "43%"
+     ],
+     [
+      "Sinterizare",
+      "1450–1530 °C"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru",
+    "values": [
+     "98 mm",
+     "95 mm (AG)",
+     "Bloc CEREC"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "10",
+     "12",
+     "14",
+     "16",
+     "18",
+     "20",
+     "22",
+     "25"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "C1",
+     "C2",
+     "D2",
+     "BL",
+     "White"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-zirconia-stc",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "ZOTION",
+  "name": "Zotion Zirconia STC preshaded",
+  "note": "Zirconiu precolorat",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu precolorat (preshaded) — nu necesită colorare după frezare.",
+  "hq": true,
+  "keys": [
+   [
+    "1100 MPa",
+    "rezistență"
+   ],
+   [
+    "45%",
+    "translucență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tip",
+      "ZrO₂ stabilizat cu ytriu"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "1100 MPa"
+     ],
+     [
+      "Translucență",
+      "45%"
+     ],
+     [
+      "Sinterizare",
+      "1450–1530 °C"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru",
+    "values": [
+     "98 mm",
+     "95 mm (AG)",
+     "Bloc CEREC"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "10",
+     "12",
+     "14",
+     "16",
+     "18",
+     "20",
+     "22",
+     "25"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "C1",
+     "C2",
+     "D2",
+     "BL",
+     "White"
+    ]
+   }
+  ]
  },
  {
   "id": "aidite-coloring-liquid",
@@ -12532,17 +12887,102 @@
   "hidden": true
  },
  {
-  "id": "zotion-pmma-block",
+  "id": "zotion-flexible-resin",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "pmma",
   "brand": "ZOTION",
-  "name": "PMMA Block",
-  "note": "Discuri PMMA",
+  "name": "Zotion Flexible Resin",
+  "note": "Rășină flexibilă pentru proteze",
   "price": "",
   "photo": true,
-  "desc": "Discuri PMMA. Material Zotion pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "desc": "Disc din rășină flexibilă pentru proteze parțiale flexibile și baze de proteză.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Natural",
+     "Pink"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-pmma",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "pmma",
+  "brand": "ZOTION",
+  "name": "Zotion PMMA Disc",
+  "note": "PMMA monocolor, provizorii",
+  "price": "",
+  "photo": true,
+  "desc": "Disc PMMA pentru coroane și punți provizorii, modele și ghiduri, ø 98 mm.",
+  "hq": true,
+  "keys": [
+   [
+    "98 mm",
+    "disc"
+   ]
+  ],
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Clear",
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "Pink"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "14",
+     "16",
+     "18",
+     "20",
+     "25"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-pmma-multilayer",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "pmma",
+  "brand": "ZOTION",
+  "name": "Zotion PMMA Multilayer",
+  "note": "PMMA multistrat",
+  "price": "",
+  "photo": true,
+  "desc": "Disc PMMA multistrat cu gradient de culoare pentru provizorii estetice de lungă durată.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "B1"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "14",
+     "16",
+     "18",
+     "20",
+     "25"
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-peek",
@@ -12618,30 +13058,75 @@
   "hidden": true
  },
  {
-  "id": "zotion-peek-blank",
+  "id": "zotion-peek",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "wax",
   "brand": "ZOTION",
-  "name": "PEEK Blank",
-  "note": "Discuri PEEK",
+  "name": "Zotion PEEK Blank",
+  "note": "Disc PEEK pentru proteze pe implant",
   "price": "",
   "photo": true,
-  "desc": "Discuri PEEK. Material Zotion pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "desc": "Disc PEEK de înaltă performanță pentru schelete de proteze, bare și suprastructuri pe implant; ușor și biocompatibil.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Alb",
+     "Natural",
+     "Gălbui",
+     "Gingival"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "14",
+     "16",
+     "18",
+     "20",
+     "25"
+    ]
+   }
+  ]
  },
  {
-  "id": "zotion-wax-blank",
+  "id": "zotion-wax",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "wax",
   "brand": "ZOTION",
-  "name": "Wax Blank",
-  "note": "Discuri de ceară",
+  "name": "Zotion Wax Blank",
+  "note": "Disc de ceară CAD/CAM",
   "price": "",
   "photo": true,
-  "desc": "Discuri de ceară. Material Zotion pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "desc": "Disc de ceară pentru frezare CAD/CAM și turnare, ardere fără reziduu, ø 98 mm.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Albastru",
+     "Verde",
+     "Alb",
+     "Gri",
+     "Bej"
+    ]
+   },
+   {
+    "label": "Grosime (mm)",
+    "values": [
+     "10",
+     "12",
+     "14",
+     "16",
+     "18",
+     "20",
+     "25"
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-euphon",
@@ -13998,12 +14483,99 @@
   "cat": "frezare",
   "sub": "dry",
   "brand": "ZOTION",
-  "name": "C5",
-  "note": "Freză uscată",
+  "name": "ZOTION C5",
+  "note": "Freză uscată 5 axe, zirconiu/PMMA/ceară/PEEK",
   "price": "",
   "photo": true,
-  "desc": "Freză uscată. Echipament Zotion pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
+  "desc": "Mașină de frezat uscat în 5 axe pentru laborator: zirconiu, PMMA, ceară, PEEK și compozit, cu schimbător automat de scule și repetabilitate de 0,005 mm.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "0,005 mm",
+    "repetabilitate"
+   ],
+   [
+    "Disc",
+    "98 mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Lucru",
+    "rows": [
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară, PEEK, compozit"
+     ],
+     [
+      "Disc",
+      "ø 98 mm"
+     ],
+     [
+      "Mod",
+      "Uscat"
+     ],
+     [
+      "Repetabilitate",
+      "± 0,005 mm"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-t20d-e",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "ZOTION",
+  "name": "ZOTION T20D-E",
+  "note": "Freză uscată 5 axe CAD/CAM",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe pentru zirconiu, PMMA, ceară și PEEK, ecran tactil, magazie automată de scule, construcție rigidă pentru frezare precisă.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "Dry",
+    "mod"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Lucru",
+    "rows": [
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară, PEEK"
+     ],
+     [
+      "Disc",
+      "ø 98 mm"
+     ],
+     [
+      "Mod",
+      "Uscat"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-w52",
@@ -15056,6 +15628,94 @@
   ]
  },
  {
+  "id": "zotion-titanium-5-axis",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "ZOTION",
+  "name": "ZOTION 5 Axis Wet – Titan",
+  "note": "Freză umedă pentru bonturi premill din titan",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed în 5 axe pentru laborator, dedicată bonturilor premill din titan și vitroceramicii, cu răcire cu lichid și batiu stabil.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "Ti",
+    "premill"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Lucru",
+    "rows": [
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Materiale",
+      "Titan premill, vitroceramică"
+     ],
+     [
+      "Mod",
+      "Umed"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-t20w-e",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "ZOTION",
+  "name": "ZOTION T20W-E",
+  "note": "Freză umedă 5 axe chairside",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed în 5 axe, chairside, pentru vitroceramică (disilicat de litiu), compozit și bonturi premill din titan.",
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "Wet",
+    "mod"
+   ],
+   [
+    "Ti",
+    "premill"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Lucru",
+    "rows": [
+     [
+      "Axe",
+      "5"
+     ],
+     [
+      "Materiale",
+      "Vitroceramică, disilicat de litiu, compozit, titan premill"
+     ],
+     [
+      "Mod",
+      "Umed"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "aidite-cad-cam-milling-bur",
   "seg": "laborator",
   "cat": "frezare",
@@ -15097,17 +15757,57 @@
   "hidden": true
  },
  {
-  "id": "zotion-dental-vacuum-cleaner",
+  "id": "zotion-vacuum-cleaner",
   "seg": "laborator",
   "cat": "frezare",
   "sub": "acc",
   "brand": "ZOTION",
-  "name": "Dental Vacuum Cleaner",
-  "note": "Aspirator pentru freză",
+  "name": "ZOTION Dental Vacuum Cleaner",
+  "note": "Aspirator pentru freze CAD/CAM",
   "price": "",
   "photo": true,
-  "desc": "Aspirator pentru freză. Echipament Zotion pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
+  "desc": "Aspirator de laborator pentru mașini de frezat CAD/CAM: colectează praful de zirconiu și ceramică, 1200 W, cu filtru și curățare automată.",
+  "hq": true,
+  "keys": [
+   [
+    "1200 W",
+    "putere"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Putere",
+      "1200 W"
+     ],
+     [
+      "Utilizare",
+      "Freze CAD/CAM, praf de zirconiu"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zotion-vacuum-cabinet",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "acc",
+  "brand": "ZOTION",
+  "name": "ZOTION Dust Extractor",
+  "note": "Unitate de extracție praf",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate compactă de extracție a prafului pentru frezele CAD/CAM de laborator, cu pornire sincronizată cu mașina.",
+  "hq": true,
+  "keys": [
+   [
+    "CAD/CAM",
+    "compatibil"
+   ]
+  ]
  },
  {
   "id": "aidite-agt-s-agt-l",
@@ -15850,17 +16550,88 @@
   "hidden": true
  },
  {
+  "id": "zotion-f1",
+  "seg": "laborator",
+  "cat": "sinter",
+  "sub": "sint",
+  "brand": "ZOTION",
+  "name": "ZOTION F1",
+  "note": "Cuptor sinterizare rapidă zirconiu",
+  "price": "",
+  "photo": true,
+  "desc": "Cuptor de sinterizare pentru zirconiu cu ecran tactil separat, program rapid și programe convenționale, elemente MoSi₂.",
+  "hq": true,
+  "keys": [
+   [
+    "1650 °C",
+    "max."
+   ],
+   [
+    "MoSi₂",
+    "încălzire"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Temperatură max.",
+      "1650 °C"
+     ],
+     [
+      "Elemente",
+      "MoSi₂"
+     ],
+     [
+      "Control",
+      "Ecran tactil"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "zotion-f2",
   "seg": "laborator",
   "cat": "sinter",
   "sub": "sint",
   "brand": "ZOTION",
-  "name": "F2",
-  "note": "Cuptor de sinterizare rapidă, economic",
+  "name": "ZOTION F2",
+  "note": "Cuptor sinterizare economic",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de sinterizare rapidă, economic. Echipament Zotion pentru tratamentul termic al restaurărilor în laborator.",
-  "hidden": true
+  "desc": "Cuptor economic de sinterizare rapidă a zirconiului, rată de încălzire până la 100 °C/min, programe rapide și lente.",
+  "hq": true,
+  "keys": [
+   [
+    "100 °C",
+    "/min"
+   ],
+   [
+    "1650 °C",
+    "max."
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Temperatură max.",
+      "1650 °C"
+     ],
+     [
+      "Rată încălzire",
+      "până la 100 °C/min"
+     ],
+     [
+      "Elemente",
+      "MoSi₂"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "zotion-f3",
@@ -15868,12 +16639,41 @@
   "cat": "sinter",
   "sub": "sint",
   "brand": "ZOTION",
-  "name": "F3",
-  "note": "Cuptor de sinterizare rapidă",
+  "name": "ZOTION F3",
+  "note": "Cuptor sinterizare rapidă",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de sinterizare rapidă. Echipament Zotion pentru tratamentul termic al restaurărilor în laborator.",
-  "hidden": true
+  "desc": "Cuptor de sinterizare rapidă pentru zirconiu, pentru laboratoare: coroane și punți sinterizate în aprox. 25 de minute, fără poluare.",
+  "hq": true,
+  "keys": [
+   [
+    "25 min",
+    "rapid"
+   ],
+   [
+    "1650 °C",
+    "max."
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Temperatură max.",
+      "1650 °C"
+     ],
+     [
+      "Sinterizare rapidă",
+      "≈ 25 min"
+     ],
+     [
+      "Elemente",
+      "MoSi₂"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "aidite-cfp-200",
