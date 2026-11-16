@@ -8,7 +8,7 @@
   });
   var start = (function (DATA) {
   'use strict';
-  var P = DATA.products, CATS = DATA.cats, BR = DATA.brands;
+  var P = DATA.products.filter(function (p) { return !p.hidden; }), CATS = DATA.cats, BR = DATA.brands;
   var byId = {}; P.forEach(function (p) { byId[p.id] = p; });
   var catById = {}; CATS.forEach(function (c) { catById[c.id] = c; });
   var app = document.getElementById('app');
@@ -61,6 +61,7 @@
   };
   function firstPhoto(catId) { var x = catProducts(catId).filter(function (p) { return p.photo; })[0]; return x ? img(x) : ''; }
   function home() {
+    if (!P.length) { app.innerHTML = '<section class="wrap section" style="padding-bottom:80px"><h1 style="font-size:clamp(32px,4vw,52px)">Catalogul se actualizează</h1><p class="muted" style="max-width:560px">Adăugăm produsele pe rând. Între timp, sună la <a href="tel:+37379663311">079 66 33 11</a> sau scrie la <a href="mailto:dentonemd@gmail.com">dentonemd@gmail.com</a> și îți facem oferta.</p><p><a class="btn lime" href="#/contact">Cere o ofertă</a></p></section>'; return; }
     var seg = state.seg, cats = segCats(seg);
     var side = cats.map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></a>'; }).join('');
     var hero = seg === 'cabinet'
