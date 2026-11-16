@@ -9933,8 +9933,7 @@
   "price": "104.500",
   "photo": true,
   "desc": "Imprimantă 3D LCD pentru rășină, rapidă și precisă, pentru modele și piese dentare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "aidite-cpd-100",
@@ -10533,7 +10532,88 @@
   "photo": true,
   "desc": "Imprimantă 3D DLP cu calibrare automată, pentru piese de rășină precise în laboratorul dentar.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "30 μm",
+    "precizie"
+   ],
+   [
+    "DLP",
+    "385 nm"
+   ],
+   [
+    "20 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Tehnologie",
+      "DLP"
+     ],
+     [
+      "Volum (cuvă mare)",
+      "130 × 70 × 120 mm"
+     ],
+     [
+      "Volum (cuvă mică)",
+      "60 × 60 × 120 mm"
+     ],
+     [
+      "Rezoluție",
+      "1920 × 1080"
+     ],
+     [
+      "Precizie",
+      "30 μm"
+     ],
+     [
+      "Lungime de undă",
+      "385 nm"
+     ],
+     [
+      "Viteză",
+      "1–6 s/strat"
+     ],
+     [
+      "Strat",
+      "0,01–0,2 mm"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Ecran",
+      "Tactil 7″"
+     ],
+     [
+      "Alimentare",
+      "100–240 V, 50/60 Hz"
+     ],
+     [
+      "Putere",
+      "300 W"
+     ],
+     [
+      "Dimensiuni",
+      "420 × 320 × 500 mm"
+     ],
+     [
+      "Greutate",
+      "20 kg"
+     ],
+     [
+      "Conexiune",
+      "Wireless, USB"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-rxdent-l130-ultra",
@@ -10547,7 +10627,88 @@
   "photo": true,
   "desc": "Imprimantă 3D LCD pentru modele, ghiduri chirurgicale, gutiere și baze de proteză.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "34 μm",
+    "pixel"
+   ],
+   [
+    "LCD",
+    "385 nm"
+   ],
+   [
+    "20 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Tehnologie",
+      "LCD"
+     ],
+     [
+      "Lungime de undă",
+      "385 nm"
+     ],
+     [
+      "Rezoluție",
+      "3840 × 2400"
+     ],
+     [
+      "Pixel",
+      "34 μm"
+     ],
+     [
+      "Strat",
+      "0,01–0,2 mm"
+     ],
+     [
+      "Volum (cuvă mare)",
+      "130 × 80 × 110 mm"
+     ],
+     [
+      "Volum (cuvă mică)",
+      "60 × 60 × 110 mm"
+     ],
+     [
+      "Viteză",
+      "1–8 s/strat"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Ecran",
+      "Tactil 5″"
+     ],
+     [
+      "Conexiune",
+      "Wi-Fi, USB"
+     ],
+     [
+      "Alimentare",
+      "100–240 V"
+     ],
+     [
+      "Putere",
+      "300 W"
+     ],
+     [
+      "Dimensiuni",
+      "320 × 420 × 500 mm"
+     ],
+     [
+      "Greutate",
+      "20 kg"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "shining-3d-accufab-aris",
@@ -10617,7 +10778,93 @@
   "photo": true,
   "desc": "Imprimantă 3D SLM pentru metal, laser cu fibră de 500 W, zonă de lucru Ø 150 mm, pentru schelete CoCr și titan.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "≤ 500 W",
+    "laser"
+   ],
+   [
+    "200",
+    "coroane / 4,5 h"
+   ],
+   [
+    "ø150×140",
+    "zonă, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Laser",
+      "Fibră, unul singur, ≤ 500 W fiecare"
+     ],
+     [
+      "Lungime de undă",
+      "1,064 μm"
+     ],
+     [
+      "Viteză de scanare",
+      "≤ 14.000 mm/s"
+     ],
+     [
+      "Zonă de topire",
+      "ø 150 × 140 mm, cu platformă"
+     ],
+     [
+      "Strat",
+      "20–60 μm"
+     ],
+     [
+      "Gaz protector",
+      "Azot sau argon"
+     ],
+     [
+      "Productivitate",
+      "200 de coroane sau 17 schelete în 4,5 h"
+     ],
+     [
+      "Materiale",
+      "CoCr, titan"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "3 kW, 220 V"
+     ],
+     [
+      "Greutate",
+      "500 kg"
+     ],
+     [
+      "Dimensiuni",
+      "780 × 950 × 1660 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Mediu",
+    "rows": [
+     [
+      "Temperatură",
+      "15–35 °C"
+     ],
+     [
+      "Umiditate",
+      "≤ 95%"
+     ],
+     [
+      "Vibrații",
+      "Fără"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-metal-3d-printer-m-150-dual",
@@ -10631,7 +10878,93 @@
   "photo": true,
   "desc": "Imprimantă 3D SLM pentru metal cu două lasere de 500 W, zonă de lucru Ø 150 mm, pentru productivitate dublă.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "≤ 500 W",
+    "laser"
+   ],
+   [
+    "200",
+    "coroane / 4,5 h"
+   ],
+   [
+    "ø150×140",
+    "zonă, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Laser",
+      "Fibră, două, ≤ 500 W fiecare"
+     ],
+     [
+      "Lungime de undă",
+      "1,064 μm"
+     ],
+     [
+      "Viteză de scanare",
+      "≤ 14.000 mm/s"
+     ],
+     [
+      "Zonă de topire",
+      "ø 150 × 140 mm, cu platformă"
+     ],
+     [
+      "Strat",
+      "20–60 μm"
+     ],
+     [
+      "Gaz protector",
+      "Azot sau argon"
+     ],
+     [
+      "Productivitate",
+      "200 de coroane sau 17 schelete în 4,5 h"
+     ],
+     [
+      "Materiale",
+      "CoCr, titan"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "3 kW, 220 V"
+     ],
+     [
+      "Greutate",
+      "500 kg"
+     ],
+     [
+      "Dimensiuni",
+      "780 × 950 × 1660 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Mediu",
+    "rows": [
+     [
+      "Temperatură",
+      "15–35 °C"
+     ],
+     [
+      "Umiditate",
+      "≤ 95%"
+     ],
+     [
+      "Vibrații",
+      "Fără"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-m-200d",
@@ -10645,7 +10978,93 @@
   "photo": true,
   "desc": "Imprimantă 3D SLM cu două lasere și monitorizare inteligentă, pentru producție de serie în laborator.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "2 × 500 W",
+    "lasere"
+   ],
+   [
+    "430",
+    "coroane / 5,5 h"
+   ],
+   [
+    "220×150×140",
+    "zonă, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Laser",
+      "Fibră, două, ≤ 500 W fiecare"
+     ],
+     [
+      "Lungime de undă",
+      "1,064 μm"
+     ],
+     [
+      "Viteză",
+      "≤ 14.000 mm/s"
+     ],
+     [
+      "Zonă de topire",
+      "220 × 150 × 140 mm"
+     ],
+     [
+      "Strat",
+      "20–60 μm"
+     ],
+     [
+      "Gaz protector",
+      "Azot sau argon"
+     ],
+     [
+      "Productivitate",
+      "430 de coroane sau 35 de schelete parțiale în 5,5 h"
+     ],
+     [
+      "Materiale",
+      "CoCr, titan (cu glove box și circulație anti-explozie)"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "4 kW, 220 V"
+     ],
+     [
+      "Greutate",
+      "680 kg"
+     ],
+     [
+      "Dimensiuni",
+      "1000 × 1650 × 750 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Mediu",
+    "rows": [
+     [
+      "Temperatură",
+      "15–35 °C"
+     ],
+     [
+      "Umiditate",
+      "≤ 95%"
+     ],
+     [
+      "Vibrații",
+      "Fără"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-mcube",
@@ -10659,7 +11078,77 @@
   "photo": true,
   "desc": "Imprimantă 3D desktop SLM pentru metal cu alimentare de jos, pentru schelete CoCr și titan.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "ø100×80",
+    "zonă, mm"
+   ],
+   [
+    "300/500 W",
+    "laser"
+   ],
+   [
+    "220 V",
+    "fără răcitor"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Volum",
+      "ø 100 × 80 mm"
+     ],
+     [
+      "Laser",
+      "Fibră single-mode, 300 W sau 500 W"
+     ],
+     [
+      "Strat",
+      "20–60 μm"
+     ],
+     [
+      "Atmosferă",
+      "Cameră etanșă cu oxigen redus"
+     ],
+     [
+      "Materiale",
+      "CoCr, titan, oțel inoxidabil și alte pulberi"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Control",
+      "Aranjare inteligentă și compensarea deformării"
+     ],
+     [
+      "Alimentare",
+      "220 V, răcire cu aer, fără răcitor cu apă"
+     ],
+     [
+      "Dimensiuni",
+      "630 × 640 × 870 mm"
+     ],
+     [
+      "Greutate",
+      "140 kg"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Laser",
+    "values": [
+     "300 W",
+     "500 W"
+    ]
+   }
+  ]
  },
  {
   "id": "riton-mlab",
@@ -10673,7 +11162,93 @@
   "photo": true,
   "desc": "Imprimantă 3D desktop pentru metal, cu tehnologie SLM, pentru laboratoare care încep producția de schelete metalice.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "250 W",
+    "laser"
+   ],
+   [
+    "100",
+    "coroane / 2,5 h"
+   ],
+   [
+    "150 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Laser",
+      "Fibră, unul singur, 250 W"
+     ],
+     [
+      "Viteză de scanare",
+      "max. 11.200 mm/s"
+     ],
+     [
+      "Zonă de topire",
+      "ø 100 × 90 mm, cu platformă"
+     ],
+     [
+      "Strat",
+      "20–60 μm"
+     ],
+     [
+      "Gaz protector",
+      "Azot sau argon"
+     ],
+     [
+      "Productivitate",
+      "100 de coroane sau 7 schelete în 2,5 h"
+     ],
+     [
+      "Materiale",
+      "CoCr, titan"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Greutate",
+      "150 kg"
+     ],
+     [
+      "Dimensiuni",
+      "610 × 615 × 890 mm"
+     ],
+     [
+      "Sistem de circulație",
+      "410 × 620 × 840 mm"
+     ],
+     [
+      "Alimentare",
+      "220 V"
+     ]
+    ]
+   },
+   {
+    "g": "Mediu",
+    "rows": [
+     [
+      "Temperatură",
+      "15–35 °C"
+     ],
+     [
+      "Umiditate",
+      "≤ 95%"
+     ],
+     [
+      "Vibrații",
+      "Fără"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "riton-resin-riton-dental-model",
@@ -10686,8 +11261,7 @@
   "price": "4.500",
   "photo": true,
   "desc": "Rășină pentru imprimarea 3D a modelelor dentare, rezistentă la căldură și rapidă la printare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-riton-temporar",
@@ -10700,8 +11274,7 @@
   "price": "7.500",
   "photo": true,
   "desc": "Rășină pentru provizorii. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-riton-v3",
@@ -10714,8 +11287,7 @@
   "price": "2.500",
   "photo": true,
   "desc": "Rășină. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "aidite-model-resin-almond",
@@ -10954,8 +11526,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină calcinabilă. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-crown-bridge",
@@ -10968,8 +11539,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină pentru coroane și punți, cu până la 55% nanoumplutură, în nuanțele A1–BL1.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-denture-base",
@@ -10982,8 +11552,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină roz biocompatibilă, fără miros, pentru baze de proteză totală.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-denture-teeth",
@@ -10996,8 +11565,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină pentru dinți. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-gingiva-mask",
@@ -11010,8 +11578,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină roz pentru măști gingivale cu aspect anatomic.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-ibt",
@@ -11024,8 +11591,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină pentru chei de lipire. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-splint",
@@ -11038,8 +11604,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină transparentă pentru gutiere ocluzale flexibile și protecții de noapte.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-surgical-guide",
@@ -11052,8 +11617,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină transparentă dentară pentru ghiduri chirurgicale de implantologie.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-tray",
@@ -11066,8 +11630,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină pentru linguri. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-resin-try-in",
@@ -11080,8 +11643,7 @@
   "price": "",
   "photo": true,
   "desc": "Rășină pentru probă. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-shining-dent-resins",
@@ -11108,7 +11670,16 @@
   "photo": true,
   "desc": "Pulberi metalice pentru imprimare SLM: rezistență mare la tracțiune, coroziune și căldură, aderență bună la ceramică.",
   "hq": true,
-  "hidden": true
+  "options": [
+   {
+    "label": "Aliaj",
+    "values": [
+     "CoCr",
+     "Titan",
+     "NiCr"
+    ]
+   }
+  ]
  },
  {
   "id": "hpdent-speed-3d-resin-cleaner",
@@ -11135,8 +11706,7 @@
   "price": "",
   "photo": true,
   "desc": "Curățarea pieselor printate. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-dly-145w1",
@@ -11149,8 +11719,7 @@
   "price": "",
   "photo": true,
   "desc": "Echipament auxiliar. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-mxq-t011",
@@ -11163,8 +11732,7 @@
   "price": "",
   "photo": true,
   "desc": "Echipament auxiliar. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-rxdent-c260",
@@ -11177,8 +11745,7 @@
   "price": "",
   "photo": true,
   "desc": "Echipament auxiliar. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-rxdent-h500",
@@ -11191,8 +11758,7 @@
   "price": "",
   "photo": true,
   "desc": "Echipament auxiliar. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-fabcure-2",
@@ -11247,8 +11813,7 @@
   "price": "",
   "photo": true,
   "desc": "Detensionarea pieselor metalice printate. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-generator-de-azot",
@@ -11261,8 +11826,7 @@
   "price": "",
   "photo": true,
   "desc": "Pentru imprimantele 3D pentru metal. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-masina-de-lustruit",
@@ -11275,8 +11839,7 @@
   "price": "",
   "photo": true,
   "desc": "Finisarea structurilor metalice. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-mini-fierastrau",
@@ -11289,8 +11852,7 @@
   "price": "",
   "photo": true,
   "desc": "Debitarea pieselor de pe platformă. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-sita-vibratoare",
@@ -11303,8 +11865,7 @@
   "price": "",
   "photo": true,
   "desc": "Recuperarea pulberii metalice. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-wbm-g1",
@@ -11317,8 +11878,7 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de îndoit sârmă. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-wbm-t1",
@@ -11331,8 +11891,7 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de îndoit sârmă. Produs RITON pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-wbm-v2",
@@ -11345,8 +11904,7 @@
   "price": "",
   "photo": true,
   "desc": "Mașină automată de îndoit sârmă ortodontică: arcuri și aparate cu precizie constantă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "aidite-a-is-pro-3",
@@ -12920,5 +13478,96 @@
   "desc": "Lampă de sistem. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "riton-rxdent-l230",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "RITON",
+  "name": "RXDent-L230",
+  "note": "Imprimantă 3D LCD 8K, format mare",
+  "price": "",
+  "photo": true,
+  "hq": true,
+  "desc": "Imprimantă 3D LCD de format mare (228 × 128 × 150 mm) cu rezoluție 8K și precizie de 30 μm, pentru producție de serie: modele, gutiere, ghiduri și provizorii.",
+  "keys": [
+   [
+    "30 μm",
+    "precizie"
+   ],
+   [
+    "8K",
+    "7680 × 4320"
+   ],
+   [
+    "228×128×150",
+    "volum, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Tehnologie",
+      "LCD"
+     ],
+     [
+      "Volum",
+      "228 × 128 × 150 mm"
+     ],
+     [
+      "Rezoluție",
+      "7680 × 4320"
+     ],
+     [
+      "Precizie",
+      "30 μm"
+     ],
+     [
+      "Lungime de undă",
+      "385 nm"
+     ],
+     [
+      "Viteză",
+      "1–8 s/strat"
+     ],
+     [
+      "Strat",
+      "0,01–0,2 mm"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Ecran",
+      "Tactil 5″"
+     ],
+     [
+      "Alimentare",
+      "100–240 V"
+     ],
+     [
+      "Putere",
+      "300 W"
+     ],
+     [
+      "Dimensiuni",
+      "370 × 370 × 530 mm"
+     ],
+     [
+      "Greutate",
+      "30 kg"
+     ],
+     [
+      "Conexiune",
+      "Wireless, USB"
+     ]
+    ]
+   }
+  ]
  }
 ]
