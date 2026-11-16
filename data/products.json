@@ -1124,19 +1124,6 @@
   "hidden": true
  },
  {
-  "id": "deprag-dp-file",
-  "seg": "cabinet",
-  "cat": "endo",
-  "sub": "ace",
-  "brand": "DEPRAG",
-  "name": "DP. File",
-  "note": "Ace endodontice",
-  "price": "",
-  "photo": false,
-  "desc": "Ace endodontice. Produs DEPRAG pentru tratamentul de canal, pentru cabinetul stomatologic.",
-  "hidden": true
- },
- {
   "id": "dsi-endo",
   "seg": "cabinet",
   "cat": "endo",
@@ -1347,11 +1334,11 @@
   "sub": "comp",
   "brand": "DEPRAG",
   "name": "DP. Universal Fill",
-  "note": "Material universal de obturație",
+  "note": "Compozit universal fotopolimerizabil",
   "price": "",
-  "photo": false,
-  "desc": "Material universal de obturație. Material DEPRAG pentru stomatologia restauratoare.",
-  "hidden": true
+  "photo": true,
+  "desc": "Compozit universal fotopolimerizabil pentru restaurări directe anterioare și posterioare.",
+  "hq": true
  },
  {
   "id": "dsi-composites",
@@ -1973,6 +1960,19 @@
   "hidden": true
  },
  {
+  "id": "deprag-dia-burs",
+  "seg": "cabinet",
+  "cat": "freze",
+  "sub": "diam",
+  "brand": "DEPRAG",
+  "name": "Dia-Burs",
+  "note": "Freze diamantate",
+  "price": "",
+  "photo": true,
+  "desc": "Freze diamantate pentru turbină, în forme și granulații uzuale pentru prepararea dinților.",
+  "hq": true
+ },
+ {
   "id": "dsi-burs",
   "seg": "cabinet",
   "cat": "freze",
@@ -2022,19 +2022,6 @@
   "price": "",
   "photo": false,
   "desc": "Freze diamantate. Produs ökoDENT pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
- },
- {
-  "id": "deprag-dp-burs",
-  "seg": "cabinet",
-  "cat": "freze",
-  "sub": "carb",
-  "brand": "DEPRAG",
-  "name": "DP. Burs",
-  "note": "Freze",
-  "price": "",
-  "photo": false,
-  "desc": "Freze. Produs DEPRAG pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
   "hidden": true
  },
  {
@@ -3337,9 +3324,8 @@
   "note": "Scaner intraoral",
   "price": "",
   "photo": true,
-  "desc": "Scaner intraoral. Soluție digitală DEPRAG pentru fluxul de lucru chairside.",
-  "hq": true,
-  "hidden": true
+  "desc": "Scaner intraoral pentru amprentă digitală în cabinet: coroane, punți, implanturi și ortodonție, cu export direct către laborator.",
+  "hq": true
  },
  {
   "id": "shining-3d-aoralscan-3",
@@ -3606,9 +3592,8 @@
   "note": "Vitroceramică fără cristalizare",
   "price": "",
   "photo": true,
-  "desc": "Vitroceramică fără cristalizare. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Blocuri de vitroceramică pentru frezare care nu necesită ardere de cristalizare. După frezare, restaurarea se lustruiește sau se glazurează și e gata de cimentare.",
+  "hq": true
  },
  {
   "id": "deprag-elasto-ceramic",
@@ -3620,9 +3605,8 @@
   "note": "Ceramică hibridă cu rășină",
   "price": "",
   "photo": true,
-  "desc": "Ceramică hibridă cu rășină. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Material ceramic hibrid pe bază de rășină pentru frezare: elastic, rezistent la ciobire, pentru coroane pe implant, inlay-uri și onlay-uri.",
+  "hq": true
  },
  {
   "id": "deprag-nova",
@@ -3631,12 +3615,11 @@
   "sub": "bloc",
   "brand": "DEPRAG",
   "name": "NOVA",
-  "note": "Vitroceramică",
+  "note": "Vitroceramică pentru frezare",
   "price": "",
   "photo": true,
-  "desc": "Vitroceramică. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Blocuri de vitroceramică pentru coroane, inlay-uri, onlay-uri și fațete, cu translucență naturală.",
+  "hq": true
  },
  {
   "id": "hass-amber-drymill",
@@ -3812,9 +3795,8 @@
   "note": "Lac de luciu fotopolimerizabil",
   "price": "",
   "photo": true,
-  "desc": "Lac de luciu fotopolimerizabil. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Lac fotopolimerizabil care dă luciu final restaurărilor din compozit, ceramică hibridă și rășină printată, fără lustruire mecanică.",
+  "hq": true
  },
  {
   "id": "deprag-neo-vision",
@@ -3823,12 +3805,24 @@
   "sub": "glaze",
   "brand": "DEPRAG",
   "name": "Neo vision",
+  "note": "Set de pigmenți și glazură",
+  "price": "",
+  "photo": true,
+  "desc": "Set de pigmenți și glazură pentru caracterizarea zirconiului și a vitroceramicii: paste colorante, glazură 2D, 3D Natural și lichid de diluare.",
+  "hq": true
+ },
+ {
+  "id": "deprag-super-vision",
+  "seg": "laborator",
+  "cat": "ceramica",
+  "sub": "glaze",
+  "brand": "DEPRAG",
+  "name": "Super vision",
   "note": "Pigmenți și glazură",
   "price": "",
   "photo": true,
-  "desc": "Pigmenți și glazură. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Pigmenți și glazuri pentru caracterizarea restaurărilor din zirconiu, cu culori intense și stabile la ardere.",
+  "hq": true
  },
  {
   "id": "hass-amber-arte-glaze",
@@ -3928,12 +3922,11 @@
   "sub": "gum",
   "brand": "DEPRAG",
   "name": "ReGum",
-  "note": "Compozit fotopolimerizabil",
+  "note": "Compozit gingival fotopolimerizabil",
   "price": "",
   "photo": true,
-  "desc": "Compozit fotopolimerizabil. Material DEPRAG pentru restaurări ceramice în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Compozit fotopolimerizabil pentru gingia protezelor și a lucrărilor pe implant. Opaceri și nuanțe roz pentru o gingie naturală, stratificată în straturi subțiri.",
+  "hq": true
  },
  {
   "id": "mpf-brush-ceragum-flowables",
@@ -4009,12 +4002,11 @@
   "sub": "zr",
   "brand": "DEPRAG",
   "name": "3D Air",
-  "note": "Zirconiu estetic",
+  "note": "Zirconiu estetic multistrat",
   "price": "",
   "photo": true,
-  "desc": "Zirconiu estetic. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "desc": "Discuri de zirconiu estetic multistrat, cu tranziție naturală de culoare și translucență de la colet la incizal. Pentru coroane și punți în zona frontală și laterală.",
+  "hq": true
  },
  {
   "id": "deprag-3d-max",
@@ -4026,9 +4018,47 @@
   "note": "Zirconiu estetic, sinterizare rapidă",
   "price": "",
   "photo": true,
-  "desc": "Zirconiu estetic, sinterizare rapidă. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "desc": "Discuri de zirconiu estetic multistrat compatibile cu sinterizarea rapidă. Scurtează timpul de lucru fără să piardă din estetică.",
+  "hq": true
+ },
+ {
+  "id": "deprag-3d-pro",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "DEPRAG",
+  "name": "3D Pro",
+  "note": "Disc de zirconiu multistrat",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu multistrat cu rezistență mare, pentru coroane și punți cu mai multe elemente.",
+  "hq": true
+ },
+ {
+  "id": "deprag-sht",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "DEPRAG",
+  "name": "SHT",
+  "note": "Disc de zirconiu super-translucent",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu super-translucent pentru restaurări estetice monolitice în zona frontală.",
+  "hq": true
+ },
+ {
+  "id": "deprag-st",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "zr",
+  "brand": "DEPRAG",
+  "name": "ST",
+  "note": "Disc de zirconiu translucent",
+  "price": "",
+  "photo": true,
+  "desc": "Disc de zirconiu translucent, de rezistență mare, pentru coroane și punți monolitice în zona laterală și pentru infrastructuri.",
+  "hq": true
  },
  {
   "id": "hass-zirtooth",
@@ -4162,17 +4192,17 @@
   "hidden": true
  },
  {
-  "id": "deprag-dp-color",
+  "id": "deprag-pmma",
   "seg": "laborator",
   "cat": "zirconiu",
-  "sub": "color",
+  "sub": "pmma",
   "brand": "DEPRAG",
-  "name": "DP. Color",
-  "note": "Lichide de colorare",
+  "name": "PMMA",
+  "note": "Disc PMMA",
   "price": "",
-  "photo": false,
-  "desc": "Lichide de colorare. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Discuri PMMA pentru provizorii frezate, machete și proteze, monocolor sau multistrat.",
+  "hq": true
  },
  {
   "id": "hpdent-cleartemp",
@@ -4229,17 +4259,17 @@
   "hidden": true
  },
  {
-  "id": "deprag-dp-polymers",
+  "id": "deprag-peek",
   "seg": "laborator",
   "cat": "zirconiu",
-  "sub": "pmma",
+  "sub": "wax",
   "brand": "DEPRAG",
-  "name": "DP. Polymers",
-  "note": "Consumabile polimerice",
+  "name": "PEEK",
+  "note": "Disc PEEK",
   "price": "",
-  "photo": false,
-  "desc": "Consumabile polimerice. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Discuri din PEEK, polimer de înaltă performanță, pentru infrastructuri de proteze, bare și lucrări fără metal.",
+  "hq": true
  },
  {
   "id": "hpdent-ceara-cad-cam",
@@ -4296,30 +4326,30 @@
   "hidden": true
  },
  {
-  "id": "deprag-dp-metal",
-  "seg": "laborator",
-  "cat": "zirconiu",
-  "sub": "metal",
-  "brand": "DEPRAG",
-  "name": "DP. Metal",
-  "note": "Discuri metalice",
-  "price": "",
-  "photo": false,
-  "desc": "Discuri metalice. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
- },
- {
-  "id": "deprag-dp-denture",
+  "id": "deprag-euphon",
   "seg": "laborator",
   "cat": "zirconiu",
   "sub": "teeth",
   "brand": "DEPRAG",
-  "name": "DP. Denture",
-  "note": "Dinți din rășină",
+  "name": "Euphon",
+  "note": "Dinți artificiali din rășină",
   "price": "",
-  "photo": false,
-  "desc": "Dinți din rășină. Material DEPRAG pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Dinți artificiali din rășină sintetică multistrat pentru proteze, cu stratificare estetică.",
+  "hq": true
+ },
+ {
+  "id": "deprag-solidz",
+  "seg": "laborator",
+  "cat": "zirconiu",
+  "sub": "teeth",
+  "brand": "DEPRAG",
+  "name": "Solidz",
+  "note": "Dinți artificiali din rășină",
+  "price": "",
+  "photo": true,
+  "desc": "Dinți artificiali din rășină sintetică pentru proteze totale și parțiale, cu forme și nuanțe naturale.",
+  "hq": true
  },
  {
   "id": "mpf-brush-io-cryl",
@@ -4345,8 +4375,33 @@
   "price": "374.300",
   "photo": true,
   "desc": "Mașină de frezat dentară în 5 axe pentru zirconiu, PMMA, ceară și compozit.",
-  "hq": true,
-  "hidden": true
+  "hq": true
+ },
+ {
+  "id": "deprag-d5-air-free",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "DEPRAG",
+  "name": "D5 Air Free",
+  "note": "Frezare uscată fără aer comprimat",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe care nu are nevoie de compresor. Se instalează ușor oriunde există priză, pentru zirconiu, PMMA, ceară și PEEK.",
+  "hq": true
+ },
+ {
+  "id": "deprag-d5-max",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "dry",
+  "brand": "DEPRAG",
+  "name": "D5 Max",
+  "note": "Mașină de frezat uscat cu schimbător de discuri",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat uscat în 5 axe cu schimbător automat de discuri. Lucrează mai multe discuri la rând (zirconiu, PMMA, ceară, PEEK), ideală pentru laboratoare cu volum mare.",
+  "hq": true
  },
  {
   "id": "deprag-d5-neo",
@@ -4355,11 +4410,11 @@
   "sub": "dry",
   "brand": "DEPRAG",
   "name": "D5 Neo",
-  "note": "Freză uscată",
+  "note": "Mașină de frezat uscat, 5 axe",
   "price": "",
   "photo": true,
-  "desc": "Freză uscată. Echipament DEPRAG pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
+  "desc": "Mașină de frezat dentară în 5 axe pentru frezare uscată: zirconiu, PMMA, ceară, PEEK și compozit. Compactă, pentru laboratoare care lucrează zilnic cu discuri de 98 mm.",
+  "hq": true
  },
  {
   "id": "luhluh-milling-machines",
@@ -4440,19 +4495,6 @@
   "hidden": true
  },
  {
-  "id": "deprag-d5-air-free",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "dry",
-  "brand": "DEPRAG",
-  "name": "D5 Air Free",
-  "note": "",
-  "price": "",
-  "photo": false,
-  "desc": "Produs disponibil la comandă. Echipament DEPRAG pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
   "id": "up3d-p53",
   "seg": "laborator",
   "cat": "frezare",
@@ -4489,8 +4531,59 @@
   "price": "492.500",
   "photo": true,
   "desc": "Mașină de frezat dentară în 5 axe pentru frezare uscată și umedă, inclusiv vitroceramică și titan.",
-  "hq": true,
-  "hidden": true
+  "hq": true
+ },
+ {
+  "id": "deprag-w4",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "DEPRAG",
+  "name": "W4",
+  "note": "Mașină de frezat umed, 4 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat umed în 4 axe pentru blocuri de vitroceramică, disilicat de litiu și compozit. Potrivită pentru coroane, inlay-uri și fațete realizate rapid în laborator sau în cabinet.",
+  "hq": true
+ },
+ {
+  "id": "deprag-w5",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "DEPRAG",
+  "name": "W5",
+  "note": "Mașină de frezat umed și uscat, 5 axe",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe pentru frezare umedă și uscată. Un singur echipament pentru zirconiu, PMMA și ceară, dar și pentru blocuri de vitroceramică și compozit.",
+  "hq": true
+ },
+ {
+  "id": "deprag-w5-max",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "DEPRAG",
+  "name": "W5 Max",
+  "note": "Mașină de frezat metal, cu schimbător automat",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat în 5 axe cu schimbător automat de discuri, pentru producție continuă. Frezează metal (CoCr, titan), zirconiu, PMMA și vitroceramică fără intervenția operatorului între lucrări.",
+  "hq": true
+ },
+ {
+  "id": "deprag-w5-pro",
+  "seg": "laborator",
+  "cat": "frezare",
+  "sub": "wet",
+  "brand": "DEPRAG",
+  "name": "W5 Pro",
+  "note": "Mașină de frezat umed și uscat, pe podea",
+  "price": "",
+  "photo": true,
+  "desc": "Mașină de frezat de podea, în 5 axe, pentru frezare umedă și uscată. Gândită pentru volume mari și materiale dure, inclusiv aliaje CoCr și titan, pe lângă zirconiu și vitroceramică.",
+  "hq": true
  },
  {
   "id": "aidite-amm520",
@@ -4542,32 +4635,6 @@
   "price": "",
   "photo": false,
   "desc": "Freză umed/uscat. Echipament Aidite pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "deprag-w5",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "DEPRAG",
-  "name": "W5",
-  "note": "",
-  "price": "",
-  "photo": false,
-  "desc": "Produs disponibil la comandă. Echipament DEPRAG pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
-  "hidden": true
- },
- {
-  "id": "deprag-w5-pro",
-  "seg": "laborator",
-  "cat": "frezare",
-  "sub": "wet",
-  "brand": "DEPRAG",
-  "name": "W5 Pro",
-  "note": "",
-  "price": "",
-  "photo": false,
-  "desc": "Produs disponibil la comandă. Echipament DEPRAG pentru frezarea restaurărilor în laborator. Instalarea și instruirea se stabilesc la ofertă.",
   "hidden": true
  },
  {
@@ -4657,12 +4724,11 @@
   "sub": "sint",
   "brand": "DEPRAG",
   "name": "S9",
-  "note": "Cuptor de sinterizare",
+  "note": "Cuptor de sinterizare pentru zirconiu",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de sinterizare. Echipament DEPRAG pentru tratamentul termic al restaurărilor în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Cuptor de sinterizare pentru zirconiu, cu programe standard și camera de ardere pentru mai multe lucrări simultan. Soluție fiabilă pentru producția zilnică a laboratorului.",
+  "hq": true
  },
  {
   "id": "deprag-s9-max",
@@ -4671,12 +4737,11 @@
   "sub": "sint",
   "brand": "DEPRAG",
   "name": "S9 Max",
-  "note": "Cuptor de sinterizare multifuncțional",
+  "note": "Cuptor de sinterizare rapidă, multifuncțional",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de sinterizare multifuncțional. Echipament DEPRAG pentru tratamentul termic al restaurărilor în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Cuptor de sinterizare multifuncțional pentru zirconiu, cu programe rapide și standard. Permite sinterizarea rapidă a coroanelor unitare și a punților mici în aceeași zi.",
+  "hq": true
  },
  {
   "id": "deprag-s9-pro",
@@ -4685,12 +4750,11 @@
   "sub": "sint",
   "brand": "DEPRAG",
   "name": "S9 Pro",
-  "note": "Cuptor de sinterizare rapidă",
+  "note": "Cuptor de sinterizare rapidă pentru zirconiu",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de sinterizare rapidă. Echipament DEPRAG pentru tratamentul termic al restaurărilor în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Cuptor de sinterizare pentru zirconiu cu cicluri rapide. Potrivit pentru laboratoare care vor să livreze lucrări din zirconiu în aceeași zi.",
+  "hq": true
  },
  {
   "id": "luhluh-furnaces",
@@ -4767,9 +4831,8 @@
   "note": "Cuptor de ceramică cu vid",
   "price": "",
   "photo": true,
-  "desc": "Cuptor de ceramică cu vid. Echipament DEPRAG pentru tratamentul termic al restaurărilor în laborator.",
-  "hq": true,
-  "hidden": true
+  "desc": "Cuptor pentru arderea ceramicii cu vid: stratificare, glazurare și cristalizarea disilicatului de litiu. Programe configurabile pentru materialele uzuale din laborator.",
+  "hq": true
  },
  {
   "id": "hpdent-plunger",
@@ -4783,19 +4846,6 @@
   "photo": true,
   "desc": "Piston pentru presare. Echipament HPdent pentru tratamentul termic al restaurărilor în laborator.",
   "hq": true,
-  "hidden": true
- },
- {
-  "id": "deprag-dp-injector",
-  "seg": "laborator",
-  "cat": "sinter",
-  "sub": "press",
-  "brand": "DEPRAG",
-  "name": "DP. Injector",
-  "note": "Injectoare",
-  "price": "",
-  "photo": false,
-  "desc": "Injectoare. Echipament DEPRAG pentru tratamentul termic al restaurărilor în laborator.",
   "hidden": true
  },
  {
@@ -4835,8 +4885,8 @@
   "note": "Imprimantă 3D",
   "price": "",
   "photo": true,
-  "desc": "Imprimantă 3D. Produs DEPRAG pentru imprimarea 3D dentară.",
-  "hidden": true
+  "desc": "Imprimantă 3D dentară pentru producția zilnică de modele, gutiere, ghiduri și provizorii din rășini dentare.",
+  "hq": true
  },
  {
   "id": "deprag-edge-mini",
@@ -4845,11 +4895,11 @@
   "sub": "resin",
   "brand": "DEPRAG",
   "name": "Edge mini",
-  "note": "Imprimantă 3D",
+  "note": "Imprimantă 3D compactă",
   "price": "",
   "photo": true,
-  "desc": "Imprimantă 3D. Produs DEPRAG pentru imprimarea 3D dentară.",
-  "hidden": true
+  "desc": "Imprimantă 3D compactă pentru cabinet și laborator, pentru modele, ghiduri chirurgicale și restaurări provizorii.",
+  "hq": true
  },
  {
   "id": "deprag-pl9",
@@ -4861,9 +4911,8 @@
   "note": "Imprimantă 3D LCD",
   "price": "",
   "photo": true,
-  "desc": "Imprimantă 3D LCD. Produs DEPRAG pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "desc": "Imprimantă 3D cu tehnologie LCD pentru modele, ghiduri chirurgicale, gutiere și provizorii din rășini dentare.",
+  "hq": true
  },
  {
   "id": "luhluh-3d-printer",
@@ -5571,6 +5620,19 @@
   "hidden": true
  },
  {
+  "id": "deprag-ds7",
+  "seg": "laborator",
+  "cat": "scan",
+  "sub": "scan",
+  "brand": "DEPRAG",
+  "name": "DS7",
+  "note": "Scaner de laborator",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner de masă pentru laborator: scanează modele, amprente și articulatoare pentru fluxul CAD/CAM. Fișierele rezultate se deschid în programele de design uzuale.",
+  "hq": true
+ },
+ {
   "id": "luhluh-desktop-scanner",
   "seg": "laborator",
   "cat": "scan",
@@ -5581,19 +5643,6 @@
   "price": "",
   "photo": true,
   "desc": "Scaner de laborator. Produs Luhluh pentru digitalizarea modelelor în laborator.",
-  "hidden": true
- },
- {
-  "id": "deprag-dp-scan",
-  "seg": "laborator",
-  "cat": "scan",
-  "sub": "scan",
-  "brand": "DEPRAG",
-  "name": "DP. Scan",
-  "note": "Scanere",
-  "price": "",
-  "photo": false,
-  "desc": "Scanere. Produs DEPRAG pentru digitalizarea modelelor în laborator.",
   "hidden": true
  },
  {

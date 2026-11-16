@@ -12,7 +12,7 @@
   var byId = {}; P.forEach(function (p) { byId[p.id] = p; });
   var catById = {}; CATS.forEach(function (c) { catById[c.id] = c; });
   var app = document.getElementById('app');
-  var state = { seg: localStorage.getItem('seg') || 'cabinet' };
+  var state = { seg: localStorage.getItem('seg') || 'laborator' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function num(price) { if (!price) return 0; return +String(price).replace('de la ', '').replace(/\./g, ''); }
@@ -25,7 +25,7 @@
   function catProducts(id) { return P.filter(function (p) { return p.cat === id; }); }
   function norm(x) { return String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
   function subOf(cid, sid) { var c = catById[cid]; if (!c || !c.subs) return null; for (var i = 0; i < c.subs.length; i++) if (c.subs[i].id === sid) return c.subs[i]; return null; }
-  function segCats(seg) { return CATS.filter(function (c) { return c.seg === seg; }); }
+  function segCats(seg) { return CATS.filter(function (c) { return c.seg === seg && P.some(function (p) { return p.cat === c.id; }); }); }
 
   // ---------- cart ----------
   function getCart() { try { return JSON.parse(localStorage.getItem('cart') || '{}'); } catch (e) { return {}; } }
@@ -64,22 +64,22 @@
     if (!P.length) { app.innerHTML = '<section class="wrap section" style="padding-bottom:80px"><h1 style="font-size:clamp(32px,4vw,52px)">Catalogul se actualizează</h1><p class="muted" style="max-width:560px">Adăugăm produsele pe rând. Între timp, sună la <a href="tel:+37379663311">079 66 33 11</a> sau scrie la <a href="mailto:dentonemd@gmail.com">dentonemd@gmail.com</a> și îți facem oferta.</p><p><a class="btn lime" href="#/contact">Cere o ofertă</a></p></section>'; return; }
     var seg = state.seg, cats = segCats(seg);
     var side = cats.map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></a>'; }).join('');
-    var hero = seg === 'cabinet'
-      ? { id: 'shining-3d-aoralscan-3', tag: 'SHINING 3D · CABINET', h: 'Aoralscan 3 — scanare intraorală fără pulbere', p: 'Amprentă digitală rapidă pentru coroane, implanturi și ortodonție. Demonstrație în cabinetul tău.', price: 'La cerere', go: 'Vezi produsul' }
-      : { id: 'hass-amber-mill-q', tag: 'HASS · LABORATOR', h: 'Amber® Mill — disilicat de litiu pentru frezare', p: 'Blocuri CAD/CAM pentru fațete, coroane și inlay-uri, în nuanțe multiple.', price: 'La cerere', go: 'Vezi produsul' };
-    var hp = byId[hero.id];
-    var b1 = byId['yeson-autoclav-22-l-clasa-b'], b2 = byId[seg === 'cabinet' ? 'shining-3d-aoralscan-elf' : 'shining-3d-accufab-cel'];
+    var pool = P.filter(function (p) { return p.photo && p.hq; }); if (!pool.length) pool = P.filter(function (p) { return p.photo; });
+    var segPool = pool.filter(function (p) { return p.seg === seg; }); if (!segPool.length) segPool = pool;
+    var big = segPool.slice().sort(function (a, b) { return num(b.price) - num(a.price); });
+    var hp = big[0], b1 = big[1] || hp, b2 = big[2] || b1;
+    var hero = { tag: brandName(hp.brand) + ' · ' + catById[hp.cat].name.toUpperCase(), h: hp.name + ' — ' + hp.note.charAt(0).toLowerCase() + hp.note.slice(1), p: hp.desc.split('. ')[0] + '.', go: 'Vezi produsul' };
     var pops = cats.map(function (c) { return '<a class="pop" href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + (firstPhoto(c.id) ? '<img loading="lazy" src="' + firstPhoto(c.id) + '" alt="">' : '') + '</span>' + esc(c.name) + '</a>'; }).join('');
-    var feat = P.filter(function (p) { return p.seg === seg && p.price && p.photo; }).sort(function (a, b) { return num(a.price) - num(b.price); });
+    var feat = P.filter(function (p) { return p.seg === seg && p.photo; }).sort(function (a, b) { return (!!b.price - !!a.price) || (!!b.hq - !!a.hq); });
     var pick = []; var seen = {}; feat.forEach(function (p) { if (pick.length < 10 && !seen[p.cat + p.brand]) { seen[p.cat + p.brand] = 1; pick.push(p); } });
     feat.forEach(function (p) { if (pick.length < 10 && pick.indexOf(p) < 0) pick.push(p); });
-    var brands = Object.keys(BR).filter(function (b) { return BR[b].logo; });
+    var brands = Object.keys(BR).filter(function (b) { return BR[b].logo && P.some(function (p) { return p.brand === b; }); });
     app.innerHTML =
       '<div class="wrap shop"><nav class="shop-side" aria-label="Categorii ' + seg + '"><h2>' + (seg === 'cabinet' ? 'Pentru cabinet' : 'Pentru laborator') + '</h2>' + side +
-      '<a class="all" href="#/catalog">Toate cele ' + CATS.length + ' categorii →</a></nav><div class="shop-main">' +
+      '<a class="all" href="#/catalog">Toate cele ' + CATS.filter(function (c) { return P.some(function (p) { return p.cat === c.id; }); }).length + ' categorii →</a></nav><div class="shop-main">' +
       '<a class="banner big" href="#/p/' + hp.id + '"><div class="bt"><span class="tag">' + hero.tag + '</span><h2>' + hero.h + '</h2><p>' + hero.p + '</p><div class="row"><span class="go">' + hero.go + '</span></div></div><img src="' + img(hp) + '" alt=""></a>' +
-      '<a class="banner sm dk" href="#/catalog?seg=cabinet&cat=steril"><div class="bt"><span>ECHIPAMENTE</span><h3>Autoclave și sterilizare</h3><span>Cere ofertă cu instalare</span></div><img src="' + img(b1) + '" alt=""></a>' +
-      '<a class="banner sm bl" href="#/p/' + b2.id + '"><div class="bt"><span>DIGITAL</span><h3>' + esc(b2.name) + '</h3><span>Demonstrație la cerere</span></div><img src="' + img(b2) + '" alt=""></a>' +
+      '<a class="banner sm dk" href="#/p/' + b1.id + '"><div class="bt"><span>' + esc(brandName(b1.brand)) + '</span><h3>' + esc(b1.name) + '</h3><span>' + esc(b1.note) + '</span></div><img src="' + img(b1) + '" alt=""></a>' +
+      '<a class="banner sm bl" href="#/p/' + b2.id + '"><div class="bt"><span>' + esc(brandName(b2.brand)) + '</span><h3>' + esc(b2.name) + '</h3><span>' + esc(b2.note) + '</span></div><img src="' + img(b2) + '" alt=""></a>' +
       '</div></div>' +
       '<section class="wrap"><div class="bens">' +
       '<div class="ben"><i>' + ICON.truck + '</i><div><b>Livrare în toată Moldova</b><span>Termenul îl confirmăm la comandă</span></div></div>' +
@@ -295,7 +295,7 @@
     e.preventDefault(); var v = document.getElementById('searchInput').value.trim();
     location.hash = v ? '#/catalog?q=' + encodeURIComponent(v) : '#/catalog';
   });
-  document.getElementById('footerCats').innerHTML = CATS.slice(0, 6).map(function (c) { return '<a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>'; }).join('') + '<a href="#/catalog">Tot catalogul</a>';
+  document.getElementById('footerCats').innerHTML = CATS.filter(function (c) { return P.some(function (p) { return p.cat === c.id; }); }).slice(0, 6).map(function (c) { return '<a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>'; }).join('') + '<a href="#/catalog">Tot catalogul</a>';
   document.addEventListener('change', function (e) {
     if (e.target.id !== 'sortSel') return;
     var r = parse(); r.q.sort = e.target.value; if (!r.q.sort) delete r.q.sort;
