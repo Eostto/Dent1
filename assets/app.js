@@ -1,6 +1,13 @@
 (function () {
   'use strict';
-  var DATA = window.DENT1_DATA;
+  function get(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(u); return r.json(); }); }
+  Promise.all([get('/data/products.json'), get('/data/categories.json'), get('/data/brands.json')]).then(function (r) {
+    start({ products: r[0], cats: r[1], brands: r[2] });
+  }).catch(function () {
+    document.getElementById('app').innerHTML = '<div class="wrap section"><h1>Catalogul nu s-a încărcat</h1><p>Reîncarcă pagina sau sună la <a href="tel:+37379663311">079 66 33 11</a>.</p></div>';
+  });
+  var start = (function (DATA) {
+  'use strict';
   var P = DATA.products, CATS = DATA.cats, BR = DATA.brands;
   var byId = {}; P.forEach(function (p) { byId[p.id] = p; });
   var catById = {}; CATS.forEach(function (c) { catById[c.id] = c; });
@@ -232,4 +239,6 @@
   document.getElementById('footerCats').innerHTML = CATS.slice(0, 6).map(function (c) { return '<a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>'; }).join('') + '<a href="#/catalog">Tot catalogul</a>';
   window.addEventListener('hashchange', route);
   setSeg(state.seg, true); updateCount(); route();
+})
+;
 })();

@@ -1,0 +1,97 @@
+[
+ {
+  "id": "implant",
+  "seg": "cabinet",
+  "name": "Implantologie"
+ },
+ {
+  "id": "orto",
+  "seg": "cabinet",
+  "name": "Ortodonție"
+ },
+ {
+  "id": "endo",
+  "seg": "cabinet",
+  "name": "Endodonție"
+ },
+ {
+  "id": "resto",
+  "seg": "cabinet",
+  "name": "Restaurare și adezive"
+ },
+ {
+  "id": "steril",
+  "seg": "cabinet",
+  "name": "Sterilizare și igienă"
+ },
+ {
+  "id": "piese",
+  "seg": "cabinet",
+  "name": "Piese de mână și freze"
+ },
+ {
+  "id": "unit",
+  "seg": "cabinet",
+  "name": "Unituri și aspirație"
+ },
+ {
+  "id": "optica",
+  "seg": "cabinet",
+  "name": "Microscoape și lupe"
+ },
+ {
+  "id": "digital",
+  "seg": "cabinet",
+  "name": "Digital chairside"
+ },
+ {
+  "id": "ceramica",
+  "seg": "laborator",
+  "name": "Vitroceramică"
+ },
+ {
+  "id": "zirconiu",
+  "seg": "laborator",
+  "name": "Zirconiu și discuri"
+ },
+ {
+  "id": "frezare",
+  "seg": "laborator",
+  "name": "Frezare CAD/CAM"
+ },
+ {
+  "id": "sinter",
+  "seg": "laborator",
+  "name": "Cuptoare și injectoare"
+ },
+ {
+  "id": "print",
+  "seg": "laborator",
+  "name": "Imprimare 3D"
+ },
+ {
+  "id": "scan",
+  "seg": "laborator",
+  "name": "Scanere de laborator"
+ },
+ {
+  "id": "pensule",
+  "seg": "laborator",
+  "name": "Pensule și instrumente ceramist"
+ },
+ {
+  "id": "motoare",
+  "seg": "laborator",
+  "name": "Micromotoare și freze"
+ },
+ {
+  "id": "gips",
+  "seg": "laborator",
+  "name": "Gipsuri, mase de ambalat și silicon"
+ },
+ {
+  "id": "lumina",
+  "seg": "laborator",
+  "name": "Iluminat de lucru"
+ }
+]

@@ -1,0 +1,120 @@
+{
+ "ROOTT": {
+  "label": "ROOTT",
+  "logo": "/img/brands/roott.png"
+ },
+ "CYBERMED": {
+  "label": "Cybermed",
+  "logo": "/img/brands/cybermed.png",
+  "dark": true
+ },
+ "DSI": {
+  "label": "DSI",
+  "logo": "/img/brands/dsi.png"
+ },
+ "COXO": {
+  "label": "COXO",
+  "logo": "/img/brands/coxo.png"
+ },
+ "SAESHIN": {
+  "label": "Saeshin",
+  "logo": "/img/brands/saeshin.png"
+ },
+ "ÖKODENT": {
+  "label": "ökoDENT",
+  "logo": "/img/brands/oekodent.png"
+ },
+ "MATT ORTHODONTICS": {
+  "label": "Matt Orthodontics",
+  "logo": "/img/brands/matt.png"
+ },
+ "IMICRYL": {
+  "label": "IMICRYL"
+ },
+ "SOCO": {
+  "label": "SOCO",
+  "logo": "/img/brands/soco.png"
+ },
+ "DEPRAG": {
+  "label": "DEPRAG",
+  "logo": "/img/brands/deprag.png"
+ },
+ "BISICO": {
+  "label": "Bisico"
+ },
+ "HASS": {
+  "label": "HASS",
+  "logo": "/img/brands/hass.png"
+ },
+ "MPF BRUSH": {
+  "label": "MPF Brush",
+  "logo": "/img/brands/mpf.png"
+ },
+ "DENT1": {
+  "label": "DENT1",
+  "logo": "/img/brands/dent1.png"
+ },
+ "YESON": {
+  "label": "YESON",
+  "logo": "/img/brands/yeson.png"
+ },
+ "FOMOS": {
+  "label": "Fomos",
+  "logo": "/img/brands/fomos.png"
+ },
+ "MEDSET": {
+  "label": "MEDSET"
+ },
+ "NAKAMURA": {
+  "label": "Nakamura Dental",
+  "logo": "/img/brands/nakamura.png"
+ },
+ "DETES": {
+  "label": "Detes",
+  "logo": "/img/brands/detes.png",
+  "dark": true
+ },
+ "SHINING 3D": {
+  "label": "Shining 3D",
+  "logo": "/img/brands/shining3d.png"
+ },
+ "UP3D": {
+  "label": "UP3D",
+  "logo": "/img/brands/up3d.png"
+ },
+ "AIDITE": {
+  "label": "Aidite",
+  "logo": "/img/brands/aidite.png",
+  "dark": true
+ },
+ "ZOTION": {
+  "label": "Zotion"
+ },
+ "DDS": {
+  "label": "DDS"
+ },
+ "LUHLUH": {
+  "label": "LUHLUH",
+  "logo": "/img/brands/luhluh.png"
+ },
+ "HPDENT": {
+  "label": "HPdent",
+  "logo": "/img/brands/hpdent.png"
+ },
+ "PARAGON": {
+  "label": "Paragon",
+  "logo": "/img/brands/paragon.png"
+ },
+ "RITON": {
+  "label": "Riton",
+  "logo": "/img/brands/riton.png"
+ },
+ "PROTECHNO": {
+  "label": "PROTECHNO",
+  "logo": "/img/brands/protechno.png"
+ },
+ "LED2WORK": {
+  "label": "LED2WORK",
+  "logo": "/img/brands/led2work.png"
+ }
+}

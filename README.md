@@ -6,7 +6,32 @@ Site static (HTML, CSS, JavaScript simplu, fără build) pentru magazinul DENT1:
 - `index.html` — pagina (navigarea se face cu `#/catalog`, `#/p/<id>`, `#/branduri`, `#/cos`, `#/contact`)
 - `assets/style.css` — design
 - `assets/app.js` — catalog, căutare, coș (salvat în browser), formulare care trimit pe e-mail
-- `assets/data.js` — toate produsele, categoriile și brandurile
+- `data/products.json` — toate produsele (un obiect pe produs)
+- `data/categories.json` — categoriile
+- `data/brands.json` — brandurile și logourile
+
+## Cum adaugi un produs
+Adaugă un obiect nou în `data/products.json`:
+
+```json
+{
+ "id": "brand-nume-produs",
+ "seg": "cabinet",
+ "cat": "steril",
+ "brand": "YESON",
+ "name": "Numele produsului",
+ "note": "Descriere scurtă (apare pe card)",
+ "price": "12.500",
+ "photo": true,
+ "desc": "Descrierea completă de pe pagina produsului."
+}
+```
+
+- `seg`: `cabinet` sau `laborator`
+- `cat`: un `id` din `data/categories.json`
+- `brand`: o cheie din `data/brands.json`
+- `price`: gol (`""`) înseamnă „Preț la cerere”; „de la 290” e acceptat
+- poza: `img/p/<id>.webp`
 - `img/p/` — pozele produselor, `img/brands/` — logourile producătorilor
 
 ## Rulare locală
