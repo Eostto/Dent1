@@ -1338,7 +1338,49 @@
   "price": "",
   "photo": true,
   "desc": "Compozit universal fotopolimerizabil pentru restaurări directe anterioare și posterioare.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Consistență",
+    "values": [
+     "Fluid (flow)",
+     "Universal"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "20 s",
+    "polimerizare"
+   ],
+   [
+    "2",
+    "consistențe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Consistențe",
+      "Fluid (flow) și universal"
+     ],
+     [
+      "Polimerizare",
+      "20 secunde"
+     ],
+     [
+      "Flow",
+      "Clasa III și V, linere, sigilări, blocarea retentivităților"
+     ],
+     [
+      "Universal",
+      "Restaurări frontale, imobilizări, reconstituiri de bont, restaurări indirecte"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "dsi-composites",
@@ -3325,7 +3367,48 @@
   "price": "",
   "photo": true,
   "desc": "Scaner intraoral pentru amprentă digitală în cabinet: coroane, punți, implanturi și ortodonție, cu export direct către laborator.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "1 min",
+    "arcadă completă"
+   ],
+   [
+    "145 g",
+    "greutate"
+   ],
+   [
+    "AI",
+    "reconstrucție"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Scanare arcadă completă",
+      "circa 1 minut"
+     ],
+     [
+      "Greutate",
+      "145 g"
+     ],
+     [
+      "Carcasă",
+      "Aliaj de aluminiu"
+     ],
+     [
+      "Vârf",
+      "Material medical certificat FDA"
+     ],
+     [
+      "Funcții",
+      "Separare automată gingie–dinte, eliminare reflexii și salivă, partajare în cloud"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "shining-3d-aoralscan-3",
@@ -3593,7 +3676,76 @@
   "price": "",
   "photo": true,
   "desc": "Blocuri de vitroceramică pentru frezare care nu necesită ardere de cristalizare. După frezare, restaurarea se lustruiește sau se glazurează și e gata de cimentare.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Translucență",
+    "values": [
+     "HT",
+     "LT"
+    ]
+   },
+   {
+    "label": "Mărime bloc",
+    "values": [
+     "C14"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "B1",
+     "B2",
+     "C1",
+     "D2",
+     "BL1",
+     "BL2",
+     "BL3",
+     "BL4"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "280",
+    "MPa"
+   ],
+   [
+    "0",
+    "ardere de cristalizare"
+   ],
+   [
+    "12",
+    "nuanțe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Rezistență",
+      "280 MPa"
+     ],
+     [
+      "Sistem",
+      "C14"
+     ],
+     [
+      "Translucență",
+      "HT, LT"
+     ],
+     [
+      "Nuanțe",
+      "A1, A2, A3, A3.5, B1, B2, C1, D2, BL1–BL4"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-elasto-ceramic",
@@ -3606,7 +3758,110 @@
   "price": "",
   "photo": true,
   "desc": "Material ceramic hibrid pe bază de rășină pentru frezare: elastic, rezistent la ciobire, pentru coroane pe implant, inlay-uri și onlay-uri.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Format",
+    "values": [
+     "Disc",
+     "Bloc 18×12×14 mm"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "B1"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime disc",
+    "values": [
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    ">160",
+    "MPa la încovoiere"
+   ],
+   [
+    "0,2 mm",
+    "grosime minimă"
+   ],
+   [
+    "5 min",
+    "lustruire"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Disc",
+    "rows": [
+     [
+      "Nuanțe",
+      "A1, A2, A3, A3.5, B1"
+     ],
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "14, 16, 18, 20 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Bloc",
+    "rows": [
+     [
+      "Nuanțe",
+      "A1, A2, A3, A3.5, B1"
+     ],
+     [
+      "Dimensiuni",
+      "18 × 12 × 14 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Compoziție",
+      "Rășină puternic reticulată cu umpluturi anorganice"
+     ],
+     [
+      "Rezistență la încovoiere",
+      "> 160 MPa"
+     ],
+     [
+      "Grosime minimă",
+      "0,2 mm"
+     ],
+     [
+      "Finisare",
+      "Fără sinterizare, doar lustruire"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-nova",
@@ -3619,7 +3874,86 @@
   "price": "",
   "photo": true,
   "desc": "Blocuri de vitroceramică pentru coroane, inlay-uri, onlay-uri și fațete, cu translucență naturală.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Translucență",
+    "values": [
+     "HT",
+     "MT",
+     "LT"
+    ]
+   },
+   {
+    "label": "Mărime bloc",
+    "values": [
+     "C14",
+     "B40"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4",
+     "BL1",
+     "BL2",
+     "BL3",
+     "BL4"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "0,25 mm",
+    "fațete ultrasubțiri"
+   ],
+   [
+    "20",
+    "nuanțe"
+   ],
+   [
+    "3",
+    "translucențe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Translucență",
+      "HT, MT, LT"
+     ],
+     [
+      "Mărimi",
+      "C14, B40"
+     ],
+     [
+      "Nuanțe",
+      "16 VITA clasic + 4 Bleach"
+     ],
+     [
+      "Grosime minimă",
+      "0,25 mm (fațete)"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hass-amber-drymill",
@@ -3796,7 +4130,32 @@
   "price": "",
   "photo": true,
   "desc": "Lac fotopolimerizabil care dă luciu final restaurărilor din compozit, ceramică hibridă și rășină printată, fără lustruire mecanică.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "2 min",
+    "polimerizare"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Pentru",
+      "Compozit, rășină acrilică, provizorii, ceramică hibridă"
+     ],
+     [
+      "Polimerizare",
+      "circa 2 minute la lampă"
+     ],
+     [
+      "Efect",
+      "Luciu, rezistență la uzură și la colorare"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-neo-vision",
@@ -3809,7 +4168,45 @@
   "price": "",
   "photo": true,
   "desc": "Set de pigmenți și glazură pentru caracterizarea zirconiului și a vitroceramicii: paste colorante, glazură 2D, 3D Natural și lichid de diluare.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Set complet: 15 paste colorante, glazură 2D, 3D Natural, 2 lichide",
+     "Set mic: 5 paste colorante, 3D Natural, 2 lichide"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "24",
+    "culori"
+   ],
+   [
+    "18 + 6",
+    "dinte + gingie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Set",
+    "rows": [
+     [
+      "Conținut",
+      "Paste colorante, glazură 2D, 3D Natural, lichid de diluare"
+     ],
+     [
+      "Culori",
+      "18 paste pentru dinți + 6 paste gingivale"
+     ],
+     [
+      "Pentru",
+      "Zirconiu și vitroceramică"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-super-vision",
@@ -3822,7 +4219,45 @@
   "price": "",
   "photo": true,
   "desc": "Pigmenți și glazuri pentru caracterizarea restaurărilor din zirconiu, cu culori intense și stabile la ardere.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Set",
+    "values": [
+     "Aesthetic (dinți)",
+     "Gum (gingie)"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "2",
+    "seturi"
+   ],
+   [
+    "2D + 3D",
+    "glazuri"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Set",
+    "rows": [
+     [
+      "Variante",
+      "Aesthetic (dinți), Gum (gingie)"
+     ],
+     [
+      "Conținut",
+      "Pigmenți microcristalini, glazură 2D și 3D Natural, lichid"
+     ],
+     [
+      "Culoare",
+      "Aceeași înainte și după ardere"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hass-amber-arte-glaze",
@@ -3926,7 +4361,49 @@
   "price": "",
   "photo": true,
   "desc": "Compozit fotopolimerizabil pentru gingia protezelor și a lucrărilor pe implant. Opaceri și nuanțe roz pentru o gingie naturală, stratificată în straturi subțiri.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "OP-P (opacher roz)",
+     "OP-W (opacher alb)",
+     "G2-Rosa",
+     "G3-Pink",
+     "G4-Red",
+     "T1 (transparent)"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "40 s",
+    "polimerizare"
+   ],
+   [
+    "6",
+    "nuanțe"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tip",
+      "Compozit fotopolimerizabil pentru gingie"
+     ],
+     [
+      "Nuanțe",
+      "OP-P, OP-W, G2-Rosa, G3-Pink, G4-Red, T1"
+     ],
+     [
+      "Polimerizare",
+      "40 secunde per strat"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "mpf-brush-ceragum-flowables",
@@ -4006,7 +4483,113 @@
   "price": "",
   "photo": true,
   "desc": "Discuri de zirconiu estetic multistrat, cu tranziție naturală de culoare și translucență de la colet la incizal. Pentru coroane și punți în zona frontală și laterală.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4",
+     "BL1",
+     "BL2",
+     "BL3",
+     "BL4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "10 mm",
+     "12 mm",
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm",
+     "22 mm",
+     "25 mm",
+     "30 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "1350",
+    "MPa"
+   ],
+   [
+    "49%",
+    "translucență"
+   ],
+   [
+    "20",
+    "nuanțe"
+   ],
+   [
+    "120 min",
+    "sinterizare rapidă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Rezistență",
+      "800–1350 MPa"
+     ],
+     [
+      "Translucență",
+      "42–49%"
+     ],
+     [
+      "Straturi",
+      "6 straturi de material, 11 trepte de culoare"
+     ],
+     [
+      "Nuanțe",
+      "16 VITA clasic + 4 Bleach"
+     ],
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "10–30 mm"
+     ],
+     [
+      "Sinterizare",
+      "Rapidă (120 min) sau standard"
+     ],
+     [
+      "Indicații",
+      "Coroane frontale și laterale, fațete, punți de 2–14 elemente"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-3d-max",
@@ -4019,7 +4602,100 @@
   "price": "",
   "photo": true,
   "desc": "Discuri de zirconiu estetic multistrat compatibile cu sinterizarea rapidă. Scurtează timpul de lucru fără să piardă din estetică.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "B1",
+     "B2",
+     "BL1",
+     "BL2",
+     "BL3"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "12 mm",
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm",
+     "22 mm",
+     "25 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "1200",
+    "MPa"
+   ],
+   [
+    "55%",
+    "translucență"
+   ],
+   [
+    "9",
+    "nuanțe"
+   ],
+   [
+    "6,07",
+    "g/cm³"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Rezistență",
+      "800–1200 MPa"
+     ],
+     [
+      "Translucență",
+      "44–55%"
+     ],
+     [
+      "Densitate",
+      "6,07 g/cm³"
+     ],
+     [
+      "Straturi",
+      "6 straturi de material, 11 trepte de culoare"
+     ],
+     [
+      "Nuanțe",
+      "A1, A2, A3, A3.5, B1, B2, BL1, BL2, BL3"
+     ],
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "12–25 mm"
+     ],
+     [
+      "Sinterizare",
+      "Mai multe curbe, inclusiv rapidă"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-3d-pro",
@@ -4032,7 +4708,105 @@
   "price": "",
   "photo": true,
   "desc": "Disc de zirconiu multistrat cu rezistență mare, pentru coroane și punți cu mai multe elemente.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4",
+     "BL1",
+     "BL2",
+     "BL3",
+     "BL4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "10 mm",
+     "12 mm",
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm",
+     "22 mm",
+     "25 mm",
+     "30 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "1200",
+    "MPa"
+   ],
+   [
+    "57%",
+    "translucență"
+   ],
+   [
+    "20",
+    "nuanțe"
+   ],
+   [
+    "88 min",
+    "sinterizare rapidă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Rezistență",
+      "750–1200 MPa"
+     ],
+     [
+      "Translucență",
+      "42–57%"
+     ],
+     [
+      "Straturi",
+      "5 straturi de material, 9 trepte de culoare"
+     ],
+     [
+      "Nuanțe",
+      "16 VITA clasic + 4 Bleach"
+     ],
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "10–30 mm"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-sht",
@@ -4045,7 +4819,133 @@
   "price": "",
   "photo": true,
   "desc": "Disc de zirconiu super-translucent pentru restaurări estetice monolitice în zona frontală.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Tip",
+    "values": [
+     "Multistrat colorat",
+     "Monocolor",
+     "Alb"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "B1",
+     "B2",
+     "BL1",
+     "BL2",
+     "BL3",
+     "BL4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "10 mm",
+     "12 mm",
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm",
+     "22 mm",
+     "25 mm",
+     "30 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "1150",
+    "MPa"
+   ],
+   [
+    "47%",
+    "translucență"
+   ],
+   [
+    "88 min",
+    "sinterizare rapidă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Multistrat colorat",
+    "rows": [
+     [
+      "Rezistență",
+      "1150 MPa"
+     ],
+     [
+      "Translucență",
+      "42–57%"
+     ],
+     [
+      "Nuanțe",
+      "A1, A2, A3, B1, B2, BL1–BL4"
+     ]
+    ]
+   },
+   {
+    "g": "Monocolor",
+    "rows": [
+     [
+      "Rezistență",
+      "1150 MPa"
+     ],
+     [
+      "Translucență",
+      "47%"
+     ],
+     [
+      "Nuanțe",
+      "A1, A2, A3, B1, B2"
+     ]
+    ]
+   },
+   {
+    "g": "Alb",
+    "rows": [
+     [
+      "Rezistență",
+      "1250 MPa"
+     ],
+     [
+      "Translucență",
+      "48%"
+     ]
+    ]
+   },
+   {
+    "g": "Comun",
+    "rows": [
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "10–30 mm"
+     ],
+     [
+      "Indicații",
+      "Restaurări frontale estetice, fațete, punți frontale de 3 elemente"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-st",
@@ -4058,7 +4958,123 @@
   "price": "",
   "photo": true,
   "desc": "Disc de zirconiu translucent, de rezistență mare, pentru coroane și punți monolitice în zona laterală și pentru infrastructuri.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Tip",
+    "values": [
+     "Multistrat colorat",
+     "Monocolor",
+     "Alb"
+    ]
+   },
+   {
+    "label": "Nuanță",
+    "values": [
+     "A1",
+     "A2",
+     "A3",
+     "A3.5",
+     "A4",
+     "B1",
+     "B2",
+     "B3",
+     "B4",
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "D2",
+     "D3",
+     "D4"
+    ]
+   },
+   {
+    "label": "Sistem disc",
+    "values": [
+     "98 mm",
+     "95 mm",
+     "92×75 mm"
+    ]
+   },
+   {
+    "label": "Grosime",
+    "values": [
+     "10 mm",
+     "12 mm",
+     "14 mm",
+     "16 mm",
+     "18 mm",
+     "20 mm",
+     "22 mm",
+     "25 mm",
+     "30 mm"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "1250",
+    "MPa"
+   ],
+   [
+    "42%",
+    "translucență"
+   ],
+   [
+    "3Y",
+    "zirconiu"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Colorat (multistrat / monocolor)",
+    "rows": [
+     [
+      "Rezistență",
+      "1250 MPa"
+     ],
+     [
+      "Translucență",
+      "42%"
+     ],
+     [
+      "Nuanțe",
+      "16 VITA clasic"
+     ]
+    ]
+   },
+   {
+    "g": "Alb",
+    "rows": [
+     [
+      "Rezistență",
+      "1350 MPa"
+     ],
+     [
+      "Translucență",
+      "43%"
+     ]
+    ]
+   },
+   {
+    "g": "Comun",
+    "rows": [
+     [
+      "Disc",
+      "98 mm, 95 mm, 92 × 75 mm"
+     ],
+     [
+      "Grosimi",
+      "10–30 mm"
+     ],
+     [
+      "Indicații",
+      "Zona laterală, punți lungi, infrastructuri"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hass-zirtooth",
@@ -4202,7 +5218,47 @@
   "price": "",
   "photo": true,
   "desc": "Discuri PMMA pentru provizorii frezate, machete și proteze, monocolor sau multistrat.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Tip",
+    "values": [
+     "Multistrat",
+     "Monocolor",
+     "Bază roz",
+     "Proteză"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "4",
+    "tipuri"
+   ],
+   [
+    "4",
+    "straturi (multistrat)"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Tipuri",
+      "Multistrat, monocolor, bază roz, proteză"
+     ],
+     [
+      "Utilizări",
+      "Provizorii, gutiere, suprastructuri pe implant, gutiere de bruxism"
+     ],
+     [
+      "Monomer rezidual",
+      "Foarte redus"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hpdent-cleartemp",
@@ -4269,7 +5325,39 @@
   "price": "",
   "photo": true,
   "desc": "Discuri din PEEK, polimer de înaltă performanță, pentru infrastructuri de proteze, bare și lucrări fără metal.",
-  "hq": true
+  "hq": true,
+  "options": [
+   {
+    "label": "Culoare",
+    "values": [
+     "Natural",
+     "Alb",
+     "Galben",
+     "Roz"
+    ]
+   }
+  ],
+  "keys": [
+   [
+    "4",
+    "culori"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Culori",
+      "Natural, alb, galben, roz"
+     ],
+     [
+      "Utilizări",
+      "Croșete și schelete de proteze parțiale, bonturi, coroane, punți"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hpdent-ceara-cad-cam",
@@ -4388,7 +5476,52 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat uscat în 5 axe care nu are nevoie de compresor. Se instalează ușor oriunde există priză, pentru zirconiu, PMMA, ceară și PEEK.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "0",
+    "compresor necesar"
+   ],
+   [
+    "0,01 mm",
+    "precizie"
+   ],
+   [
+    "19,5″",
+    "ecran"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat, fără aer comprimat"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, PMMA, ceară, PEEK, compozit"
+     ],
+     [
+      "Precizie",
+      "0,01 mm"
+     ],
+     [
+      "Ax principal",
+      "Fabricat în Germania"
+     ],
+     [
+      "Calculator",
+      "Windows 10, ecran 19,5″"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-d5-max",
@@ -4401,7 +5534,107 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat uscat în 5 axe cu schimbător automat de discuri. Lucrează mai multe discuri la rând (zirconiu, PMMA, ceară, PEEK), ideală pentru laboratoare cu volum mare.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "10",
+    "scule"
+   ],
+   [
+    "auto",
+    "schimbător discuri"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi, proteze, punți înșurubate, modele, gutiere, ghiduri chirurgicale"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, ceară, PEEK, PMMA, compozit"
+     ],
+     [
+      "Dimensiuni",
+      "808 × 750 × 881 mm"
+     ],
+     [
+      "Greutate",
+      "180 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "1,8 kW"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Număr de axe",
+      "5"
+     ],
+     [
+      "Axa A",
+      "±30°"
+     ],
+     [
+      "Axa B",
+      "360°"
+     ],
+     [
+      "Magazie scule",
+      "10"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Disc (C-clamp), bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-d5-neo",
@@ -4414,7 +5647,119 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat dentară în 5 axe pentru frezare uscată: zirconiu, PMMA, ceară, PEEK și compozit. Compactă, pentru laboratoare care lucrează zilnic cu discuri de 98 mm.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "10",
+    "scule"
+   ],
+   [
+    "120 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi, proteze, punți înșurubate, modele, gutiere, ghiduri chirurgicale"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, ceară, compozit, PEEK, PMMA"
+     ],
+     [
+      "Alimentare",
+      "220 V / 1,8 kW"
+     ],
+     [
+      "Dimensiuni",
+      "485 × 618 × 681 mm"
+     ],
+     [
+      "Greutate",
+      "120 kg"
+     ],
+     [
+      "Aer comprimat",
+      "> 0,65 MPa, > 80 l/min"
+     ],
+     [
+      "Software CAM",
+      "Millbox, WorkNC, hyperDENT"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "S1 450 W / max. 800 W"
+     ],
+     [
+      "Bucșă",
+      "ø 4 mm"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Număr de axe",
+      "5"
+     ],
+     [
+      "Axa A",
+      "360°"
+     ],
+     [
+      "Axa B",
+      "±30°"
+     ],
+     [
+      "Magazie scule",
+      "10"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Disc (C-clamp), bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "luhluh-milling-machines",
@@ -4544,7 +5889,119 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat umed în 4 axe pentru blocuri de vitroceramică, disilicat de litiu și compozit. Potrivită pentru coroane, inlay-uri și fațete realizate rapid în laborator sau în cabinet.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "4",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "12",
+    "scule"
+   ],
+   [
+    "10 l",
+    "rezervor apă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Umed"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi"
+     ],
+     [
+      "Materiale",
+      "Vitroceramică, PMMA, PEEK, compozit, bonturi prefrezate"
+     ],
+     [
+      "Alimentare",
+      "220 V / 3,2 kW"
+     ],
+     [
+      "Dimensiuni",
+      "523 × 718 × 820 mm"
+     ],
+     [
+      "Greutate",
+      "130 kg"
+     ],
+     [
+      "Aer comprimat",
+      "> 0,5 MPa, > 90 l/min"
+     ],
+     [
+      "Rezervor apă",
+      "10 l"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Număr de axe",
+      "4"
+     ],
+     [
+      "Axa B",
+      "360°"
+     ],
+     [
+      "Magazie scule",
+      "12"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Bont prefrezat, bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-w5",
@@ -4557,7 +6014,123 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat în 5 axe pentru frezare umedă și uscată. Un singur echipament pentru zirconiu, PMMA și ceară, dar și pentru blocuri de vitroceramică și compozit.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "36",
+    "scule (18 × 2)"
+   ],
+   [
+    "130 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat și umed"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi, proteze, punți înșurubate, modele, gutiere, ghiduri chirurgicale, bare pe implanturi"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, vitroceramică, ceară, PEEK, compozit, titan, bonturi prefrezate"
+     ],
+     [
+      "Alimentare",
+      "220 V / 3,2 kW"
+     ],
+     [
+      "Dimensiuni",
+      "523 × 718 × 820 mm"
+     ],
+     [
+      "Greutate",
+      "130 kg"
+     ],
+     [
+      "Aer comprimat",
+      "> 0,5 MPa, > 90 l/min"
+     ],
+     [
+      "Rezervor apă",
+      "10 l"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Număr de axe",
+      "5"
+     ],
+     [
+      "Axa A",
+      "360°"
+     ],
+     [
+      "Axa B",
+      "-90° … +30°"
+     ],
+     [
+      "Magazie scule",
+      "18 × 2"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Disc (C-clamp), bont prefrezat, bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-w5-max",
@@ -4570,7 +6143,115 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat în 5 axe cu schimbător automat de discuri, pentru producție continuă. Frezează metal (CoCr, titan), zirconiu, PMMA și vitroceramică fără intervenția operatorului între lucrări.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "24",
+    "scule"
+   ],
+   [
+    "auto",
+    "schimbător discuri"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat și umed"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi, proteze, punți înșurubate, modele, gutiere, ghiduri chirurgicale, bare pe implanturi"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, vitroceramică, ceară, PEEK, compozit, titan, CoCr, bonturi prefrezate"
+     ],
+     [
+      "Alimentare",
+      "220 V / 3,5 kW"
+     ],
+     [
+      "Dimensiuni",
+      "834 × 810 × 1767 mm"
+     ],
+     [
+      "Greutate",
+      "circa 500 kg, în funcție de accesorii"
+     ],
+     [
+      "Aer comprimat",
+      "> 0,65 MPa"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Aluminiu"
+     ],
+     [
+      "Număr de axe",
+      "5"
+     ],
+     [
+      "Axa A",
+      "360°"
+     ],
+     [
+      "Axa B",
+      "-30° … +90°"
+     ],
+     [
+      "Magazie scule",
+      "24"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Disc (C-clamp), bont prefrezat, bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-w5-pro",
@@ -4583,7 +6264,131 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat de podea, în 5 axe, pentru frezare umedă și uscată. Gândită pentru volume mari și materiale dure, inclusiv aliaje CoCr și titan, pe lângă zirconiu și vitroceramică.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "5",
+    "axe"
+   ],
+   [
+    "60.000",
+    "rpm ax"
+   ],
+   [
+    "48",
+    "scule (24 × 2)"
+   ],
+   [
+    "300 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Mod de frezare",
+      "Uscat și umed"
+     ],
+     [
+      "Lucrări",
+      "Coroane, punți, fațete, inlay/onlay, bonturi, proteze, punți înșurubate, modele, gutiere, ghiduri chirurgicale, bare pe implanturi"
+     ],
+     [
+      "Materiale",
+      "Zirconiu, vitroceramică, ceară, PEEK, compozit, titan, bonturi prefrezate"
+     ],
+     [
+      "Alimentare",
+      "220 V / 3,5 kW"
+     ],
+     [
+      "Dimensiuni",
+      "685 × 730 × 1750 mm"
+     ],
+     [
+      "Greutate",
+      "300 kg"
+     ],
+     [
+      "Aer comprimat",
+      "> 0,5 MPa, > 100 l/min"
+     ]
+    ]
+   },
+   {
+    "g": "Ax principal",
+    "rows": [
+     [
+      "Turație",
+      "60.000 rpm"
+     ],
+     [
+      "Putere",
+      "2,5 kW"
+     ],
+     [
+      "Bucșă",
+      "ø 6 mm"
+     ],
+     [
+      "Răcire",
+      "Cu apă"
+     ]
+    ]
+   },
+   {
+    "g": "Construcție",
+    "rows": [
+     [
+      "Structură",
+      "Fontă"
+     ],
+     [
+      "Număr de axe",
+      "5"
+     ],
+     [
+      "Axa A",
+      "360°"
+     ],
+     [
+      "Axa B",
+      "±30°"
+     ],
+     [
+      "Cursă X / Y / Z",
+      "220 / 145 / 130 mm"
+     ],
+     [
+      "Magazie scule",
+      "24 × 2"
+     ],
+     [
+      "Precizie reglaj sculă",
+      "0,01 mm"
+     ],
+     [
+      "Avans maxim",
+      "4000 mm/min"
+     ]
+    ]
+   },
+   {
+    "g": "Altele",
+    "rows": [
+     [
+      "Certificări",
+      "CE, FCC"
+     ],
+     [
+      "Suporturi",
+      "Disc (C-clamp), bont prefrezat, bloc"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "aidite-amm520",
@@ -4728,7 +6533,60 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor de sinterizare pentru zirconiu, cu programe standard și camera de ardere pentru mai multe lucrări simultan. Soluție fiabilă pentru producția zilnică a laboratorului.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "1550 °C",
+    "temperatură max."
+   ],
+   [
+    "50 °C",
+    "pe minut"
+   ],
+   [
+    "60",
+    "coroane / ciclu"
+   ],
+   [
+    "±1 °C",
+    "precizie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Temperatură maximă",
+      "1550 °C"
+     ],
+     [
+      "Viteză de încălzire",
+      "50 °C/min"
+     ],
+     [
+      "Elemente de încălzire",
+      "SiC, importate"
+     ],
+     [
+      "Capacitate",
+      "Până la 60 de coroane, 2 creuzete"
+     ],
+     [
+      "Programe",
+      "200"
+     ],
+     [
+      "Control temperatură",
+      "PID, termocuplu tip B, ±1 °C"
+     ],
+     [
+      "Cameră",
+      "Triunghiulară, încălzire uniformă"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-s9-max",
@@ -4741,7 +6599,65 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor de sinterizare multifuncțional pentru zirconiu, cu programe rapide și standard. Permite sinterizarea rapidă a coroanelor unitare și a punților mici în aceeași zi.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "≤200 °C",
+    "pe minut"
+   ],
+   [
+    "3000 W",
+    "putere"
+   ],
+   [
+    "2",
+    "moduri"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "220 V, 50–60 Hz"
+     ],
+     [
+      "Putere maximă",
+      "3000 W"
+     ],
+     [
+      "Viteză de încălzire",
+      "≤ 200 °C/min"
+     ],
+     [
+      "Moduri",
+      "Sinterizare rapidă, ardere"
+     ],
+     [
+      "Dimensiuni",
+      "370 × 502 × 656 mm"
+     ],
+     [
+      "Greutate",
+      "51,65 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Ambalaj",
+    "rows": [
+     [
+      "Dimensiuni",
+      "48 × 60 × 83 cm"
+     ],
+     [
+      "Greutate brută",
+      "70,15 kg"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-s9-pro",
@@ -4754,7 +6670,65 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor de sinterizare pentru zirconiu cu cicluri rapide. Potrivit pentru laboratoare care vor să livreze lucrări din zirconiu în aceeași zi.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "≤100 °C",
+    "pe minut"
+   ],
+   [
+    "3000 W",
+    "putere"
+   ],
+   [
+    "4",
+    "elemente MoSi₂"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "220 V, 50 Hz ±10%"
+     ],
+     [
+      "Putere maximă",
+      "3000 W"
+     ],
+     [
+      "Viteză de încălzire",
+      "≤ 100 °C/min"
+     ],
+     [
+      "Elemente de încălzire",
+      "4 × MoSi₂"
+     ],
+     [
+      "Dimensiuni",
+      "43 × 56 × 83 cm"
+     ],
+     [
+      "Greutate",
+      "70,85 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Ambalaj",
+    "rows": [
+     [
+      "Dimensiuni",
+      "69 × 55 × 99 cm"
+     ],
+     [
+      "Greutate brută",
+      "93,55 kg"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "luhluh-furnaces",
@@ -4832,7 +6806,52 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor pentru arderea ceramicii cu vid: stratificare, glazurare și cristalizarea disilicatului de litiu. Programe configurabile pentru materialele uzuale din laborator.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "1150 °C",
+    "temperatură max."
+   ],
+   [
+    "100 °C",
+    "pe minut"
+   ],
+   [
+    "±1 °C",
+    "precizie"
+   ],
+   [
+    "vid",
+    ""
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Temperatură maximă",
+      "1150 °C"
+     ],
+     [
+      "Viteză maximă de încălzire",
+      "100 °C/min"
+     ],
+     [
+      "Control temperatură",
+      "±1 °C, fără calibrare periodică"
+     ],
+     [
+      "Vid",
+      "Da, control cu două supape"
+     ],
+     [
+      "Cameră",
+      "Metalică dublă, tub de cuarț"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hpdent-plunger",
@@ -4886,7 +6905,70 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D dentară pentru producția zilnică de modele, gutiere, ghiduri și provizorii din rășini dentare.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "6K",
+    "ecran 9,25″"
+   ],
+   [
+    "405 nm",
+    "lumină"
+   ],
+   [
+    "31 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Dimensiuni",
+      "390 × 420 × 550 mm"
+     ],
+     [
+      "Greutate",
+      "31 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Ecran LCD",
+      "9,25″ monocrom 6K"
+     ],
+     [
+      "Rezoluție",
+      "5760 × 3600"
+     ],
+     [
+      "Lumină",
+      "LED 405 nm"
+     ]
+    ]
+   },
+   {
+    "g": "Software",
+    "rows": [
+     [
+      "Sistem",
+      "Master O.S."
+     ],
+     [
+      "Calculator",
+      "Windows 7–11"
+     ],
+     [
+      "Fișiere",
+      "OBJ, STL"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-edge-mini",
@@ -4899,7 +6981,99 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D compactă pentru cabinet și laborator, pentru modele, ghiduri chirurgicale și restaurări provizorii.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "4K",
+    "ecran 6,5″"
+   ],
+   [
+    "405 nm",
+    "lumină"
+   ],
+   [
+    "13,5 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "AC 100–120 V / 220–240 V"
+     ],
+     [
+      "Putere",
+      "120 W"
+     ],
+     [
+      "Dimensiuni",
+      "300 × 280 × 427 mm"
+     ],
+     [
+      "Greutate",
+      "13,5 kg"
+     ],
+     [
+      "Încălzire",
+      "20–35 °C"
+     ]
+    ]
+   },
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Ecran LCD",
+      "6,5″ monocrom 4K"
+     ],
+     [
+      "Rezoluție",
+      "3840 × 2400"
+     ],
+     [
+      "Lumină",
+      "LED 405 nm"
+     ],
+     [
+      "Ecran tactil",
+      "7″ color"
+     ]
+    ]
+   },
+   {
+    "g": "Software",
+    "rows": [
+     [
+      "Sistem",
+      "Master O.S."
+     ],
+     [
+      "Calculator",
+      "Windows 10/11"
+     ],
+     [
+      "Fișiere",
+      "STL la intrare"
+     ],
+     [
+      "Funcții",
+      "Suporturi, reparare automată, tăiere, golire, etichete; imprimare în rețea"
+     ]
+    ]
+   },
+   {
+    "g": "Rășini",
+    "rows": [
+     [
+      "Compatibile",
+      "Model XE Apricot, Model Pro Orange/Grey, Soft Pink 2.0, Splint, Cast-wax, Try-in, TT C&B"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-pl9",
@@ -4912,7 +7086,89 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D cu tehnologie LCD pentru modele, ghiduri chirurgicale, gutiere și provizorii din rășini dentare.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "8K",
+    "ecran 10,3″"
+   ],
+   [
+    "405 nm",
+    "lumină"
+   ],
+   [
+    "60 mm/h",
+    "viteză"
+   ],
+   [
+    "228×128×130",
+    "platformă, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "220–240 V"
+     ],
+     [
+      "Putere",
+      "600 W"
+     ],
+     [
+      "Dimensiuni",
+      "357 × 363 × 492 mm"
+     ],
+     [
+      "Greutate",
+      "23 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Ecran LCD",
+      "10,3″ monocrom 8K"
+     ],
+     [
+      "Rezoluție",
+      "7680 × 4320"
+     ],
+     [
+      "Lumină",
+      "LED 405 nm"
+     ],
+     [
+      "Volum de lucru",
+      "228 × 128 × 130 mm"
+     ],
+     [
+      "Viteză maximă",
+      "60 mm/h"
+     ],
+     [
+      "Grosime strat",
+      "0,005–0,12 mm"
+     ],
+     [
+      "Ecran tactil",
+      "7″ color"
+     ],
+     [
+      "Conexiune",
+      "Wi-Fi și LAN"
+     ],
+     [
+      "Rășini",
+      "DEPRAG și de la alți producători"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "luhluh-3d-printer",
@@ -5630,7 +7886,81 @@
   "price": "",
   "photo": true,
   "desc": "Scaner de masă pentru laborator: scanează modele, amprente și articulatoare pentru fluxul CAD/CAM. Fișierele rezultate se deschid în programele de design uzuale.",
-  "hq": true
+  "hq": true,
+  "keys": [
+   [
+    "8 μm",
+    "precizie"
+   ],
+   [
+    "10 s",
+    "arcadă completă"
+   ],
+   [
+    "2 × 1,6 MP",
+    "camere"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "AC 110–220 V, 50 Hz"
+     ],
+     [
+      "Dimensiuni",
+      "370 × 280 × 430 mm"
+     ],
+     [
+      "Greutate",
+      "7 kg"
+     ]
+    ]
+   },
+   {
+    "g": "Scanare",
+    "rows": [
+     [
+      "Camere",
+      "2 × 1,6 MP"
+     ],
+     [
+      "Precizie",
+      "8 μm"
+     ],
+     [
+      "Arcadă completă",
+      "10 secunde"
+     ],
+     [
+      "Lumină",
+      "LED albastru"
+     ],
+     [
+      "Formate",
+      "STL, PLY, OBJ"
+     ],
+     [
+      "Conexiune",
+      "USB 3.0"
+     ],
+     [
+      "Scanare amprentă (tray)",
+      "Da"
+     ],
+     [
+      "Culoare și textură",
+      "Da"
+     ],
+     [
+      "Integrare Exocad",
+      "Da"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "luhluh-desktop-scanner",

@@ -30,8 +30,10 @@
   // ---------- cart ----------
   function getCart() { try { return JSON.parse(localStorage.getItem('cart') || '{}'); } catch (e) { return {}; } }
   function setCart(c) { try { localStorage.setItem('cart', JSON.stringify(c)); } catch (e) {} updateCount(); }
-  function updateCount() { var c = getCart(), n = 0; var t = 0; for (var k in c) { n += c[k]; if (byId[k]) t += num(byId[k].price) * c[k]; } document.getElementById('cartCount').textContent = n; document.getElementById('cartTotal').textContent = t ? fmt(t) + ' MDL' : 'Coș'; }
-  function addToCart(id, q) { var c = getCart(); c[id] = (c[id] || 0) + (q || 1); setCart(c); toast('Adăugat în coș: ' + byId[id].name); }
+  function updateCount() { var c = getCart(), n = 0; var t = 0; for (var k in c) { n += c[k]; if (byId[pidOf(k)]) t += num(byId[pidOf(k)].price) * c[k]; } document.getElementById('cartCount').textContent = n; document.getElementById('cartTotal').textContent = t ? fmt(t) + ' MDL' : 'Coș'; }
+  function pidOf(k) { return k.split('||')[0]; }
+  function optOf(k) { return k.split('||')[1] || ''; }
+  function addToCart(id, q, opt) { var k = id + (opt ? '||' + opt : ''); var c = getCart(); c[k] = (c[k] || 0) + (q || 1); setCart(c); toast('Adăugat în coș: ' + byId[id].name + (opt ? ' (' + opt + ')' : '')); }
   var tt; function toast(msg) { var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(function () { t.classList.remove('show'); }, 2200); }
 
   // ---------- components ----------
@@ -198,17 +200,26 @@
     app.innerHTML = '<div class="wrap"><nav class="crumbs" aria-label="Ești aici"><a href="#/">Acasă</a><span aria-hidden="true">/</span><a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>' + (subOf(c.id, p.sub) ? '<span aria-hidden="true">/</span><a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '&sub=' + p.sub + '">' + esc(subOf(c.id, p.sub).name) + '</a>' : '') + '<span aria-hidden="true">/</span><span>' + esc(p.name) + '</span></nav>' +
       '<div class="pp"><div class="pp-img"><img src="' + img(p) + '" alt="' + esc(brandName(p.brand) + ' ' + p.name) + '"></div><div class="pp-info">' +
       (lg ? '<div class="pp-logo-wrap' + (isDark(p.brand) ? ' dk' : '') + '"><img class="pp-logo" src="' + lg + '" alt="' + esc(brandName(p.brand)) + '"></div>' : '<p class="kicker">' + esc(brandName(p.brand)) + '</p>') +
-      '<h1>' + esc(p.name) + '</h1><p class="pp-desc">' + esc(p.desc) + '</p>' +
-      '<div class="buy"><div class="buy-row">' + priceHtml(p) + (p.price ? '<div class="qty"><button type="button" data-q="-1" aria-label="Scade cantitatea">−</button><output id="qty">1</output><button type="button" data-q="1" aria-label="Crește cantitatea">+</button></div>' : '') + '</div>' +
-      (p.price ? '<button class="btn lime" data-addq="' + p.id + '">Adaugă în coș</button>' : '<a class="btn lime" href="mailto:dentonemd@gmail.com?subject=' + subj + '&body=' + body + '">Cere ofertă pe e-mail</a>') +
+      '<h1>' + esc(p.name) + '</h1><p class="pp-note">' + esc(p.note) + '</p><p class="pp-desc">' + esc(p.desc) + '</p>' +
+      (p.keys ? '<div class="keys">' + p.keys.map(function (k) { return '<div><b>' + esc(k[0]) + '</b><span>' + esc(k[1]) + '</span></div>'; }).join('') + '</div>' : '') +
+      (p.options ? '<div class="opts" id="opts">' + p.options.map(function (o, i) { return '<fieldset class="opt"><legend>' + esc(o.label) + ' <span class="opt-v" id="ov' + i + '">alege</span></legend><div class="opt-c">' +
+        o.values.map(function (v) { return '<label class="oc"><input type="radio" name="o' + i + '" value="' + esc(v) + '" data-oi="' + i + '"><span>' + esc(v) + '</span></label>'; }).join('') + '</div></fieldset>'; }).join('') + '</div>' : '') +
+      '<div class="buy"><div class="buy-row">' + priceHtml(p) + (p.price || p.options ? '<div class="qty"><button type="button" data-q="-1" aria-label="Scade cantitatea">−</button><output id="qty">1</output><button type="button" data-q="1" aria-label="Crește cantitatea">+</button></div>' : '') + '</div>' +
+      (p.price ? '<button class="btn lime" data-addq="' + p.id + '">Adaugă în coș</button>' : '<a class="btn lime" id="offerBtn" href="mailto:dentonemd@gmail.com?subject=' + subj + '&body=' + body + '">Cere ofertă pe e-mail</a>') +
       '<a class="btn dark-ghost" href="tel:+37379663311">Sună: 079 66 33 11</a>' +
       '<small>' + (p.price ? 'Prețul include taxele. Disponibilitatea o confirmăm la comandă.' : 'Prețul și termenul de livrare le confirmăm în aceeași zi lucrătoare.') + '</small></div>' +
       '<dl class="specs"><div><dt>Brand</dt><dd>' + esc(brandName(p.brand)) + '</dd></div><div><dt>Categorie</dt><dd>' + esc(c.name) + '</dd></div>' + (subOf(c.id, p.sub) ? '<div><dt>Tip</dt><dd>' + esc(subOf(c.id, p.sub).name) + '</dd></div>' : '') + '<div><dt>Pentru</dt><dd>' + (c.seg === 'cabinet' ? 'Cabinet stomatologic' : 'Laborator dentar') + '</dd></div></dl>' +
       '</div></div>' +
+      (p.specs ? '<section class="pspec"><h2>Parametri tehnici</h2><div class="pspec-g">' + p.specs.map(function (g) { return '<div class="pspec-b"><h3>' + esc(g.g) + '</h3><dl>' + g.rows.map(function (r) { return '<div><dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + '</dd></div>'; }).join('') + '</dl></div>'; }).join('') + '</div><p class="muted small">Parametri conform producătorului. Configurația exactă o confirmăm la ofertă.</p></section>' : '') +
       (rel.length ? '<section class="section" style="padding-top:24px"><div class="section-h"><h2>Din aceeași categorie</h2><a class="link" href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">Toată categoria →</a></div><div class="grid">' + rel.map(card).join('') + '</div></section>' : '') + '</div>';
     document.title = p.name + ' — ' + brandName(p.brand) + ' | DENT1';
+    var ob = document.getElementById('offerBtn');
+    if (ob && p.options) ob.addEventListener('click', function () { var sel = selOpts(p); var b = 'Bună ziua,\n\nDoresc o ofertă pentru: ' + brandName(p.brand) + ' ' + p.name + (sel ? '\nVariantă: ' + sel : '') + '\nCantitate: ' + (document.getElementById('qty') ? document.getElementById('qty').textContent : 1) + '\nLink: ' + location.href + '\n\nNume:\nTelefon:\nCompanie:\n';
+      ob.href = 'mailto:dentonemd@gmail.com?subject=' + encodeURIComponent('Cerere ofertă: ' + brandName(p.brand) + ' ' + p.name) + '&body=' + encodeURIComponent(b); });
   }
 
+  function selOpts(p) { if (!p.options) return ''; return p.options.map(function (o, i) { var x = document.querySelector('input[name="o' + i + '"]:checked'); return x ? o.label + ': ' + x.value : ''; }).filter(Boolean).join(', '); }
+  document.addEventListener('change', function (e) { var t = e.target; if (t.dataset && t.dataset.oi !== undefined) { var v = document.getElementById('ov' + t.dataset.oi); if (v) { v.textContent = t.value; v.classList.add('on'); } } });
   function brandsPage() {
     var counts = {}; P.forEach(function (p) { counts[p.brand] = (counts[p.brand] || 0) + 1; });
     var bs = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
@@ -217,9 +228,9 @@
   }
 
   function cartPage() {
-    var c = getCart(), ids = Object.keys(c).filter(function (k) { return byId[k]; });
-    var total = 0, lines = ids.map(function (k) { var p = byId[k]; total += num(p.price) * c[k];
-      return '<div class="cart-line"><img src="' + img(p) + '" alt=""><div><span class="card-brand">' + esc(brandName(p.brand)) + '</span><div><a href="#/p/' + p.id + '" style="font-weight:600">' + esc(p.name) + '</a></div>' + priceHtml(p) + '</div>' +
+    var c = getCart(), ids = Object.keys(c).filter(function (k) { return byId[pidOf(k)]; });
+    var total = 0, lines = ids.map(function (k) { var p = byId[pidOf(k)]; total += num(p.price) * c[k];
+      return '<div class="cart-line"><img src="' + img(p) + '" alt=""><div><span class="card-brand">' + esc(brandName(p.brand)) + '</span><div><a href="#/p/' + p.id + '" style="font-weight:600">' + esc(p.name) + '</a></div>' + (optOf(k) ? '<div class="muted small">' + esc(optOf(k)) + '</div>' : '') + priceHtml(p) + '</div>' +
         '<div class="qty"><button type="button" data-cq="' + k + '" data-d="-1" aria-label="Scade">−</button><output>' + c[k] + '</output><button type="button" data-cq="' + k + '" data-d="1" aria-label="Crește">+</button></div></div>'; }).join('');
     app.innerHTML = '<div class="wrap two"><div class="panel"><h1 style="font-size:36px;margin-bottom:8px">Coș</h1>' +
       (ids.length ? lines + '<div class="cart-line" style="grid-template-columns:1fr auto"><strong>Total estimativ</strong><span class="price" style="font-size:22px">' + fmt(total) + ' MDL</span></div><p class="muted small">Prețurile „de la” depind de variantă; totalul final îl confirmăm la comandă.</p>'
@@ -234,7 +245,7 @@
     var f = document.getElementById('orderForm');
     f.addEventListener('submit', function (e) {
       e.preventDefault(); var d = new FormData(f);
-      var txt = 'Comandă de pe site\n\n' + ids.map(function (k) { var p = byId[k]; return '- ' + brandName(p.brand) + ' ' + p.name + ' × ' + c[k] + (p.price ? ' (' + p.price + ' MDL)' : ' (preț la cerere)'); }).join('\n') +
+      var txt = 'Comandă de pe site\n\n' + ids.map(function (k) { var p = byId[pidOf(k)]; return '- ' + brandName(p.brand) + ' ' + p.name + (optOf(k) ? ' [' + optOf(k) + ']' : '') + ' × ' + c[k] + (p.price ? ' (' + p.price + ' MDL)' : ' (preț la cerere)'); }).join('\n') +
         '\n\nTotal estimativ: ' + fmt(total) + ' MDL\n\nNume: ' + d.get('nume') + '\nTelefon: ' + d.get('tel') + '\nFirmă: ' + d.get('firma') + '\nMesaj: ' + d.get('msg');
       location.href = 'mailto:dentonemd@gmail.com?subject=' + encodeURIComponent('Comandă DENT1 — ' + d.get('nume')) + '&body=' + encodeURIComponent(txt);
     });
@@ -286,7 +297,7 @@
   document.addEventListener('click', function (e) {
     var t = e.target.closest('[data-add],[data-addq],[data-q],[data-cq],.seg button'); if (!t) return;
     if (t.dataset.add) { e.preventDefault(); addToCart(t.dataset.add, 1); }
-    else if (t.dataset.addq) { addToCart(t.dataset.addq, +document.getElementById('qty').textContent); }
+    else if (t.dataset.addq) { var pp = byId[t.dataset.addq]; if (pp.options && pp.options.some(function (o, i) { return o.values.length > 1 && !document.querySelector('input[name="o' + i + '"]:checked'); })) { toast('Alege mai întâi: ' + pp.options.filter(function (o, i) { return o.values.length > 1 && !document.querySelector('input[name="o' + i + '"]:checked'); }).map(function (o) { return o.label.toLowerCase(); }).join(', ')); return; } addToCart(t.dataset.addq, +document.getElementById('qty').textContent, selOpts(pp)); }
     else if (t.dataset.q) { var o = document.getElementById('qty'); o.textContent = Math.max(1, +o.textContent + +t.dataset.q); }
     else if (t.dataset.cq) { var c = getCart(); c[t.dataset.cq] = (c[t.dataset.cq] || 0) + +t.dataset.d; if (c[t.dataset.cq] <= 0) delete c[t.dataset.cq]; setCart(c); cartPage(); }
     else if (t.dataset.seg) setSeg(t.dataset.seg);
