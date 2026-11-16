@@ -2,96 +2,555 @@
  {
   "id": "implant",
   "seg": "cabinet",
-  "name": "Implantologie"
+  "name": "Implantologie și chirurgie",
+  "subs": [
+   {
+    "id": "impl",
+    "name": "Implanturi"
+   },
+   {
+    "id": "prot",
+    "name": "Bonturi și protetică"
+   },
+   {
+    "id": "vind",
+    "name": "Bonturi de vindecare"
+   },
+   {
+    "id": "amp",
+    "name": "Transfer, scanare și analog"
+   },
+   {
+    "id": "instr",
+    "name": "Instrumente și truse"
+   },
+   {
+    "id": "motor",
+    "name": "Fiziodispensere și piezo"
+   },
+   {
+    "id": "regen",
+    "name": "Regenerare osoasă"
+   }
+  ]
  },
  {
   "id": "orto",
   "seg": "cabinet",
-  "name": "Ortodonție"
+  "name": "Ortodonție",
+  "subs": [
+   {
+    "id": "bracket",
+    "name": "Brackeți"
+   },
+   {
+    "id": "tub",
+    "name": "Tubușoare și inele"
+   },
+   {
+    "id": "arc",
+    "name": "Arcuri și sârme"
+   },
+   {
+    "id": "acc",
+    "name": "Accesorii"
+   },
+   {
+    "id": "instr",
+    "name": "Instrumente"
+   }
+  ]
  },
  {
   "id": "endo",
   "seg": "cabinet",
-  "name": "Endodonție"
+  "name": "Endodonție",
+  "subs": [
+   {
+    "id": "motor",
+    "name": "Endomotoare"
+   },
+   {
+    "id": "ace",
+    "name": "Ace endodontice"
+   },
+   {
+    "id": "obt",
+    "name": "Obturare și MTA"
+   },
+   {
+    "id": "irig",
+    "name": "Soluții"
+   },
+   {
+    "id": "pivot",
+    "name": "Pivoți"
+   }
+  ]
  },
  {
   "id": "resto",
   "seg": "cabinet",
-  "name": "Restaurare și adezive"
+  "name": "Restaurare și adezive",
+  "subs": [
+   {
+    "id": "comp",
+    "name": "Compozite"
+   },
+   {
+    "id": "adez",
+    "name": "Adezive și primeri"
+   },
+   {
+    "id": "gravaj",
+    "name": "Gravaj"
+   },
+   {
+    "id": "ciment",
+    "name": "Cimenturi"
+   },
+   {
+    "id": "liner",
+    "name": "Baze și linere"
+   },
+   {
+    "id": "prov",
+    "name": "Provizorii"
+   },
+   {
+    "id": "lampa",
+    "name": "Lămpi de polimerizare"
+   },
+   {
+    "id": "chair",
+    "name": "Blocuri chairside"
+   },
+   {
+    "id": "acc",
+    "name": "Accesorii"
+   }
+  ]
  },
  {
-  "id": "steril",
+  "id": "amprenta",
   "seg": "cabinet",
-  "name": "Sterilizare și igienă"
+  "name": "Materiale de amprentă",
+  "subs": [
+   {
+    "id": "sil",
+    "name": "Siliconi"
+   },
+   {
+    "id": "alg",
+    "name": "Alginat și ocluzie"
+   },
+   {
+    "id": "retr",
+    "name": "Retracție gingivală"
+   },
+   {
+    "id": "linguri",
+    "name": "Linguri individuale"
+   },
+   {
+    "id": "disp",
+    "name": "Dispensere și vârfuri"
+   }
+  ]
+ },
+ {
+  "id": "profilaxie",
+  "seg": "cabinet",
+  "name": "Profilaxie și detartraj",
+  "subs": [
+   {
+    "id": "aparat",
+    "name": "Aparate"
+   },
+   {
+    "id": "varf",
+    "name": "Vârfuri de scaler"
+   },
+   {
+    "id": "prof",
+    "name": "Profilaxie și lustruire"
+   }
+  ]
+ },
+ {
+  "id": "freze",
+  "seg": "cabinet",
+  "name": "Freze și finisare",
+  "subs": [
+   {
+    "id": "diam",
+    "name": "Freze diamantate"
+   },
+   {
+    "id": "carb",
+    "name": "Freze din carbură"
+   },
+   {
+    "id": "spec",
+    "name": "Freze speciale"
+   },
+   {
+    "id": "lustr",
+    "name": "Polipanți și benzi"
+   }
+  ]
  },
  {
   "id": "piese",
   "seg": "cabinet",
-  "name": "Piese de mână și freze"
+  "name": "Piese de mână și micromotoare",
+  "subs": [
+   {
+    "id": "turb",
+    "name": "Turbine"
+   },
+   {
+    "id": "contra",
+    "name": "Contraunghiuri și piese drepte"
+   },
+   {
+    "id": "motor",
+    "name": "Micromotoare"
+   },
+   {
+    "id": "acc",
+    "name": "Seturi și cuple"
+   }
+  ]
+ },
+ {
+  "id": "steril",
+  "seg": "cabinet",
+  "name": "Sterilizare și igienă",
+  "subs": [
+   {
+    "id": "autoclav",
+    "name": "Autoclave"
+   },
+   {
+    "id": "sigil",
+    "name": "Sigilatoare și role"
+   },
+   {
+    "id": "ultra",
+    "name": "Băi cu ultrasunete"
+   },
+   {
+    "id": "apa",
+    "name": "Distilatoare și purificatoare"
+   },
+   {
+    "id": "lub",
+    "name": "Lubrifiere"
+   },
+   {
+    "id": "dez",
+    "name": "Dezinfectanți și testare"
+   }
+  ]
  },
  {
   "id": "unit",
   "seg": "cabinet",
-  "name": "Unituri și aspirație"
+  "name": "Unituri și aspirație",
+  "subs": [
+   {
+    "id": "unit",
+    "name": "Unituri dentare"
+   },
+   {
+    "id": "asp",
+    "name": "Aspirație"
+   },
+   {
+    "id": "alt",
+    "name": "Amalgamatoare și scaune"
+   }
+  ]
  },
  {
   "id": "optica",
   "seg": "cabinet",
-  "name": "Microscoape și lupe"
+  "name": "Microscoape și lupe",
+  "subs": [
+   {
+    "id": "micro",
+    "name": "Microscoape"
+   },
+   {
+    "id": "lupe",
+    "name": "Lupe"
+   }
+  ]
  },
  {
   "id": "digital",
   "seg": "cabinet",
-  "name": "Digital chairside"
+  "name": "Digital în cabinet",
+  "subs": [
+   {
+    "id": "ios",
+    "name": "Scanere intraorale"
+   },
+   {
+    "id": "face",
+    "name": "Scanare facială"
+   },
+   {
+    "id": "mill",
+    "name": "Frezare și imprimare chairside"
+   },
+   {
+    "id": "soft",
+    "name": "Software"
+   }
+  ]
  },
  {
   "id": "ceramica",
   "seg": "laborator",
-  "name": "Vitroceramică"
+  "name": "Vitroceramică și estetică",
+  "subs": [
+   {
+    "id": "bloc",
+    "name": "Blocuri pentru frezare"
+   },
+   {
+    "id": "press",
+    "name": "Lingouri pentru presare"
+   },
+   {
+    "id": "glaze",
+    "name": "Pigmenți și glazuri"
+   },
+   {
+    "id": "gum",
+    "name": "Compozit gingival"
+   },
+   {
+    "id": "acc",
+    "name": "Lichide și accesorii"
+   }
+  ]
  },
  {
   "id": "zirconiu",
   "seg": "laborator",
-  "name": "Zirconiu și discuri"
+  "name": "Discuri și blocuri CAD/CAM",
+  "subs": [
+   {
+    "id": "zr",
+    "name": "Zirconiu"
+   },
+   {
+    "id": "color",
+    "name": "Lichide de colorare"
+   },
+   {
+    "id": "pmma",
+    "name": "PMMA și provizorii"
+   },
+   {
+    "id": "wax",
+    "name": "Ceară și PEEK"
+   },
+   {
+    "id": "metal",
+    "name": "Metal"
+   },
+   {
+    "id": "teeth",
+    "name": "Dinți artificiali"
+   }
+  ]
  },
  {
   "id": "frezare",
   "seg": "laborator",
-  "name": "Frezare CAD/CAM"
+  "name": "Frezare CAD/CAM",
+  "subs": [
+   {
+    "id": "dry",
+    "name": "Mașini de frezat uscat"
+   },
+   {
+    "id": "wet",
+    "name": "Mașini de frezat umed/uscat"
+   },
+   {
+    "id": "tools",
+    "name": "Freze CAD/CAM"
+   },
+   {
+    "id": "acc",
+    "name": "Accesorii"
+   }
+  ]
  },
  {
   "id": "sinter",
   "seg": "laborator",
-  "name": "Cuptoare și injectoare"
+  "name": "Cuptoare și presare",
+  "subs": [
+   {
+    "id": "sint",
+    "name": "Cuptoare de sinterizare"
+   },
+   {
+    "id": "cer",
+    "name": "Cuptoare de ceramică"
+   },
+   {
+    "id": "press",
+    "name": "Presare"
+   }
+  ]
  },
  {
   "id": "print",
   "seg": "laborator",
-  "name": "Imprimare 3D"
+  "name": "Imprimare 3D",
+  "subs": [
+   {
+    "id": "resin",
+    "name": "Imprimante pentru rășină"
+   },
+   {
+    "id": "metal",
+    "name": "Imprimante pentru metal"
+   },
+   {
+    "id": "rasini",
+    "name": "Rășini"
+   },
+   {
+    "id": "pulberi",
+    "name": "Pulberi metalice"
+   },
+   {
+    "id": "post",
+    "name": "Spălare și polimerizare"
+   },
+   {
+    "id": "metalpost",
+    "name": "Post-procesare metal"
+   },
+   {
+    "id": "wire",
+    "name": "Îndoire sârmă ortodontică"
+   }
+  ]
  },
  {
   "id": "scan",
   "seg": "laborator",
-  "name": "Scanere de laborator"
- },
- {
-  "id": "pensule",
-  "seg": "laborator",
-  "name": "Pensule și instrumente ceramist"
+  "name": "Scanere și software de laborator",
+  "subs": [
+   {
+    "id": "scan",
+    "name": "Scanere de laborator"
+   },
+   {
+    "id": "soft",
+    "name": "Software CAD"
+   }
+  ]
  },
  {
   "id": "motoare",
   "seg": "laborator",
-  "name": "Micromotoare și freze"
+  "name": "Micromotoare și freze de laborator",
+  "subs": [
+   {
+    "id": "motor",
+    "name": "Micromotoare"
+   },
+   {
+    "id": "piese",
+    "name": "Piese și accesorii"
+   },
+   {
+    "id": "freze",
+    "name": "Freze"
+   },
+   {
+    "id": "discuri",
+    "name": "Discuri"
+   },
+   {
+    "id": "lustr",
+    "name": "Lustruire"
+   }
+  ]
+ },
+ {
+  "id": "pensule",
+  "seg": "laborator",
+  "name": "Pensule și instrumente ceramist",
+  "subs": [
+   {
+    "id": "pens",
+    "name": "Pensule"
+   },
+   {
+    "id": "varf",
+    "name": "Vârfuri de schimb"
+   },
+   {
+    "id": "palete",
+    "name": "Palete"
+   },
+   {
+    "id": "tavi",
+    "name": "Tăvi de ardere"
+   },
+   {
+    "id": "acc",
+    "name": "Accesorii"
+   }
+  ]
  },
  {
   "id": "gips",
   "seg": "laborator",
-  "name": "Gipsuri, mase de ambalat și silicon"
+  "name": "Gipsuri, mase de ambalat și siliconi",
+  "subs": [
+   {
+    "id": "gips",
+    "name": "Gipsuri"
+   },
+   {
+    "id": "ambalat",
+    "name": "Mase de ambalat"
+   },
+   {
+    "id": "sil",
+    "name": "Siliconi de laborator"
+   },
+   {
+    "id": "izol",
+    "name": "Izolanți și separatori"
+   }
+  ]
  },
  {
   "id": "lumina",
   "seg": "laborator",
-  "name": "Iluminat de lucru"
+  "name": "Iluminat de lucru",
+  "subs": [
+   {
+    "id": "lamp",
+    "name": "Lămpi"
+   },
+   {
+    "id": "sys",
+    "name": "Iluminat de sistem"
+   }
+  ]
  }
 ]

@@ -23,6 +23,8 @@
   function isDark(b) { return BR[b] && BR[b].dark; }
   function img(p) { return '/img/p/' + p.id + '.webp'; }
   function catProducts(id) { return P.filter(function (p) { return p.cat === id; }); }
+  function norm(x) { return String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+  function subOf(cid, sid) { var c = catById[cid]; if (!c || !c.subs) return null; for (var i = 0; i < c.subs.length; i++) if (c.subs[i].id === sid) return c.subs[i]; return null; }
   function segCats(seg) { return CATS.filter(function (c) { return c.seg === seg; }); }
 
   // ---------- cart ----------
@@ -100,20 +102,28 @@
         '<div class="grid">' + bp.map(card).join('') + '</div></div></div></div>';
       return;
     }
-    var cats = segCats(seg), cat = catById[q.cat] && catById[q.cat].seg === seg ? catById[q.cat] : (q.cat ? catById[q.cat] : null);
+    var cats = segCats(seg), cat = q.cat ? catById[q.cat] : null;
     if (cat && cat.seg !== seg) { seg = cat.seg; cats = segCats(seg); }
+    var sub = cat && q.sub ? subOf(cat.id, q.sub) : null;
+    var sort = q.sort || '';
+    // ----- list -----
     var list;
     if (term) {
-      var t = term.toLowerCase();
-      list = P.filter(function (p) { return (p.name + ' ' + p.brand + ' ' + brandName(p.brand) + ' ' + p.note + ' ' + catById[p.cat].name + ' ' + p.desc).toLowerCase().indexOf(t) >= 0; });
+      var toks = norm(term).split(/\s+/).filter(Boolean);
+      list = P.map(function (p) {
+        var c = catById[p.cat], sb = subOf(p.cat, p.sub) || {};
+        var hay = norm([p.name, p.brand, brandName(p.brand), p.note, c.name, sb.name || '', p.desc].join(' '));
+        var head = norm(p.name + ' ' + brandName(p.brand) + ' ' + (sb.name || '') + ' ' + p.note);
+        if (!toks.every(function (t) { return hay.indexOf(t) >= 0; })) return null;
+        var sc = 0; toks.forEach(function (t) { if (head.indexOf(t) >= 0) sc += 2; if (norm(p.name).indexOf(t) === 0) sc += 3; });
+        return { p: p, s: sc };
+      }).filter(Boolean).sort(function (x, y) { return y.s - x.s; }).map(function (x) { return x.p; });
     } else {
       list = cat ? catProducts(cat.id) : P.filter(function (p) { return p.seg === seg; });
+      if (sub) list = list.filter(function (p) { return p.sub === sub.id; });
       if (brand) list = list.filter(function (p) { return p.brand === brand; });
     }
-    var src = term ? [] : (cat ? catProducts(cat.id) : P.filter(function (p) { return p.seg === seg; }));
-    var bset = []; src.forEach(function (p) { if (bset.indexOf(p.brand) < 0) bset.push(p.brand); });
-    var sort = q.sort || '';
-    var SORTS = [['', 'Recomandate'], ['pret-asc', 'Preț: mic → mare'], ['pret-desc', 'Preț: mare → mic'], ['nume', 'Nume: A → Z'], ['brand', 'Brand: A → Z']];
+    var SORTS = [['', term ? 'Relevanță' : 'Recomandate'], ['pret-asc', 'Preț: mic → mare'], ['pret-desc', 'Preț: mare → mic'], ['nume', 'Nume: A → Z'], ['brand', 'Brand: A → Z']];
     function pv(p) { return p.price ? num(p.price) : null; }
     list = list.slice();
     if (sort === 'pret-asc' || sort === 'pret-desc') {
@@ -121,32 +131,70 @@
       list.sort(function (a, b) { var x = pv(a), y = pv(b); if (x === null && y === null) return 0; if (x === null) return 1; if (y === null) return -1; return (x - y) * dir; });
     } else if (sort === 'nume') list.sort(function (a, b) { return a.name.localeCompare(b.name, 'ro'); });
     else if (sort === 'brand') list.sort(function (a, b) { return brandName(a.brand).localeCompare(brandName(b.brand), 'ro') || a.name.localeCompare(b.name, 'ro'); });
+    function link(o) { // catalog link that keeps the current filters
+      var k = { seg: seg, cat: cat && cat.id, sub: sub && sub.id, brand: brand, sort: sort, q: term };
+      for (var x in o) k[x] = o[x];
+      return '#/catalog?' + Object.keys(k).filter(function (x) { return k[x]; }).map(function (x) { return x + '=' + encodeURIComponent(k[x]); }).join('&');
+    }
     var sortSel = '<label class="sort"><span>Sortează</span><select id="sortSel">' + SORTS.map(function (o) { return '<option value="' + o[0] + '"' + (o[0] === sort ? ' selected' : '') + '>' + o[1] + '</option>'; }).join('') + '</select></label>';
-    var base = '#/catalog?seg=' + seg + (cat ? '&cat=' + cat.id : '');
-    var chips = term ? '' : '<div class="chips" role="group" aria-label="Filtru după brand">' +
-      '<a class="chip txt" href="' + base + '" aria-pressed="' + (!brand) + '" style="text-decoration:none">Toate brandurile</a>' +
-      bset.map(function (b) {
-        var lg = brandLogo(b);
-        return '<a class="chip' + (lg ? (isDark(b) ? ' dk' : '') : ' txt') + '" style="text-decoration:none" href="' + base + '&brand=' + encodeURIComponent(b) + '" aria-pressed="' + (brand === b) + '" aria-label="' + esc(brandName(b)) + '">' +
-          (lg ? '<img src="' + lg + '" alt="">' : esc(brandName(b))) + '</a>';
-      }).join('') + '</div>';
-    var title = term ? 'Rezultate pentru „' + esc(term) + '”' : (cat ? esc(cat.name) : 'Tot catalogul pentru ' + (seg === 'cabinet' ? 'cabinet' : 'laborator'));
-    app.innerHTML = '<div class="wrap cat-layout"><nav class="side" aria-label="Categorii"><p class="kicker">' + (seg === 'cabinet' ? 'Cabinet' : 'Laborator') + ' · ' + P.filter(function (p) { return p.seg === seg; }).length + ' produse</p>' +
-      '<a href="#/catalog?seg=' + seg + '" style="text-decoration:none"><button type="button" aria-pressed="' + (!cat && !term) + '"><span>Toate categoriile</span><span></span></button></a>' +
-      cats.map(function (c) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '" style="text-decoration:none" tabindex="-1"><button type="button" aria-pressed="' + (cat && cat.id === c.id && !term) + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></button></a>'; }).join('') +
-      '</nav><div class="cat-main"><div class="cat-title"><h1>' + title + '</h1><span class="cat-meta"><span class="mono muted">' + list.length + ' produse</span>' + sortSel + '</span></div>' + chips +
-      (list.length ? '<div class="grid">' + list.map(card).join('') + '</div>' : '<p class="empty">Nu am găsit nimic. Sună la <a href="tel:+37379663311">079 66 33 11</a> și îți spunem dacă putem aduce produsul.</p>') +
-      '</div></div>';
+    // ----- filters -----
+    var filters = '';
+    if (!term) {
+      if (cat) {
+        var base = catProducts(cat.id);
+        if (brand) base = base.filter(function (p) { return p.brand === brand; });
+        filters += '<div class="frow"><span class="flab">Tip</span><div class="chips" role="group" aria-label="Filtru după tip">' +
+          '<a class="chip txt" href="' + link({ sub: '' }) + '" aria-pressed="' + (!sub) + '">Toate <span class="cn">' + base.length + '</span></a>' +
+          cat.subs.map(function (s2) { var n = base.filter(function (p) { return p.sub === s2.id; }).length; if (!n) return '';
+            return '<a class="chip txt" href="' + link({ sub: s2.id }) + '" aria-pressed="' + (!!sub && sub.id === s2.id) + '">' + esc(s2.name) + ' <span class="cn">' + n + '</span></a>'; }).join('') + '</div></div>';
+      }
+      var bsrc = cat ? catProducts(cat.id) : P.filter(function (p) { return p.seg === seg; });
+      if (sub) bsrc = bsrc.filter(function (p) { return p.sub === sub.id; });
+      var bc = {}; bsrc.forEach(function (p) { bc[p.brand] = (bc[p.brand] || 0) + 1; });
+      var bset = Object.keys(bc).sort(function (a, b) { return bc[b] - bc[a]; });
+      if (bset.length > 1 || brand) filters += '<div class="frow"><span class="flab">Brand</span><div class="chips" role="group" aria-label="Filtru după brand">' +
+        '<a class="chip txt" href="' + link({ brand: '' }) + '" aria-pressed="' + (!brand) + '">Toate</a>' +
+        bset.map(function (b) { var lg = brandLogo(b);
+          return '<a class="chip' + (lg ? (isDark(b) ? ' dk' : '') : ' txt') + '" href="' + link({ brand: b }) + '" aria-pressed="' + (brand === b) + '" aria-label="' + esc(brandName(b)) + ', ' + bc[b] + ' produse" title="' + esc(brandName(b)) + ' · ' + bc[b] + ' produse">' +
+            (lg ? '<img src="' + lg + '" alt="">' : esc(brandName(b))) + '</a>'; }).join('') + '</div></div>';
+    }
+    // ----- results -----
+    var body;
+    if (!list.length) body = '<p class="empty">Nu am găsit nimic. Încearcă alt cuvânt sau sună la <a href="tel:+37379663311">079 66 33 11</a> și îți spunem dacă putem aduce produsul.</p>';
+    else if (cat && !sub && !sort && !brand) { // category: grouped by type
+      body = cat.subs.map(function (s2) { var g = list.filter(function (p) { return p.sub === s2.id; }); if (!g.length) return '';
+        return '<section class="grp"><div class="grp-h"><h2>' + esc(s2.name) + ' <span class="cn">' + g.length + '</span></h2>' +
+          (g.length > 4 ? '<a class="link" href="' + link({ sub: s2.id }) + '">Doar acestea →</a>' : '') + '</div><div class="grid">' + g.map(card).join('') + '</div></section>'; }).join('');
+    } else if (!cat && !sort && !term && !brand) { // whole segment: overview per category
+      body = cats.map(function (c) { var g = list.filter(function (p) { return p.cat === c.id; }); if (!g.length) return '';
+        return '<section class="grp"><div class="grp-h"><h2>' + esc(c.name) + ' <span class="cn">' + g.length + '</span></h2><a class="link" href="#/catalog?seg=' + seg + '&cat=' + c.id + '">Toate ' + g.length + ' →</a></div>' +
+          '<div class="subs-line">' + c.subs.filter(function (s2) { return g.some(function (p) { return p.sub === s2.id; }); }).map(function (s2) { return '<a href="#/catalog?seg=' + seg + '&cat=' + c.id + '&sub=' + s2.id + '">' + esc(s2.name) + '</a>'; }).join('') + '</div>' +
+          '<div class="grid">' + g.filter(function (p) { return p.photo; }).slice(0, 4).map(card).join('') + '</div></section>'; }).join('');
+    } else body = '<div class="grid">' + list.map(card).join('') + '</div>';
+    var segName = seg === 'cabinet' ? 'Cabinet' : 'Laborator';
+    var title = term ? 'Rezultate pentru „' + esc(term) + '”' : sub ? esc(sub.name) : cat ? esc(cat.name) : 'Tot catalogul pentru ' + segName.toLowerCase();
+    var crumbs = '<nav class="crumbs" aria-label="Ești aici"><a href="#/">Acasă</a><span aria-hidden="true">/</span>' + (term ? '<span>Căutare</span>' : '<a href="#/catalog?seg=' + seg + '">' + segName + '</a>' +
+      (cat ? '<span aria-hidden="true">/</span>' + (sub ? '<a href="#/catalog?seg=' + seg + '&cat=' + cat.id + '">' + esc(cat.name) + '</a><span aria-hidden="true">/</span><span>' + esc(sub.name) + '</span>' : '<span>' + esc(cat.name) + '</span>') : '')) + '</nav>';
+    var side = '<nav class="side" aria-label="Categorii"><div class="side-seg"><a href="#/catalog?seg=cabinet" aria-current="' + (seg === 'cabinet') + '">Cabinet</a><a href="#/catalog?seg=laborator" aria-current="' + (seg === 'laborator') + '">Laborator</a></div>' +
+      '<a class="side-c' + (!cat && !term ? ' on' : '') + '" href="#/catalog?seg=' + seg + '"><span>Toate categoriile</span><span>' + P.filter(function (p) { return p.seg === seg; }).length + '</span></a>' +
+      cats.map(function (c) { var on = cat && cat.id === c.id && !term;
+        return '<a class="side-c' + (on && !sub ? ' on' : '') + (on ? ' open' : '') + '" href="#/catalog?seg=' + seg + '&cat=' + c.id + '"><span>' + esc(c.name) + '</span><span>' + catProducts(c.id).length + '</span></a>' +
+          (on ? '<div class="side-sub">' + c.subs.map(function (s2) { var n = catProducts(c.id).filter(function (p) { return p.sub === s2.id; }).length; if (!n) return '';
+            return '<a class="' + (sub && sub.id === s2.id ? 'on' : '') + '" href="#/catalog?seg=' + seg + '&cat=' + c.id + '&sub=' + s2.id + '"><span>' + esc(s2.name) + '</span><span>' + n + '</span></a>'; }).join('') + '</div>' : ''); }).join('') + '</nav>';
+    var active = (brand || sub) ? '<p class="active-f">Filtre active: ' + (sub ? '<a href="' + link({ sub: '' }) + '">' + esc(sub.name) + ' ✕</a>' : '') + (brand ? '<a href="' + link({ brand: '' }) + '">' + esc(brandName(brand)) + ' ✕</a>' : '') + '<a class="clr" href="' + link({ sub: '', brand: '' }) + '">Șterge filtrele</a></p>' : '';
+    app.innerHTML = '<div class="wrap">' + crumbs + '<div class="cat-layout">' + side +
+      '<div class="cat-main"><div class="cat-title"><h1>' + title + '</h1><span class="cat-meta"><span class="muted">' + list.length + ' produse</span>' + sortSel + '</span></div>' +
+      filters + active + body + '</div></div></div>';
     setSeg(seg, true);
   }
 
   function product(id) {
     var p = byId[id]; if (!p) { app.innerHTML = '<div class="wrap section"><h1>Produsul nu există</h1><p><a href="#/catalog">Înapoi la catalog</a></p></div>'; return; }
     var c = catById[p.cat], lg = brandLogo(p.brand);
-    var rel = catProducts(p.cat).filter(function (x) { return x.id !== p.id; }).sort(function (a, b) { return (b.brand === p.brand) - (a.brand === p.brand); }).slice(0, 4);
+    var rel = catProducts(p.cat).filter(function (x) { return x.id !== p.id; }).sort(function (a, b) { return ((b.sub === p.sub) * 2 + (b.brand === p.brand)) - ((a.sub === p.sub) * 2 + (a.brand === p.brand)); }).slice(0, 4);
     var subj = encodeURIComponent('Cerere ofertă: ' + brandName(p.brand) + ' ' + p.name);
     var body = encodeURIComponent('Bună ziua,\n\nDoresc o ofertă pentru: ' + brandName(p.brand) + ' ' + p.name + '\nLink: ' + location.href + '\n\nNume:\nTelefon:\nCompanie:\n');
-    app.innerHTML = '<div class="wrap"><nav class="crumbs" aria-label="Ești aici"><a href="#/">Acasă</a><span aria-hidden="true">/</span><a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a><span aria-hidden="true">/</span><span>' + esc(p.name) + '</span></nav>' +
+    app.innerHTML = '<div class="wrap"><nav class="crumbs" aria-label="Ești aici"><a href="#/">Acasă</a><span aria-hidden="true">/</span><a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">' + esc(c.name) + '</a>' + (subOf(c.id, p.sub) ? '<span aria-hidden="true">/</span><a href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '&sub=' + p.sub + '">' + esc(subOf(c.id, p.sub).name) + '</a>' : '') + '<span aria-hidden="true">/</span><span>' + esc(p.name) + '</span></nav>' +
       '<div class="pp"><div class="pp-img"><img src="' + img(p) + '" alt="' + esc(brandName(p.brand) + ' ' + p.name) + '"></div><div class="pp-info">' +
       (lg ? '<div class="pp-logo-wrap' + (isDark(p.brand) ? ' dk' : '') + '"><img class="pp-logo" src="' + lg + '" alt="' + esc(brandName(p.brand)) + '"></div>' : '<p class="kicker">' + esc(brandName(p.brand)) + '</p>') +
       '<h1>' + esc(p.name) + '</h1><p class="pp-desc">' + esc(p.desc) + '</p>' +
@@ -154,7 +202,7 @@
       (p.price ? '<button class="btn lime" data-addq="' + p.id + '">Adaugă în coș</button>' : '<a class="btn lime" href="mailto:dentonemd@gmail.com?subject=' + subj + '&body=' + body + '">Cere ofertă pe e-mail</a>') +
       '<a class="btn dark-ghost" href="tel:+37379663311">Sună: 079 66 33 11</a>' +
       '<small>' + (p.price ? 'Prețul include taxele. Disponibilitatea o confirmăm la comandă.' : 'Prețul și termenul de livrare le confirmăm în aceeași zi lucrătoare.') + '</small></div>' +
-      '<dl class="specs"><div><dt>Brand</dt><dd>' + esc(brandName(p.brand)) + '</dd></div><div><dt>Categorie</dt><dd>' + esc(c.name) + '</dd></div><div><dt>Pentru</dt><dd>' + (c.seg === 'cabinet' ? 'Cabinet stomatologic' : 'Laborator dentar') + '</dd></div></dl>' +
+      '<dl class="specs"><div><dt>Brand</dt><dd>' + esc(brandName(p.brand)) + '</dd></div><div><dt>Categorie</dt><dd>' + esc(c.name) + '</dd></div>' + (subOf(c.id, p.sub) ? '<div><dt>Tip</dt><dd>' + esc(subOf(c.id, p.sub).name) + '</dd></div>' : '') + '<div><dt>Pentru</dt><dd>' + (c.seg === 'cabinet' ? 'Cabinet stomatologic' : 'Laborator dentar') + '</dd></div></dl>' +
       '</div></div>' +
       (rel.length ? '<section class="section" style="padding-top:24px"><div class="section-h"><h2>Din aceeași categorie</h2><a class="link" href="#/catalog?seg=' + c.seg + '&cat=' + c.id + '">Toată categoria →</a></div><div class="grid">' + rel.map(card).join('') + '</div></section>' : '') + '</div>';
     document.title = p.name + ' — ' + brandName(p.brand) + ' | DENT1';

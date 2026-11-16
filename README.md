@@ -18,6 +18,7 @@ Adaugă un obiect nou în `data/products.json`:
  "id": "brand-nume-produs",
  "seg": "cabinet",
  "cat": "steril",
+ "sub": "autoclav",
  "brand": "YESON",
  "name": "Numele produsului",
  "note": "Descriere scurtă (apare pe card)",
@@ -29,6 +30,8 @@ Adaugă un obiect nou în `data/products.json`:
 
 - `seg`: `cabinet` sau `laborator`
 - `cat`: un `id` din `data/categories.json`
+- `sub`: tipul produsului, un `id` din lista `subs` a categoriei (ex. `autoclav`, `sigil`)
+- ordinea din fișier = ordinea „Recomandate” de pe site
 - `brand`: o cheie din `data/brands.json`
 - `price`: gol (`""`) înseamnă „Preț la cerere”; „de la 290” e acceptat
 - poza: `img/p/<id>.webp`
