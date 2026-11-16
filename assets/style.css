@@ -1,11 +1,11 @@
 :root{
   --bg:#FFFFFF; --ink:#11181A; --ink2:#3A4245; --muted:#5C6568; --line:#E3E5E2; --line2:#CDD0CC;
   --card:#FFFFFF; --soft:#F2F3F1; --accent:#07689F; --accent2:#055A8A; --accent-on-dark:#6FC0EE; --dark:#11181A; --darkline:#33393B;
-  --r:20px; --mono:'JetBrains Mono',ui-monospace,monospace; --head:'Space Grotesk',system-ui,sans-serif;
+  --r:20px; --mono:'Montserrat',system-ui,sans-serif; --head:'Montserrat',system-ui,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Montserrat,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 img{max-width:100%;display:block}
 button{font:inherit;color:inherit}
@@ -31,7 +31,7 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .seg button{min-height:44px;padding:0 18px;border:0;border-radius:999px;background:transparent;font-weight:600;font-size:15px;cursor:pointer}
 .seg button[aria-pressed=true]{background:var(--dark);color:#FFFFFF}
 .search{flex:999 1 260px;min-width:0;display:flex;align-items:center;gap:10px;min-height:50px;padding:0 18px;background:#fff;border:1px solid var(--line);border-radius:999px}
-.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:400 15px Inter,system-ui,sans-serif;color:var(--ink)}
+.search input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:400 15px Montserrat,system-ui,sans-serif;color:var(--ink)}
 .nav{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
 .nav a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;text-decoration:none;font-weight:500;font-size:15px;border-radius:999px}
 .nav a:hover{background:#ECEEEB}
@@ -91,14 +91,14 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .card-img img{width:100%;height:100%;object-fit:contain;padding:10px}
 .card-b{display:flex;flex-direction:column;gap:4px;padding:16px;flex:1}
 .card-brand{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.card-name{margin:0;font:600 16px/1.25 Inter,system-ui,sans-serif;letter-spacing:0}
+.card-name{margin:0;font:600 16px/1.25 Montserrat,system-ui,sans-serif;letter-spacing:0}
 .card-name a{text-decoration:none}
 .card-name a::after{content:"";position:absolute;inset:0}
 .card{position:relative}
 .card-note{margin:0;font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-f{margin-top:auto;padding-top:12px;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .price{font:500 15px var(--mono)}
-.price.req{font-family:Inter,system-ui,sans-serif;font-size:13px;color:var(--muted)}
+.price.req{font-family:Montserrat,system-ui,sans-serif;font-size:13px;color:var(--muted)}
 .card .btn{position:relative;z-index:1}
 
 /* catalog */
@@ -221,7 +221,7 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .shop-side a:hover{background:var(--soft)}
 .shop-side a span:last-child{color:var(--muted);font-size:12px}
 .shop-side a.all{color:var(--accent);font-weight:600}
-.shop-side h2{font:600 12px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:12px 14px 6px}
+.shop-side h2{font:600 12px Montserrat,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:12px 14px 6px}
 .shop-main{flex:999 1 600px;min-width:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:16px}
 .banner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:20px;border-radius:22px;text-decoration:none;overflow:hidden}
 .banner.big{grid-column:1/-1;min-height:300px;padding:40px 44px;background:var(--soft);flex-wrap:wrap}
@@ -264,7 +264,7 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .card-img img{mix-blend-mode:multiply}
 .card-f{flex-direction:column;align-items:stretch}
 .card .price{font:700 20px var(--head)}
-.card .price.req{font:500 14px Inter,sans-serif}
+.card .price.req{font:500 14px Montserrat,sans-serif}
 .card .btn{width:100%;border-radius:10px}
 .card .btn.add{background:var(--accent);border-color:var(--accent);color:#fff}
 .card .btn.add:hover{background:var(--accent2)}
@@ -275,7 +275,7 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 
 .cat-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .sort{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--muted)}
-.sort select{min-height:44px;padding:0 36px 0 14px;border:1px solid var(--line2);border-radius:10px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2311181A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;appearance:none;font:500 14px Inter,sans-serif;color:var(--ink);cursor:pointer}
+.sort select{min-height:44px;padding:0 36px 0 14px;border:1px solid var(--line2);border-radius:10px;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2311181A' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;appearance:none;font:500 14px Montserrat,sans-serif;color:var(--ink);cursor:pointer}
 .sort select:focus-visible{outline:3px solid var(--accent)}
 
 /* catalog structure */
@@ -336,7 +336,7 @@ h1,h2,h3{font-family:var(--head);letter-spacing:-.02em;margin:0}
 .pspec h2{font-size:clamp(26px,3vw,36px)}
 .pspec-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:16px}
 .pspec-b{border:1px solid var(--line);border-radius:18px;padding:20px 22px;background:#fff}
-.pspec-b h3{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-family:Inter,sans-serif}
+.pspec-b h3{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-family:Montserrat,sans-serif}
 .pspec-b dl{margin:0}
 .pspec-b dl div{display:grid;grid-template-columns:minmax(120px,40%) 1fr;gap:16px;padding:11px 0;border-top:1px solid var(--line)}
 .pspec-b dl div:first-child{border-top:0}
