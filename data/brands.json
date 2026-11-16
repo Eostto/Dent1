@@ -116,5 +116,8 @@
  "LED2WORK": {
   "label": "LED2WORK",
   "logo": "/img/brands/led2work.png"
+ },
+ "VRN": {
+  "label": "VRN Medical"
  }
 }

@@ -308,6 +308,10 @@
    {
     "id": "soft",
     "name": "Software"
+   },
+   {
+    "id": "rx",
+    "name": "Radiologie digitală"
    }
   ]
  },

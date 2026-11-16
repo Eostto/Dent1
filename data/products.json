@@ -434,6 +434,112 @@
   "hidden": true
  },
  {
+  "id": "vrn-es-20",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "VRN",
+  "name": "ES-20",
+  "note": "Electrocauter dentar",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate de electrochirurgie de înaltă frecvență pentru chirurgie dentară, cu ecran tactil.",
+  "hq": true,
+  "keys": [
+   [
+    "1,2 MHz",
+    "frecvență"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Funcție",
+      "Tăiere"
+     ],
+     [
+      "Tehnologie",
+      "Înaltă frecvență"
+     ],
+     [
+      "Frecvență",
+      "1,2 MHz"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-wsd-ii",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "VRN",
+  "name": "WSD-II",
+  "note": "Pompă de aspirație chirurgicală",
+  "price": "",
+  "photo": true,
+  "desc": "Pompă electrică de aspirație pentru chirurgie dentară.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Debit",
+      "50 l/min"
+     ],
+     [
+      "Presiune",
+      "0,2 MPa"
+     ],
+     [
+      "Acționare",
+      "Electrică"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-wsd-iii",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "VRN",
+  "name": "WSD-III",
+  "note": "Pompă de aspirație chirurgicală",
+  "price": "",
+  "photo": true,
+  "desc": "Pompă de aspirație cu vid pentru chirurgie dentară.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Debit",
+      "50 l/min"
+     ],
+     [
+      "Presiune",
+      "0,2 MPa"
+     ],
+     [
+      "Acționare",
+      "Vid"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "saeshin-td-auto",
   "seg": "cabinet",
   "cat": "implant",
@@ -485,6 +591,92 @@
   "desc": "Fiziodispenser pentru implantologie cu mod chirurgical. Include piesă de implant 20:1 și piesă chirurgicală 1:4.2.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "vrn-ds-100",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "motor",
+  "brand": "VRN",
+  "name": "DS-100",
+  "note": "Fiziodispenser pentru chirurgie",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate cu micromotor pentru chirurgie dentară, endodonție și parodontologie, cu lumină LED și ecran tactil.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Utilizare",
+      "Chirurgie, endodonție, parodontologie"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ],
+     [
+      "Sterilizare",
+      "Autoclavabil"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dz-100",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "motor",
+  "brand": "VRN",
+  "name": "DZ-100",
+  "note": "Fiziodispenser pentru implantologie",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate cu micromotor electric pentru chirurgie dentară, cu lumină LED, spray extern și ecran tactil.",
+  "hq": true,
+  "keys": [
+   [
+    "100–40.000",
+    "rpm"
+   ],
+   [
+    "45 dB",
+    "zgomot"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Turație",
+      "100–40.000 rpm"
+     ],
+     [
+      "Zgomot",
+      "45 dB"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ],
+     [
+      "Lungime",
+      "290 mm"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "saeshin-sip10",
@@ -1669,6 +1861,84 @@
   "hidden": true
  },
  {
+  "id": "vrn-dv-50",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "DV-50",
+  "note": "Lampă de fotopolimerizare fără fir",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir cu afișaj OLED.",
+  "hq": true
+ },
+ {
+  "id": "vrn-dv-60",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "DV-60",
+  "note": "Lampă de fotopolimerizare LED/UV",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir, LED cu componentă UV.",
+  "hq": true
+ },
+ {
+  "id": "vrn-v200",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "V200",
+  "note": "Lampă de fotopolimerizare fără fir",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir cu afișaj OLED.",
+  "hq": true
+ },
+ {
+  "id": "vrn-v300",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "V300",
+  "note": "Lampă de fotopolimerizare LED/UV",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir, LED/UV, cu suport integrat.",
+  "hq": true
+ },
+ {
+  "id": "vrn-v400",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "V400",
+  "note": "Lampă de fotopolimerizare LED/UV",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir, LED cu componentă UV.",
+  "hq": true
+ },
+ {
+  "id": "vrn-vafu",
+  "seg": "cabinet",
+  "cat": "resto",
+  "sub": "lampa",
+  "brand": "VRN",
+  "name": "VAFU",
+  "note": "Lampă de fotopolimerizare fără fir",
+  "price": "",
+  "photo": true,
+  "desc": "Lampă de fotopolimerizare fără fir cu afișaj OLED.",
+  "hq": true
+ },
+ {
   "id": "hass-amber-mill-direct",
   "seg": "cabinet",
   "cat": "resto",
@@ -1871,6 +2141,487 @@
   "hidden": true
  },
  {
+  "id": "vrn-da-10",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DA-10",
+  "note": "Detartraj cu ultrasunete, parodontologie și endodonție",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de detartraj cu ultrasunete pentru parodontologie și endodonție, cu lumină LED și piesă autoclavabilă.",
+  "hq": true,
+  "keys": [
+   [
+    "18–45",
+    "kHz"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "18–45 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Sterilizare",
+      "Autoclavabil"
+     ],
+     [
+      "Dimensiuni",
+      "180 × 100 mm"
+     ],
+     [
+      "Greutate",
+      "1,5 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-da-20",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DA-20",
+  "note": "Detartraj cu ultrasunete, ecran tactil",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de detartraj cu ultrasunete pentru parodontologie, cu lumină LED și ecran tactil.",
+  "hq": true,
+  "keys": [
+   [
+    "18–45",
+    "kHz"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "18–45 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Dimensiuni",
+      "285 × 145 mm"
+     ],
+     [
+      "Greutate",
+      "1,8 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dp-10",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DP-10",
+  "note": "Air polisher autoclavabil",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă air polisher autoclavabilă, cu lumină LED și spray extern, pentru îndepărtarea plăcii și a colorațiilor.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tip",
+      "Air polisher"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Sterilizare",
+      "Autoclavabil"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dp-60",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DP-60",
+  "note": "Detartraj cu ultrasunete și air polisher",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate de detartraj cu ultrasunete și air polisher, cu spray extern de apă.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tip",
+      "Ultrasunete + air polishing"
+     ],
+     [
+      "Lungime",
+      "298 / 320 mm"
+     ],
+     [
+      "Înălțime",
+      "222 / 226 mm"
+     ],
+     [
+      "Greutate",
+      "4,8–8,5 kg, după configurație"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dq-40",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DQ-40",
+  "note": "Detartraj cu ultrasunete și air polisher",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate de detartraj cu ultrasunete și air polisher, cu ecran tactil, pentru profilaxie completă.",
+  "hq": true,
+  "keys": [
+   [
+    "25–35",
+    "kHz"
+   ],
+   [
+    "2 în 1",
+    "scaler + air polisher"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tip",
+      "Ultrasunete + air polishing"
+     ],
+     [
+      "Frecvență",
+      "25–35 kHz"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ],
+     [
+      "Greutate",
+      "2,1 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dq-80",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "DQ-80",
+  "note": "Unitate de detartraj cu ultrasunete și ecran tactil",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate completă de detartraj cu ultrasunete, cu ecran tactil, vârfuri din titan și spray extern de apă.",
+  "hq": true,
+  "keys": [
+   [
+    "25–35",
+    "kHz"
+   ],
+   [
+    "6,5 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tip",
+      "Ultrasunete, piezo"
+     ],
+     [
+      "Frecvență",
+      "25–35 kHz"
+     ],
+     [
+      "Vârfuri",
+      "Titan"
+     ],
+     [
+      "Spray",
+      "Extern"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ],
+     [
+      "Greutate",
+      "6,5 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-vr-k08a",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "VR-K08A",
+  "note": "Detartraj cu ultrasunete pentru parodontologie",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de detartraj cu ultrasunete pentru detartraj și întreținere parodontală, cu lumină LED.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "25–31 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Greutate",
+      "0,75 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-vrn-a5",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "VRN-A5",
+  "note": "Detartraj cu ultrasunete compact",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat compact de detartraj cu ultrasunete, cu lumină LED și spray extern.",
+  "hq": true,
+  "keys": [
+   [
+    "28",
+    "kHz"
+   ],
+   [
+    "0,5 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "28 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Greutate",
+      "0,5 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-vrn-a8",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "VRN-A8",
+  "note": "Detartraj cu ultrasunete, control wireless",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de detartraj piezo cu ultrasunete, cu lumină LED și spray extern, set complet.",
+  "hq": true,
+  "keys": [
+   [
+    "18–60",
+    "kHz"
+   ],
+   [
+    "0,75 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "18–60 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Dimensiuni",
+      "250 × 200 mm"
+     ],
+     [
+      "Greutate",
+      "0,75 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-vrn-q5",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "VRN-Q5",
+  "note": "Detartraj cu ultrasunete pentru parodontologie",
+  "price": "",
+  "photo": true,
+  "desc": "Unitate de detartraj cu ultrasunete pentru parodontologie, cu lumină LED și spray extern.",
+  "hq": true,
+  "keys": [
+   [
+    "25–35",
+    "kHz"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Frecvență",
+      "25–35 kHz"
+     ],
+     [
+      "Lumină",
+      "LED"
+     ],
+     [
+      "Dimensiuni",
+      "270 × 400 mm"
+     ],
+     [
+      "Greutate",
+      "1,8 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-vrn-q6",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "aparat",
+  "brand": "VRN",
+  "name": "VRN-Q6",
+  "note": "Detartraj cu ultrasunete și air polishing",
+  "price": "",
+  "photo": true,
+  "desc": "Sistem de detartraj cu ultrasunete și air polishing pentru parodontologie, cu ecran tactil.",
+  "hq": true,
+  "keys": [
+   [
+    "25–35",
+    "kHz"
+   ],
+   [
+    "1,5 kg",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tip",
+      "Ultrasunete, parodontologie"
+     ],
+     [
+      "Frecvență",
+      "25–35 kHz"
+     ],
+     [
+      "Spray",
+      "Extern"
+     ],
+     [
+      "Ecran",
+      "Tactil"
+     ],
+     [
+      "Greutate",
+      "1,5 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-handpiece-scaler",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "varf",
+  "brand": "VRN",
+  "name": "Piesă de mână pentru detartraj",
+  "note": "Piesă piezo VRN",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă de mână electrică pentru aparatele de detartraj VRN.",
+  "hq": true
+ },
+ {
   "id": "okodent-connect",
   "seg": "cabinet",
   "cat": "profilaxie",
@@ -1948,6 +2699,28 @@
   "desc": "Pastă de profilaxie în borcan: curăță eficient fără să abradeze inutil suprafața dintelui.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "vrn-ukg-s3",
+  "seg": "cabinet",
+  "cat": "profilaxie",
+  "sub": "prof",
+  "brand": "VRN",
+  "name": "UKG-S3",
+  "note": "Pulbere de profilaxie",
+  "price": "",
+  "photo": true,
+  "desc": "Pulbere de profilaxie pentru air polishing: bicarbonat de sodiu sau glicină.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Tip",
+    "values": [
+     "Bicarbonat de sodiu",
+     "Glicină"
+    ]
+   }
+  ]
  },
  {
   "id": "nakamura-prophy-contra-angle",
@@ -3209,6 +3982,19 @@
   "hidden": true
  },
  {
+  "id": "vrn-t-3",
+  "seg": "cabinet",
+  "cat": "unit",
+  "sub": "alt",
+  "brand": "VRN",
+  "name": "T-3",
+  "note": "Cărucior pentru instrumente",
+  "price": "",
+  "photo": true,
+  "desc": "Cărucior mobil pentru instrumente și aparate dentare.",
+  "hq": true
+ },
+ {
   "id": "fomos-imix-m3",
   "seg": "cabinet",
   "cat": "unit",
@@ -3661,6 +4447,56 @@
      [
       "Porturi",
       "USB-C PD 5 V/3 A, 3 × USB 3.0"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-dk-100",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "ios",
+  "brand": "VRN",
+  "name": "DK-100",
+  "note": "Scaner intraoral",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner intraoral cu lumină structurată, ușor (210 g), cu export STL, PLY, OBJ.",
+  "hq": true,
+  "keys": [
+   [
+    "4,8 μm",
+    "precizie"
+   ],
+   [
+    "210 g",
+    "greutate"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tehnologie",
+      "Lumină structurată, LED"
+     ],
+     [
+      "Formate",
+      "STL, PLY, OBJ"
+     ],
+     [
+      "Precizie",
+      "4,8 μm"
+     ],
+     [
+      "Dimensiuni",
+      "200 × 58 mm"
+     ],
+     [
+      "Greutate",
+      "210 g"
      ]
     ]
    }
@@ -4147,6 +4983,96 @@
   "photo": false,
   "desc": "Software chairside. Soluție digitală Shining 3D pentru fluxul de lucru chairside.",
   "hidden": true
+ },
+ {
+  "id": "vrn-eq-series",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "rx",
+  "brand": "VRN",
+  "name": "EQ Series",
+  "note": "Senzor radiologic intraoral",
+  "price": "",
+  "photo": true,
+  "desc": "Senzor digital intraoral cu panou plat, portabil, cu conectare USB.",
+  "hq": true
+ },
+ {
+  "id": "vrn-eq-600",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "rx",
+  "brand": "VRN",
+  "name": "EQ-600",
+  "note": "Scaner de plăci fosforice (CR)",
+  "price": "",
+  "photo": true,
+  "desc": "Scaner CR pentru plăcuțe fosforice intraorale, pentru radiografie digitală în cabinet.",
+  "hq": true
+ },
+ {
+  "id": "vrn-super05",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "rx",
+  "brand": "VRN",
+  "name": "SUPER05",
+  "note": "Aparat RX intraoral portabil",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de radiografie intraorală digitală, portabil, cu afișaj.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tensiune tub",
+      "70 kV"
+     ],
+     [
+      "Pată focală",
+      "0,4 mm"
+     ],
+     [
+      "Tip",
+      "Portabil, digital"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vrn-you98-p",
+  "seg": "cabinet",
+  "cat": "digital",
+  "sub": "rx",
+  "brand": "VRN",
+  "name": "YOU98 (P)",
+  "note": "Aparat RX intraoral portabil",
+  "price": "",
+  "photo": true,
+  "desc": "Aparat de radiografie intraorală portabil, analogic sau digital.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Tensiune tub",
+      "70 kV"
+     ],
+     [
+      "Pată focală",
+      "0,4 mm"
+     ],
+     [
+      "Tip",
+      "Portabil"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "hass-amber-mill",
@@ -10711,6 +11637,97 @@
   ]
  },
  {
+  "id": "riton-rxdent-l230",
+  "seg": "laborator",
+  "cat": "print",
+  "sub": "resin",
+  "brand": "RITON",
+  "name": "RXDent-L230",
+  "note": "Imprimantă 3D LCD 8K, format mare",
+  "price": "",
+  "photo": true,
+  "hq": true,
+  "desc": "Imprimantă 3D LCD de format mare (228 × 128 × 150 mm) cu rezoluție 8K și precizie de 30 μm, pentru producție de serie: modele, gutiere, ghiduri și provizorii.",
+  "keys": [
+   [
+    "30 μm",
+    "precizie"
+   ],
+   [
+    "8K",
+    "7680 × 4320"
+   ],
+   [
+    "228×128×150",
+    "volum, mm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Imprimare",
+    "rows": [
+     [
+      "Tehnologie",
+      "LCD"
+     ],
+     [
+      "Volum",
+      "228 × 128 × 150 mm"
+     ],
+     [
+      "Rezoluție",
+      "7680 × 4320"
+     ],
+     [
+      "Precizie",
+      "30 μm"
+     ],
+     [
+      "Lungime de undă",
+      "385 nm"
+     ],
+     [
+      "Viteză",
+      "1–8 s/strat"
+     ],
+     [
+      "Strat",
+      "0,01–0,2 mm"
+     ]
+    ]
+   },
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Ecran",
+      "Tactil 5″"
+     ],
+     [
+      "Alimentare",
+      "100–240 V"
+     ],
+     [
+      "Putere",
+      "300 W"
+     ],
+     [
+      "Dimensiuni",
+      "370 × 370 × 530 mm"
+     ],
+     [
+      "Greutate",
+      "30 kg"
+     ],
+     [
+      "Conexiune",
+      "Wireless, USB"
+     ]
+    ]
+   }
+  ]
+ },
+ {
   "id": "shining-3d-accufab-aris",
   "seg": "laborator",
   "cat": "print",
@@ -13478,96 +14495,5 @@
   "desc": "Lampă de sistem. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
   "hq": true,
   "hidden": true
- },
- {
-  "id": "riton-rxdent-l230",
-  "seg": "laborator",
-  "cat": "print",
-  "sub": "resin",
-  "brand": "RITON",
-  "name": "RXDent-L230",
-  "note": "Imprimantă 3D LCD 8K, format mare",
-  "price": "",
-  "photo": true,
-  "hq": true,
-  "desc": "Imprimantă 3D LCD de format mare (228 × 128 × 150 mm) cu rezoluție 8K și precizie de 30 μm, pentru producție de serie: modele, gutiere, ghiduri și provizorii.",
-  "keys": [
-   [
-    "30 μm",
-    "precizie"
-   ],
-   [
-    "8K",
-    "7680 × 4320"
-   ],
-   [
-    "228×128×150",
-    "volum, mm"
-   ]
-  ],
-  "specs": [
-   {
-    "g": "Imprimare",
-    "rows": [
-     [
-      "Tehnologie",
-      "LCD"
-     ],
-     [
-      "Volum",
-      "228 × 128 × 150 mm"
-     ],
-     [
-      "Rezoluție",
-      "7680 × 4320"
-     ],
-     [
-      "Precizie",
-      "30 μm"
-     ],
-     [
-      "Lungime de undă",
-      "385 nm"
-     ],
-     [
-      "Viteză",
-      "1–8 s/strat"
-     ],
-     [
-      "Strat",
-      "0,01–0,2 mm"
-     ]
-    ]
-   },
-   {
-    "g": "General",
-    "rows": [
-     [
-      "Ecran",
-      "Tactil 5″"
-     ],
-     [
-      "Alimentare",
-      "100–240 V"
-     ],
-     [
-      "Putere",
-      "300 W"
-     ],
-     [
-      "Dimensiuni",
-      "370 × 370 × 530 mm"
-     ],
-     [
-      "Greutate",
-      "30 kg"
-     ],
-     [
-      "Conexiune",
-      "Wireless, USB"
-     ]
-    ]
-   }
-  ]
  }
 ]
