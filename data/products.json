@@ -434,6 +434,32 @@
   "hidden": true
  },
  {
+  "id": "soco-b20-7",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "SOCO",
+  "name": "Contraunghi 20:1 implant",
+  "note": "Contraunghi reductor 20:1 pentru implantologie",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi reductor 20:1 cu fibră optică și buton, pentru implantologie.",
+  "hq": true
+ },
+ {
+  "id": "soco-d29-s",
+  "seg": "cabinet",
+  "cat": "implant",
+  "sub": "instr",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă chirurgicală 20°",
+  "note": "Piesă dreaptă chirurgicală 1:1, 20°",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă chirurgicală 1:1 cu cap la 20°.",
+  "hq": true
+ },
+ {
   "id": "vrn-es-20",
   "seg": "cabinet",
   "cat": "implant",
@@ -1235,6 +1261,210 @@
   "hidden": true
  },
  {
+  "id": "soco-c-root-iv",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "C-ROOT IV",
+  "note": "Apex locator și pulp tester",
+  "price": "",
+  "photo": true,
+  "desc": "Apex locator de generația a cincea, multi-frecvență, precis în canal umed sau uscat (0,1 mm), cu funcție de test de vitalitate pulpară.",
+  "hq": true,
+  "keys": [
+   [
+    "0,1 mm",
+    "precizie"
+   ],
+   [
+    "2",
+    "moduri"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Moduri",
+      "Apex locator și test de vitalitate"
+     ],
+     [
+      "Ecran",
+      "LCD color"
+     ],
+     [
+      "Tehnologie",
+      "Multi-frecvență, generația a cincea"
+     ],
+     [
+      "Precizie",
+      "0,1 mm"
+     ],
+     [
+      "Baterie",
+      "Li-ion reîncărcabilă"
+     ]
+    ]
+   },
+   {
+    "g": "Conținut",
+    "rows": [
+     [
+      "Set",
+      "Unitate, 2 clipuri, cablu, 2 port-ace, baterie, adaptor, mâner și 2 sonde pentru test pulpar"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-c-smart-mini",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "C-SMART MINI",
+  "note": "Endomotor wireless",
+  "price": "",
+  "photo": true,
+  "desc": "Endomotor fără fir cu motor fără perii elvețian, contraunghi mini 1:1 detașabil, mod reciproc și 5 programe.",
+  "hq": true,
+  "keys": [
+   [
+    "0,6–3,9",
+    "N·cm"
+   ],
+   [
+    "125–625",
+    "rpm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare adaptor",
+      "AC 100–240 V, 50/60 Hz"
+     ],
+     [
+      "Cuplu",
+      "0,6–3,9 N·cm"
+     ],
+     [
+      "Turație",
+      "125–625 rpm, 5 trepte"
+     ],
+     [
+      "Programe",
+      "5"
+     ],
+     [
+      "Mod reciproc",
+      "Da"
+     ],
+     [
+      "Sterilizare",
+      "Autoclavabil"
+     ],
+     [
+      "Dimensiuni",
+      "19 × 13 × 6 cm"
+     ],
+     [
+      "Greutate",
+      "0,7 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-c-smart-mini-ap",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "C-SMART MINI AP",
+  "note": "Endomotor wireless cu apex locator",
+  "price": "",
+  "photo": true,
+  "desc": "Endomotor fără fir cu apex locator integrat, 31 de sisteme de ace preprogramate, 3 moduri de lucru, autoreverse la cuplu și la apex.",
+  "hq": true,
+  "keys": [
+   [
+    "31",
+    "sisteme de ace"
+   ],
+   [
+    "150–600",
+    "rpm"
+   ],
+   [
+    "apex",
+    "integrat"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Turație",
+      "150–600 rpm"
+     ],
+     [
+      "Cuplu",
+      "0,6–3,0 N·cm"
+     ],
+     [
+      "Iluminare LED",
+      "> 15.000 lux"
+     ],
+     [
+      "Baterie",
+      "Li-ion 3,7 V"
+     ],
+     [
+      "Încărcare",
+      "Wireless, fără contact"
+     ],
+     [
+      "Sisteme de ace",
+      "31, circa 200 de parametri, 6 mărci"
+     ],
+     [
+      "Moduri",
+      "Dual, comutare automată, după apex"
+     ],
+     [
+      "Autoreverse",
+      "La cuplu și la apex"
+     ],
+     [
+      "Cap",
+      "Mini, rotativ"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-c-smart-iv-plus",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "C-SMART-IV+",
+  "note": "Endomotor cu apex locator",
+  "price": "",
+  "photo": true,
+  "desc": "Endomotor cu motor elvețian, ecran LCD lat, apex locator cu dublă frecvență, 4 moduri, autoreverse și încetinire la apex.",
+  "hq": true
+ },
+ {
   "id": "saeshin-e-cube",
   "seg": "cabinet",
   "cat": "endo",
@@ -1274,46 +1504,230 @@
   "hidden": true
  },
  {
-  "id": "soco-sc-niti-file",
+  "id": "soco-s-one-plus",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "S-one Plus",
+  "note": "Ac reciproc unic NiTi",
+  "price": "",
+  "photo": true,
+  "desc": "Ac unic reciproc NiTi: prepararea completă a canalului cu un singur ac, secțiune în S și pas variabil.",
+  "hq": true
+ },
+ {
+  "id": "soco-sc-niti",
   "seg": "cabinet",
   "cat": "endo",
   "sub": "ace",
   "brand": "SOCO",
   "name": "SC NiTi File",
-  "note": "Ace NiTi rotative",
+  "note": "Ace rotative NiTi CM-wire",
   "price": "",
   "photo": true,
-  "desc": "Ace rotative NiTi SOCO SC pentru prepararea canalelor radiculare.",
-  "hq": true,
-  "hidden": true
+  "desc": "Ace rotative din NiTi CM, flexibile, rezistente la oboseală și la rupere, cu acoperire dură.",
+  "hq": true
  },
  {
-  "id": "soco-sc-ul-niti-file",
+  "id": "soco-sc-ul-niti",
   "seg": "cabinet",
   "cat": "endo",
   "sub": "ace",
   "brand": "SOCO",
   "name": "SC UL NiTi File",
-  "note": "Ace NiTi rotative",
+  "note": "Ace rotative NiTi",
   "price": "",
   "photo": true,
-  "desc": "Ace NiTi rotative. Produs SOCO pentru tratamentul de canal, pentru cabinetul stomatologic.",
+  "desc": "Ace rotative NiTi cu secțiune triunghiulară convexă, spire progresive și vârf de siguranță, cu mâner scurt.",
   "hq": true,
-  "hidden": true
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Material",
+      "NiTi"
+     ],
+     [
+      "Secțiune",
+      "Triunghiulară convexă"
+     ],
+     [
+      "Spire",
+      "Progresive"
+     ],
+     [
+      "Conicitate",
+      "04 / 06"
+     ],
+     [
+      "Mâner",
+      "Scurt"
+     ],
+     [
+      "Vârf",
+      "De siguranță"
+     ],
+     [
+      "Ambalaj",
+      "Standard sau rezervă mare"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Conicitate",
+    "values": [
+     "04",
+     "06"
+    ]
+   }
+  ]
  },
  {
-  "id": "soco-sc-plus-niti-file",
+  "id": "soco-sc-ch-niti",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SC-CH NiTi File",
+  "note": "Ace NiTi pentru copii",
+  "price": "",
+  "photo": true,
+  "desc": "Ace rotative NiTi create special pentru dinții temporari.",
+  "hq": true
+ },
+ {
+  "id": "soco-sc-plus-niti",
   "seg": "cabinet",
   "cat": "endo",
   "sub": "ace",
   "brand": "SOCO",
   "name": "SC-Plus NiTi File",
-  "note": "Ace NiTi rotative",
+  "note": "Ace rotative NiTi, conicitate dublă",
   "price": "",
   "photo": true,
-  "desc": "Ace NiTi rotative. Produs SOCO pentru tratamentul de canal, pentru cabinetul stomatologic.",
-  "hq": true,
-  "hidden": true
+  "desc": "Sistem NiTi CM-wire de puritate ridicată, cu configurație de conicitate dublă și ac de deschidere 17/12, pentru canale curbe și obturare cu un singur con.",
+  "hq": true
+ },
+ {
+  "id": "soco-sc-st-niti",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SC-ST NiTi File",
+  "note": "Ace de retratament",
+  "price": "",
+  "photo": true,
+  "desc": "Ace NiTi pentru retratament: îndepărtează eficient gutapercă și sigilantul, în canale drepte și curbe.",
+  "hq": true
+ },
+ {
+  "id": "soco-scf-barbed-broaches",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SCF Barbed Broaches",
+  "note": "Extirpatoare",
+  "price": "",
+  "photo": true,
+  "desc": "Extirpatoare din oțel inoxidabil pentru îndepărtarea pulpei.",
+  "hq": true
+ },
+ {
+  "id": "soco-scf-niti-files",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SCF NiTi Files",
+  "note": "Ace manuale NiTi",
+  "price": "",
+  "photo": true,
+  "desc": "Ace endodontice manuale din NiTi.",
+  "hq": true
+ },
+ {
+  "id": "soco-scf-niti-hand-super",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SCF NiTi Hand Super Files",
+  "note": "Ace manuale NiTi pentru preparare",
+  "price": "",
+  "photo": true,
+  "desc": "Ace manuale NiTi pentru prepararea canalelor.",
+  "hq": true
+ },
+ {
+  "id": "soco-scf-ss-files",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SCF S.S. Files",
+  "note": "Ace manuale din oțel inoxidabil",
+  "price": "",
+  "photo": true,
+  "desc": "Ace endodontice manuale din oțel inoxidabil (K, H).",
+  "hq": true
+ },
+ {
+  "id": "soco-sx-f3",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SX-F3",
+  "note": "Ace rotative NiTi Super Files",
+  "price": "",
+  "photo": true,
+  "desc": "Ace rotative NiTi Super Files.",
+  "hq": true
+ },
+ {
+  "id": "soco-sxf-gates",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SXF Gates Drills",
+  "note": "Freze Gates rotative",
+  "price": "",
+  "photo": true,
+  "desc": "Freze Gates Glidden din oțel inoxidabil.",
+  "hq": true
+ },
+ {
+  "id": "soco-sxf-peeso",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SXF Peeso Reamers",
+  "note": "Freze Peeso rotative",
+  "price": "",
+  "photo": true,
+  "desc": "Freze Peeso din oțel inoxidabil pentru prepararea spațiului de pivot.",
+  "hq": true
+ },
+ {
+  "id": "soco-sxf-u-file",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "ace",
+  "brand": "SOCO",
+  "name": "SXF U-File",
+  "note": "Ace U rotative",
+  "price": "",
+  "photo": true,
+  "desc": "Ace U rotative.",
+  "hq": true
  },
  {
   "id": "dsi-endo",
@@ -1326,19 +1740,6 @@
   "price": "",
   "photo": false,
   "desc": "Gama de endodonție DSI. Produs DSI pentru tratamentul de canal, pentru cabinetul stomatologic.",
-  "hidden": true
- },
- {
-  "id": "soco-hand-file",
-  "seg": "cabinet",
-  "cat": "endo",
-  "sub": "ace",
-  "brand": "SOCO",
-  "name": "Hand File",
-  "note": "Ace manuale",
-  "price": "",
-  "photo": false,
-  "desc": "Ace manuale. Produs SOCO pentru tratamentul de canal, pentru cabinetul stomatologic.",
   "hidden": true
  },
  {
@@ -1422,6 +1823,55 @@
   "desc": "Sigilant de canal pe bază de MTA. Produs Bisico pentru tratamentul de canal, pentru cabinetul stomatologic.",
   "hq": true,
   "hidden": true
+ },
+ {
+  "id": "soco-c-blade",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "obt",
+  "brand": "SOCO",
+  "name": "C-BLADE",
+  "note": "Tăietor de gutapercă",
+  "price": "",
+  "photo": true,
+  "desc": "Instrument wireless pentru tăierea gutapercii cu vârf încălzit.",
+  "hq": true
+ },
+ {
+  "id": "soco-c-fill",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "obt",
+  "brand": "SOCO",
+  "name": "C-Fill",
+  "note": "Sistem de obturare cu gutapercă caldă",
+  "price": "",
+  "photo": true,
+  "desc": "Sistem wireless de obturare: plunger încălzit rotativ 360°, pistol pentru gutapercă care ajunge la 200 °C în 30 s, două baterii.",
+  "hq": true,
+  "keys": [
+   [
+    "200 °C",
+    "în 30 s"
+   ],
+   [
+    "360°",
+    "ac rotativ"
+   ]
+  ]
+ },
+ {
+  "id": "soco-sxf-lentulo",
+  "seg": "cabinet",
+  "cat": "endo",
+  "sub": "obt",
+  "brand": "SOCO",
+  "name": "SXF Rotary Paste Carriers",
+  "note": "Ace Lentulo",
+  "price": "",
+  "photo": true,
+  "desc": "Ace Lentulo rotative pentru introducerea pastei de obturare.",
+  "hq": true
  },
  {
   "id": "imicryl-e-d-t-a",
@@ -2944,18 +3394,126 @@
   "hidden": true
  },
  {
-  "id": "soco-schb4-45",
+  "id": "soco-schf19",
   "seg": "cabinet",
   "cat": "piese",
   "sub": "turb",
   "brand": "SOCO",
-  "name": "SCHB4 45°",
+  "name": "SCHF19",
   "note": "Turbină cu fibră optică",
   "price": "",
   "photo": true,
-  "desc": "Turbină cu fibră optică. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
+  "desc": "Turbină din seria optică SCHF19, cu buton.",
+  "hq": true
+ },
+ {
+  "id": "soco-schf19-45",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHF19 45°",
+  "note": "Turbină 45° cu fibră optică, 6 găuri",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu cap la 45°, fibră optică și cuplă rapidă cu 6 găuri.",
+  "hq": true
+ },
+ {
+  "id": "soco-schf22",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHF22",
+  "note": "Turbină cu generator LED",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu generator LED, cap standard sau super-torque.",
   "hq": true,
-  "hidden": true
+  "options": [
+   {
+    "label": "Cap",
+    "values": [
+     "Standard",
+     "Super torque"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-schf22-45",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHF22 45°",
+  "note": "Turbină 45° cu LED și generator",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu cap la 45°, buton și generator LED.",
+  "hq": true
+ },
+ {
+  "id": "soco-schg01",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHG01",
+  "note": "Turbină cu buton, cap standard / torque",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu buton și generator, cu cap standard sau super-torque.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Cap",
+    "values": [
+     "Standard",
+     "Super torque"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-schg01-45",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHG01 45°",
+  "note": "Turbină 45° cu buton",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu cap la 45° pentru molari, cu buton și generator.",
+  "hq": true
+ },
+ {
+  "id": "soco-schg01-three-spray",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHG01 Three Spray",
+  "note": "Turbină cu 3 spray-uri, cu generator",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu buton, trei spray-uri și generator LED.",
+  "hq": true
+ },
+ {
+  "id": "soco-schg18",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "turb",
+  "brand": "SOCO",
+  "name": "SCHG18",
+  "note": "Turbină cu cap autocurățabil",
+  "price": "",
+  "photo": true,
+  "desc": "Turbină cu sistem de cap curat (anti-retracție) și generator.",
+  "hq": true
  },
  {
   "id": "nakamura-airturbine-handpiece",
@@ -3010,31 +3568,264 @@
   "hidden": true
  },
  {
-  "id": "soco-led-high-speed-handpiece",
-  "seg": "cabinet",
-  "cat": "piese",
-  "sub": "turb",
-  "brand": "SOCO",
-  "name": "LED High Speed Handpiece",
-  "note": "Turbină cu LED",
-  "price": "",
-  "photo": false,
-  "desc": "Turbină cu LED. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
- },
- {
-  "id": "soco-contra-angle-1-5",
+  "id": "soco-b10-1",
   "seg": "cabinet",
   "cat": "piese",
   "sub": "contra",
   "brand": "SOCO",
-  "name": "Contra Angle 1:5",
-  "note": "Contraunghi multiplicator",
+  "name": "Contraunghi 10:1",
+  "note": "Contraunghi reductor 10:1",
   "price": "",
   "photo": true,
-  "desc": "Contraunghi multiplicator. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hq": true,
-  "hidden": true
+  "desc": "Contraunghi reductor 10:1, pentru endodonție.",
+  "hq": true
+ },
+ {
+  "id": "soco-b4-7",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 1:4,2 la 45°",
+  "note": "Contraunghi multiplicator 1:4,2 cu fibră optică",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi multiplicator 1:4,2 cu cap la 45° și fibră optică.",
+  "hq": true
+ },
+ {
+  "id": "soco-b5-1",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 1:5 (B5-1)",
+  "note": "Contraunghi multiplicator 1:5 cu fibră optică",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi multiplicator 1:5 cu fibră optică și canal intern.",
+  "hq": true
+ },
+ {
+  "id": "soco-b5-5",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 1:5 canal intern",
+  "note": "Contraunghi multiplicator 1:5 cu buton",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi multiplicator 1:5 cu spray prin canal intern și buton.",
+  "hq": true
+ },
+ {
+  "id": "soco-b5-3",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 1:5 canal intern (B5-3)",
+  "note": "Contraunghi multiplicator 1:5",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi multiplicator 1:5 cu canal intern și buton.",
+  "hq": true
+ },
+ {
+  "id": "soco-b5-4",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 1:5 fibră optică",
+  "note": "Contraunghi multiplicator 1:5 cu lumină",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi multiplicator 1:5 cu fibră optică, canal intern și buton.",
+  "hq": true
+ },
+ {
+  "id": "soco-b4-1",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 4:1",
+  "note": "Contraunghi reductor 4:1",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi reductor 4:1.",
+  "hq": true
+ },
+ {
+  "id": "soco-b64-1",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi 64:1",
+  "note": "Contraunghi reductor 64:1",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi reductor 64:1 pentru endodonție.",
+  "hq": true
+ },
+ {
+  "id": "soco-d05-c",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi D05",
+  "note": "Contraunghi cu spray extern",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi cu spray extern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d24-c",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi D24 optic",
+  "note": "Contraunghi cu fibră optică și buton",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi cu canal intern, buton și fibră optică.",
+  "hq": true
+ },
+ {
+  "id": "soco-d27-c",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi D27",
+  "note": "Contraunghi cu canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi cu spray prin canal intern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d17-c",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi canal intern (D17)",
+  "note": "Contraunghi 1:1 cu canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi 1:1 cu spray prin canal intern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d23-f",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Contraunghi canal intern cu generator",
+  "note": "Contraunghi cu buton și generator",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi cu canal intern, buton și generator LED.",
+  "hq": true
+ },
+ {
+  "id": "soco-d05-s",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă D05",
+  "note": "Piesă dreaptă",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă cu spray extern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d17-s",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă D17",
+  "note": "Piesă dreaptă cu canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă cu spray prin canal intern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d27-s",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă D27",
+  "note": "Piesă dreaptă cu canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă cu spray prin canal intern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d16-s",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă SCHD16",
+  "note": "Piesă dreaptă",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă SCHD16.",
+  "hq": true
+ },
+ {
+  "id": "soco-d24-s",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "Piesă dreaptă optică D24",
+  "note": "Piesă dreaptă cu fibră optică",
+  "price": "",
+  "photo": true,
+  "desc": "Piesă dreaptă cu canal intern și fibră optică.",
+  "hq": true
+ },
+ {
+  "id": "soco-schb4-45",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "SCHB4 45°",
+  "note": "Contraunghi 45° cu fibră optică",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi cu cap înclinat la 45° și fibră optică.",
+  "hq": true
+ },
+ {
+  "id": "soco-schb5",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "contra",
+  "brand": "SOCO",
+  "name": "SCHB5",
+  "note": "Contraunghi anti-retracție, standard",
+  "price": "",
+  "photo": true,
+  "desc": "Contraunghi de mare viteză cu sistem anti-retracție, pentru proceduri minim invazive.",
+  "hq": true
  },
  {
   "id": "nakamura-contra-angle-handpiece",
@@ -3128,19 +3919,6 @@
   "hidden": true
  },
  {
-  "id": "soco-straight-handpiece",
-  "seg": "cabinet",
-  "cat": "piese",
-  "sub": "contra",
-  "brand": "SOCO",
-  "name": "Straight Handpiece",
-  "note": "Piesă dreaptă",
-  "price": "",
-  "photo": false,
-  "desc": "Piesă dreaptă. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
- },
- {
   "id": "coxo-c-puma",
   "seg": "cabinet",
   "cat": "piese",
@@ -3169,6 +3947,206 @@
   "hidden": true
  },
  {
+  "id": "soco-c-puma-int-plus",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "C-PUMA INT+",
+  "note": "Micromotor electric încorporat în unit",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor electric încorporat, cu ecran LCD color de 3″, 7 programe, pornire pneumatică sau manuală și motor autoclavabil.",
+  "hq": true,
+  "keys": [
+   [
+    "40.000",
+    "rpm"
+   ],
+   [
+    "3,0",
+    "N·cm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Alimentare",
+      "AC 24 V"
+     ],
+     [
+      "Turație maximă",
+      "40.000 rpm"
+     ],
+     [
+      "Cuplu maxim",
+      "3,0 N·cm"
+     ],
+     [
+      "Ecran",
+      "LCD 3″, 240 × 400"
+     ],
+     [
+      "Diametru motor",
+      "20,6 mm"
+     ],
+     [
+      "Programe",
+      "7"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-sc-m5",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SC-M5",
+  "note": "Micromotor electric",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor electric fără perii cu LED de peste 25.000 lux, pentru contraunghiuri 1:1, 16:1 și 1:5.",
+  "hq": true,
+  "keys": [
+   [
+    "2000–40.000",
+    "rpm (1:1)"
+   ],
+   [
+    "3,5",
+    "N·cm"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Putere",
+      "120 W"
+     ],
+     [
+      "Turație",
+      "2000–40.000 rpm (1:1), 125–2500 rpm (16:1), 10.000–200.000 rpm (1:5)"
+     ],
+     [
+      "LED",
+      "> 25.000 lux"
+     ],
+     [
+      "Cuplu",
+      "3,5 N·cm"
+     ],
+     [
+      "Dimensiuni",
+      "29 × 23 × 11 cm"
+     ],
+     [
+      "Greutate",
+      "2,3 kg"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-sc-m6",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SC-M6",
+  "note": "Micromotor electric încorporat",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor electric fără perii pentru montare în unit.",
+  "hq": true
+ },
+ {
+  "id": "soco-schd16-air-motor",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SCHD16 Air Motor",
+  "note": "Micromotor pneumatic, spray extern",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor pneumatic cu spray extern, cuplă cu 4 sau 2 găuri.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Cuplă",
+    "values": [
+     "4 găuri",
+     "2 găuri"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-schd24-air-motor",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SCHD24 Air Motor",
+  "note": "Micromotor pneumatic, canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor pneumatic cu canal intern, cuplă cu 4 sau 2 găuri.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Cuplă",
+    "values": [
+     "4 găuri",
+     "2 găuri"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-d27-air-motor",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SCHD24 Air Motor (D27)",
+  "note": "Micromotor pneumatic, canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor pneumatic cu canal intern, cuplă cu 4 sau 2 găuri.",
+  "hq": true,
+  "options": [
+   {
+    "label": "Cuplă",
+    "values": [
+     "4 găuri",
+     "2 găuri"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-schd24-optic-air-motor",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "motor",
+  "brand": "SOCO",
+  "name": "SCHD24 Optic Air Motor",
+  "note": "Micromotor pneumatic optic, 6 găuri",
+  "price": "",
+  "photo": true,
+  "desc": "Micromotor pneumatic cu canal intern și fibră optică, cuplă cu 6 găuri.",
+  "hq": true
+ },
+ {
   "id": "nakamura-air-motor",
   "seg": "cabinet",
   "cat": "piese",
@@ -3195,30 +4173,82 @@
   "hidden": true
  },
  {
-  "id": "soco-air-motors",
+  "id": "soco-d16-1-set4",
   "seg": "cabinet",
   "cat": "piese",
-  "sub": "motor",
+  "sub": "acc",
   "brand": "SOCO",
-  "name": "Air Motors",
-  "note": "Micromotor pneumatic",
+  "name": "D16-1 SET4",
+  "note": "Set de piese",
   "price": "",
-  "photo": false,
-  "desc": "Micromotor pneumatic. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Set de piese de mână SOCO.",
+  "hq": true
  },
  {
-  "id": "soco-dental-electric-motor",
+  "id": "soco-d24-set",
   "seg": "cabinet",
   "cat": "piese",
-  "sub": "motor",
+  "sub": "acc",
   "brand": "SOCO",
-  "name": "Dental Electric Motor",
-  "note": "Micromotor electric",
+  "name": "Set D24 optic (6 găuri)",
+  "note": "Set micromotor + piese, fibră optică",
   "price": "",
-  "photo": false,
-  "desc": "Micromotor electric. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
+  "photo": true,
+  "desc": "Set de viteză mică cu canal intern și fibră optică, cuplă cu 6 găuri.",
+  "hq": true
+ },
+ {
+  "id": "soco-d05-set",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "acc",
+  "brand": "SOCO",
+  "name": "Set SCHD05",
+  "note": "Set de viteză mică, spray extern",
+  "price": "",
+  "photo": true,
+  "desc": "Set de viteză mică cu spray extern.",
+  "hq": true
+ },
+ {
+  "id": "soco-d16-set",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "acc",
+  "brand": "SOCO",
+  "name": "Set SCHD16",
+  "note": "Set de viteză mică, stil european",
+  "price": "",
+  "photo": true,
+  "desc": "Set de viteză mică cu spray extern, stil european.",
+  "hq": true
+ },
+ {
+  "id": "soco-d17-set",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "acc",
+  "brand": "SOCO",
+  "name": "Set SCHD24 (D17)",
+  "note": "Set de viteză mică, canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Set de viteză mică cu canal intern: micromotor, contraunghi și piesă dreaptă.",
+  "hq": true
+ },
+ {
+  "id": "soco-d27-set",
+  "seg": "cabinet",
+  "cat": "piese",
+  "sub": "acc",
+  "brand": "SOCO",
+  "name": "Set SCHD24 (D27)",
+  "note": "Set de viteză mică, canal intern",
+  "price": "",
+  "photo": true,
+  "desc": "Set de viteză mică cu canal intern.",
+  "hq": true
  },
  {
   "id": "nakamura-quick-joint",
@@ -3231,19 +4261,6 @@
   "price": "",
   "photo": false,
   "desc": "Cuplă rapidă. Produs Nakamura pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
- },
- {
-  "id": "soco-dental-handpiece-set",
-  "seg": "cabinet",
-  "cat": "piese",
-  "sub": "acc",
-  "brand": "SOCO",
-  "name": "Dental Handpiece Set",
-  "note": "Set de piese",
-  "price": "",
-  "photo": false,
-  "desc": "Set de piese. Produs SOCO pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
   "hidden": true
  },
  {
@@ -3982,6 +4999,32 @@
   "hidden": true
  },
  {
+  "id": "soco-scd07",
+  "seg": "cabinet",
+  "cat": "unit",
+  "sub": "alt",
+  "brand": "SOCO",
+  "name": "SCD07",
+  "note": "Scaun pentru medic, pentru microscop",
+  "price": "",
+  "photo": true,
+  "desc": "Scaun dinamic pentru lucrul la microscop.",
+  "hq": true
+ },
+ {
+  "id": "soco-scd08",
+  "seg": "cabinet",
+  "cat": "unit",
+  "sub": "alt",
+  "brand": "SOCO",
+  "name": "SCD08",
+  "note": "Scaun pentru medic, pentru microscop",
+  "price": "",
+  "photo": true,
+  "desc": "Scaun dinamic pentru lucrul la microscop.",
+  "hq": true
+ },
+ {
   "id": "vrn-t-3",
   "seg": "cabinet",
   "cat": "unit",
@@ -4034,31 +5077,150 @@
   "hidden": true
  },
  {
-  "id": "soco-microscope-doctor-chair",
-  "seg": "cabinet",
-  "cat": "unit",
-  "sub": "alt",
-  "brand": "SOCO",
-  "name": "Microscope Doctor Chair",
-  "note": "Scaun pentru medic",
-  "price": "",
-  "photo": false,
-  "desc": "Scaun pentru medic. Echipament SOCO pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hidden": true
- },
- {
   "id": "soco-scm-850-pro",
   "seg": "cabinet",
   "cat": "optica",
   "sub": "micro",
   "brand": "SOCO",
   "name": "SCM 850 Pro",
+  "note": "Microscop operator cu imagistică 4K",
+  "price": "",
+  "photo": true,
+  "desc": "Microscop operator apocromatic cu sistem 4K integrat (3840 × 2160), USB 3.0, pedală wireless pentru foto/video și separator de fascicul pentru cameră externă.",
+  "hq": true,
+  "keys": [
+   [
+    "4K",
+    "3840 × 2160"
+   ],
+   [
+    "0,4–2,5×",
+    "zoom"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Optică",
+    "rows": [
+     [
+      "Sistem optic",
+      "Apocromatic"
+     ],
+     [
+      "Zoom continuu",
+      "0,4–2,5×"
+     ],
+     [
+      "Mărire totală",
+      "1,6–19×"
+     ],
+     [
+      "Tub binocular",
+      "Unghi variabil 0–180°, distanță interpupilară 55–75 mm"
+     ],
+     [
+      "Oculare",
+      "12,5× cu unghi larg, dioptrii ± 7"
+     ],
+     [
+      "Distanță de lucru",
+      "190–480 mm, obiectiv variabil"
+     ]
+    ]
+   },
+   {
+    "g": "Iluminare",
+    "rows": [
+     [
+      "Sursă",
+      "LED integrat, 5700 K, 120.000 lux"
+     ],
+     [
+      "Filtre",
+      "Portocaliu și verde"
+     ],
+     [
+      "Spot",
+      "5 moduri, 3 mărimi"
+     ]
+    ]
+   },
+   {
+    "g": "Imagistică",
+    "rows": [
+     [
+      "Cameră",
+      "4K integrată, 3840 × 2160"
+     ],
+     [
+      "Transfer",
+      "USB 3.0"
+     ],
+     [
+      "Control",
+      "Pedală wireless foto/video"
+     ],
+     [
+      "Separator",
+      "2:8 sau 5:5"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-scm600",
+  "seg": "cabinet",
+  "cat": "optica",
+  "sub": "micro",
+  "brand": "SOCO",
+  "name": "SCM600",
   "note": "Microscop operator",
   "price": "",
   "photo": true,
-  "desc": "Microscop operator. Echipament optic SOCO pentru lucrul sub mărire în cabinet.",
+  "desc": "Microscop operator cu optică apocromatică, 5 trepte de mărire (0,4–2,5×), LED cu CRI peste 95% și obiectiv cu zoom f = 200–415 mm.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "5",
+    "trepte"
+   ],
+   [
+    "> 65.000",
+    "lux"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Optică",
+    "rows": [
+     [
+      "Sistem",
+      "Apocromatic"
+     ],
+     [
+      "Mărire",
+      "5 trepte: 0,4 / 0,6 / 1 / 1,6 / 2,5×"
+     ],
+     [
+      "Oculare",
+      "12,5×, dioptrii ± 7"
+     ],
+     [
+      "Tub binocular",
+      "0–180°, f 170 mm"
+     ],
+     [
+      "Obiectiv",
+      "Zoom f = 200–415 mm"
+     ],
+     [
+      "Iluminare",
+      "LED, > 65.000 lux, CRI > 95%"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "soco-scm800",
@@ -4070,9 +5232,14 @@
   "note": "Microscop operator standard",
   "price": "",
   "photo": true,
-  "desc": "Microscop operator standard. Echipament optic SOCO pentru lucrul sub mărire în cabinet.",
+  "desc": "Microscop operator cu optică apocromatică, 5 trepte de mărire, iluminare LED cu 5 spoturi și stativ cu arcuri cu gaz germane.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "5",
+    "trepte de mărire"
+   ]
+  ]
  },
  {
   "id": "soco-scm850",
@@ -4084,9 +5251,79 @@
   "note": "Microscop chirurgical",
   "price": "",
   "photo": true,
-  "desc": "Microscop chirurgical. Echipament optic SOCO pentru lucrul sub mărire în cabinet.",
+  "desc": "Microscop chirurgical cu optică acromatică, zoom continuu 1,6–19× și interfață pentru aparate foto Canon și Sony.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "1,6–19×",
+    "mărire"
+   ],
+   [
+    "120.000",
+    "lux"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Optică",
+    "rows": [
+     [
+      "Sistem optic",
+      "Acromatic"
+     ],
+     [
+      "Zoom continuu",
+      "0,4–2,5×"
+     ],
+     [
+      "Mărire totală",
+      "1,6–19×"
+     ],
+     [
+      "Tub binocular",
+      "Unghi variabil 0–180°, distanță interpupilară 55–75 mm"
+     ],
+     [
+      "Oculare",
+      "12,5× cu unghi larg, dioptrii ± 7"
+     ],
+     [
+      "Distanță de lucru",
+      "190–480 mm, obiectiv variabil"
+     ]
+    ]
+   },
+   {
+    "g": "Iluminare",
+    "rows": [
+     [
+      "Sursă",
+      "LED integrat, 5700 K, 120.000 lux"
+     ],
+     [
+      "Filtre",
+      "Portocaliu și verde"
+     ],
+     [
+      "Spot",
+      "5 moduri, 3 mărimi"
+     ]
+    ]
+   },
+   {
+    "g": "Imagistică",
+    "rows": [
+     [
+      "Separator",
+      "Triplu: extensie 45°, sistem pendular, 2:8 sau 5:5"
+     ],
+     [
+      "Interfață cameră",
+      "Canon, Sony mirrorless"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "soco-scm860",
@@ -4095,12 +5332,153 @@
   "sub": "micro",
   "brand": "SOCO",
   "name": "SCM860",
-  "note": "Microscop operator",
+  "note": "Microscop operator apocromatic",
   "price": "",
   "photo": true,
-  "desc": "Microscop operator. Echipament optic SOCO pentru lucrul sub mărire în cabinet.",
+  "desc": "Microscop operator cu optică apocromatică, zoom continuu 0,4–2,5× și iluminare LED de 120.000 lux.",
   "hq": true,
-  "hidden": true
+  "keys": [
+   [
+    "1,6–19×",
+    "mărire"
+   ],
+   [
+    "120.000",
+    "lux"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Optică",
+    "rows": [
+     [
+      "Sistem optic",
+      "Apocromatic"
+     ],
+     [
+      "Zoom continuu",
+      "0,4–2,5×"
+     ],
+     [
+      "Mărire totală",
+      "1,6–19×"
+     ],
+     [
+      "Tub binocular",
+      "Unghi variabil 0–180°, distanță interpupilară 55–75 mm"
+     ],
+     [
+      "Oculare",
+      "12,5× cu unghi larg, dioptrii ± 7"
+     ],
+     [
+      "Distanță de lucru",
+      "190–480 mm, obiectiv variabil"
+     ]
+    ]
+   },
+   {
+    "g": "Iluminare",
+    "rows": [
+     [
+      "Sursă",
+      "LED integrat, 5700 K, 120.000 lux"
+     ],
+     [
+      "Filtre",
+      "Portocaliu și verde"
+     ],
+     [
+      "Spot",
+      "5 moduri, 3 mărimi"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "soco-scm860-ultra",
+  "seg": "cabinet",
+  "cat": "optica",
+  "sub": "micro",
+  "brand": "SOCO",
+  "name": "SCM860 Ultra",
+  "note": "Microscop operator apocromatic cu 4K",
+  "price": "",
+  "photo": true,
+  "desc": "Microscop operator de top cu optică apocromatică, zoom continuu și sistem de imagistică 4K integrat, pentru endodonție și microchirurgie.",
+  "hq": true,
+  "keys": [
+   [
+    "1,8–19,1×",
+    "mărire"
+   ],
+   [
+    "4K",
+    "cameră integrată"
+   ],
+   [
+    "120.000",
+    "lux"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Optică",
+    "rows": [
+     [
+      "Sistem optic",
+      "Apocromatic"
+     ],
+     [
+      "Zoom continuu",
+      "0,4–2,5×"
+     ],
+     [
+      "Mărire totală",
+      "1,6–19×"
+     ],
+     [
+      "Tub binocular",
+      "Unghi variabil 0–180°, distanță interpupilară 55–75 mm"
+     ],
+     [
+      "Oculare",
+      "12,5× cu unghi larg, dioptrii ± 7"
+     ],
+     [
+      "Distanță de lucru",
+      "190–480 mm, obiectiv variabil"
+     ]
+    ]
+   },
+   {
+    "g": "Iluminare",
+    "rows": [
+     [
+      "Sursă",
+      "LED integrat, 5700 K, 120.000 lux"
+     ],
+     [
+      "Filtre",
+      "Portocaliu și verde"
+     ],
+     [
+      "Spot",
+      "5 moduri, 3 mărimi"
+     ]
+    ]
+   },
+   {
+    "g": "Imagistică",
+    "rows": [
+     [
+      "Cameră",
+      "Modul 4-în-1 cu cameră 4K, extensie 90°"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "soco-medical-loupes",
@@ -4108,12 +5486,56 @@
   "cat": "optica",
   "sub": "lupe",
   "brand": "SOCO",
-  "name": "Medical Loupes",
-  "note": "Lupe",
+  "name": "Lupe medicale",
+  "note": "Lupe dentare și chirurgicale",
   "price": "",
-  "photo": false,
-  "desc": "Lupe. Echipament optic SOCO pentru lucrul sub mărire în cabinet.",
-  "hidden": true
+  "photo": true,
+  "desc": "Lupe Galilean sau Kepler (cu prismă), ramă ușoară din metal sau titan, compatibile cu lampă frontală LED.",
+  "hq": true,
+  "specs": [
+   {
+    "g": "General",
+    "rows": [
+     [
+      "Sistem optic",
+      "Galilean / Kepler (prismă)"
+     ],
+     [
+      "Distanță de lucru",
+      "Reglabilă, 450 mm"
+     ],
+     [
+      "Profunzime de câmp",
+      "până la 200 mm"
+     ],
+     [
+      "Ramă",
+      "Metal ușor / titan"
+     ],
+     [
+      "Greutate",
+      "sub 72 g"
+     ],
+     [
+      "Compatibilitate",
+      "Lampă frontală LED cu clip"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Mărire",
+    "values": [
+     "2,5×",
+     "3,0×",
+     "3,5×",
+     "4,0×",
+     "5,0×",
+     "6,0×"
+    ]
+   }
+  ]
  },
  {
   "id": "dds-dds-comfort",
