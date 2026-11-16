@@ -6,11 +6,74 @@
   "sub": "impl",
   "brand": "CYBERMED",
   "name": "CORE1 Implant",
-  "note": "Sistem de implanturi CORE",
+  "note": "Implant conic, titan Gr. 4 modificat",
   "price": "",
   "photo": true,
-  "desc": "Sistem de implanturi CORE. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
+  "desc": "Implant conic Cybermed CORE1 din titan grad 4 modificat, cu suprafață SLA și filet agresiv pentru stabilitate primară ridicată. Conceput pentru fluxul digital (OnDemand3D / In2Guide).",
+  "hq": true,
+  "keys": [
+   [
+    "Ti G4",
+    "modificat"
+   ],
+   [
+    "SLA",
+    "suprafață"
+   ],
+   [
+    "Digital",
+    "ghidat"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Implant",
+    "rows": [
+     [
+      "Material",
+      "Titan grad 4 modificat"
+     ],
+     [
+      "Suprafață",
+      "SLA"
+     ],
+     [
+      "Formă",
+      "Conică"
+     ],
+     [
+      "Conexiune",
+      "Internă conică"
+     ],
+     [
+      "Flux",
+      "Chirurgie ghidată In2Guide"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru (mm)",
+    "values": [
+     "3,5",
+     "4,0",
+     "4,5",
+     "5,0",
+     "5,5"
+    ]
+   },
+   {
+    "label": "Lungime (mm)",
+    "values": [
+     "7",
+     "8,5",
+     "10",
+     "11,5",
+     "13"
+    ]
+   }
+  ]
  },
  {
   "id": "cybermed-reborn-implant",
@@ -19,11 +82,62 @@
   "sub": "impl",
   "brand": "CYBERMED",
   "name": "REBORN Implant",
-  "note": "Sistem de implanturi REBORN",
+  "note": "Varianta regională a CORE1",
   "price": "",
   "photo": true,
-  "desc": "Sistem de implanturi REBORN. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
+  "desc": "REBORN este sistemul CORE1 comercializat sub acest nume în anumite regiuni: implant conic din titan grad 4 modificat, suprafață SLA, compatibil cu kiturile chirurgicale REBORN.",
+  "hq": true,
+  "keys": [
+   [
+    "Ti G4",
+    "modificat"
+   ],
+   [
+    "SLA",
+    "suprafață"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Implant",
+    "rows": [
+     [
+      "Material",
+      "Titan grad 4 modificat"
+     ],
+     [
+      "Suprafață",
+      "SLA"
+     ],
+     [
+      "Formă",
+      "Conică"
+     ]
+    ]
+   }
+  ],
+  "options": [
+   {
+    "label": "Diametru (mm)",
+    "values": [
+     "3,5",
+     "4,0",
+     "4,5",
+     "5,0",
+     "5,5"
+    ]
+   },
+   {
+    "label": "Lungime (mm)",
+    "values": [
+     "7",
+     "8,5",
+     "10",
+     "11,5",
+     "13"
+    ]
+   }
+  ]
  },
  {
   "id": "dsi-blueline-implant",
@@ -1127,37 +1241,48 @@
   "sub": "instr",
   "brand": "CYBERMED",
   "name": "CORE Plasma Activator",
-  "note": "Activator cu plasmă",
+  "note": "Activare cu plasmă a implanturilor",
   "price": "",
   "photo": true,
-  "desc": "Activator cu plasmă. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
- },
- {
-  "id": "cybermed-core-surgical-kit",
-  "seg": "cabinet",
-  "cat": "implant",
-  "sub": "instr",
-  "brand": "CYBERMED",
-  "name": "CORE Surgical Kit",
-  "note": "Trusă chirurgicală",
-  "price": "",
-  "photo": true,
-  "desc": "Trusă chirurgicală. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
- },
- {
-  "id": "cybermed-reborn-surgical-kit",
-  "seg": "cabinet",
-  "cat": "implant",
-  "sub": "instr",
-  "brand": "CYBERMED",
-  "name": "REBORN Surgical Kit",
-  "note": "Trusă chirurgicală",
-  "price": "",
-  "photo": true,
-  "desc": "Trusă chirurgicală. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
+  "desc": "Activator cu plasmă pentru implanturile CORE: tratează până la 3 implanturi simultan în 90 s, crește hidrofilia peste 95% și nu produce ozon (spre deosebire de UV). Afișaj intuitiv al progresului.",
+  "hq": true,
+  "keys": [
+   [
+    "90 s",
+    "tratament"
+   ],
+   [
+    "3",
+    "implanturi"
+   ],
+   [
+    "95%",
+    "hidrofilie"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Capacitate",
+      "3 implanturi simultan"
+     ],
+     [
+      "Durată",
+      "90 secunde"
+     ],
+     [
+      "Hidrofilie",
+      "> 95%"
+     ],
+     [
+      "Metodă",
+      "Plasmă, fără ozon"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "dsi-additional-drills",
@@ -2707,17 +2832,46 @@
   "hidden": true
  },
  {
-  "id": "cybermed-coreoss",
+  "id": "cybermed-coreoss-xeno",
   "seg": "cabinet",
   "cat": "implant",
   "sub": "regen",
   "brand": "CYBERMED",
-  "name": "COREOSS",
-  "note": "",
+  "name": "COREOSS Xeno",
+  "note": "Grefă osoasă bovină",
   "price": "",
   "photo": true,
-  "desc": "Produs disponibil la comandă. Produs Cybermed pentru implantologie. Dimensiunile, diametrele și compatibilitățile protetice le confirmăm la comandă.",
-  "hidden": true
+  "desc": "Material de augmentare xenogen din os spongios bovin, sinterizat la temperatură joasă, 100% bovin. Structură poroasă interconectată similară osului uman, pentru regenerare osoasă ghidată.",
+  "hq": true,
+  "keys": [
+   [
+    "100%",
+    "bovin"
+   ],
+   [
+    "Xeno",
+    "grefă"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Material",
+    "rows": [
+     [
+      "Origine",
+      "Os spongios bovin"
+     ],
+     [
+      "Procesare",
+      "Sinterizare la temperatură joasă"
+     ],
+     [
+      "Structură",
+      "Pori interconectați"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "dsi-alyoss",
@@ -9163,17 +9317,54 @@
   "hq": true
  },
  {
-  "id": "cybermed-intra-oral-scanner",
+  "id": "cybermed-ondemand3d-ios",
   "seg": "cabinet",
   "cat": "digital",
   "sub": "ios",
   "brand": "CYBERMED",
-  "name": "Intra Oral Scanner",
-  "note": "Scaner intraoral",
+  "name": "OnDemand3D Intraoral Scanner",
+  "note": "Scanner intraoral, full color",
   "price": "",
   "photo": true,
-  "desc": "Scaner intraoral. Soluție digitală Cybermed pentru fluxul de lucru chairside.",
-  "hidden": true
+  "desc": "Scanner intraoral OnDemand3D: sistem deschis (export în formate standard), design ergonomic, scanare fără pudră, culoare reală și rezoluție HD pentru linii de preparare fine.",
+  "hq": true,
+  "keys": [
+   [
+    "Open",
+    "sistem"
+   ],
+   [
+    "HD",
+    "color"
+   ],
+   [
+    "Fără",
+    "pudră"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Caracteristici",
+    "rows": [
+     [
+      "Format",
+      "Deschis, compatibil cu orice laborator"
+     ],
+     [
+      "Culoare",
+      "Full color"
+     ],
+     [
+      "Pudră",
+      "Nu este necesară"
+     ],
+     [
+      "Accesorii",
+      "Funcție anti-aburire"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-pios-ex5",
@@ -9891,43 +10082,50 @@
   "hidden": true
  },
  {
-  "id": "cybermed-ai",
-  "seg": "cabinet",
-  "cat": "digital",
-  "sub": "soft",
-  "brand": "CYBERMED",
-  "name": "AI",
-  "note": "Modul software AI",
-  "price": "",
-  "photo": true,
-  "desc": "Modul software AI. Soluție digitală Cybermed pentru fluxul de lucru chairside.",
-  "hidden": true
- },
- {
   "id": "cybermed-in2guide",
   "seg": "cabinet",
   "cat": "digital",
   "sub": "soft",
   "brand": "CYBERMED",
-  "name": "IN2GUIDE",
-  "note": "Software",
+  "name": "In2Guide",
+  "note": "Ghid chirurgical digital",
   "price": "",
   "photo": true,
-  "desc": "Software. Soluție digitală Cybermed pentru fluxul de lucru chairside.",
-  "hidden": true
+  "desc": "Sistem de chirurgie ghidată: plan digital pe CBCT + scanare, bibliotecă de peste 100 de producători de implanturi și ghid chirurgical produs pentru poziționare exactă a implantului.",
+  "hq": true,
+  "keys": [
+   [
+    "100+",
+    "biblioteci"
+   ],
+   [
+    "Ghidat",
+    "chirurgie"
+   ]
+  ]
  },
  {
-  "id": "cybermed-ondemand3d",
+  "id": "cybermed-ondemand3d-software",
   "seg": "cabinet",
   "cat": "digital",
   "sub": "soft",
   "brand": "CYBERMED",
-  "name": "OnDemand3D",
-  "note": "Software de imagistică 3D",
+  "name": "OnDemand3D Dental",
+  "note": "Software CBCT / planificare implant",
   "price": "",
   "photo": true,
-  "desc": "Software de imagistică 3D. Soluție digitală Cybermed pentru fluxul de lucru chairside.",
-  "hidden": true
+  "desc": "Software 3D de diagnostic: analiză CBCT, simulare implant cu bibliotecă de producători, cefalometrie 3D, comparații pre/post-tratament și management DICOM / PACS.",
+  "hq": true,
+  "keys": [
+   [
+    "DICOM",
+    "PACS"
+   ],
+   [
+    "3D",
+    "ceph"
+   ]
+  ]
  },
  {
   "id": "dsi-scan-spray",
@@ -16127,17 +16325,46 @@
   ]
  },
  {
-  "id": "cybermed-3d-printer",
+  "id": "cybermed-ondemand3d-4k-printer",
   "seg": "laborator",
   "cat": "print",
   "sub": "resin",
   "brand": "CYBERMED",
-  "name": "3D Printer",
-  "note": "Imprimantă 3D",
+  "name": "OnDemand3D 4K Printer",
+  "note": "Imprimantă 3D dentară, 35 µm",
   "price": "",
   "photo": true,
-  "desc": "Imprimantă 3D. Produs Cybermed pentru imprimarea 3D dentară.",
-  "hidden": true
+  "desc": "Imprimantă 3D dedicată stomatologiei, rezoluție 4K (35 µm): ghiduri chirurgicale, modele, proteze provizorii și alignere. Compatibilă cu diverse rășini, ușor de folosit în cabinet.",
+  "hq": true,
+  "keys": [
+   [
+    "4K",
+    "LCD"
+   ],
+   [
+    "35 µm",
+    "rezoluție"
+   ]
+  ],
+  "specs": [
+   {
+    "g": "Parametri",
+    "rows": [
+     [
+      "Rezoluție",
+      "4K, 35 µm"
+     ],
+     [
+      "Aplicații",
+      "Ghiduri chirurgicale, modele, proteze provizorii, alignere"
+     ],
+     [
+      "Materiale",
+      "Rășini dentare diverse"
+     ]
+    ]
+   }
+  ]
  },
  {
   "id": "deprag-edge-e2",
