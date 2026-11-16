@@ -3248,8 +3248,7 @@
   "price": "2.500",
   "photo": true,
   "desc": "Brackeți metalici autoligaturanți. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-crystal-ix-ceramic",
@@ -3262,8 +3261,7 @@
   "price": "2.500",
   "photo": true,
   "desc": "Brackeți ceramici din safir monocristalin, translucizi și rezistenți la colorare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-pierre-brackets",
@@ -3276,8 +3274,7 @@
   "price": "550",
   "photo": true,
   "desc": "Brackeți metalici twin turnați prin injecție, cu bază Power Contour.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-diamondlink",
@@ -3290,8 +3287,7 @@
   "price": "",
   "photo": true,
   "desc": "Brackeți ceramici policristalini. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-pierre-mini",
@@ -3304,8 +3300,7 @@
   "price": "",
   "photo": true,
   "desc": "Brackeți metalici mini twin. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-buccal-tubes",
@@ -3318,8 +3313,7 @@
   "price": "2.000",
   "photo": true,
   "desc": "Set de tubușoare bucale: 40 de bucăți pentru molarii 1 și 40 pentru molarii 2. Prescripție MBT sau Roth.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-gemma",
@@ -3332,8 +3326,7 @@
   "price": "",
   "photo": true,
   "desc": "Tubușoare low-profile. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-molar-bands",
@@ -3346,8 +3339,7 @@
   "price": "",
   "photo": true,
   "desc": "Inele molare. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-oxford",
@@ -3359,8 +3351,7 @@
   "note": "Tubușoare low-profile",
   "price": "",
   "photo": true,
-  "desc": "Tubușoare low-profile. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hidden": true
+  "desc": "Tubușoare low-profile. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă."
  },
  {
   "id": "dsi-retainer-wire",
@@ -3386,8 +3377,7 @@
   "price": "",
   "photo": true,
   "desc": "Arc estetic acoperit. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-rectangular-ss-ni-ti-wires",
@@ -3400,8 +3390,7 @@
   "price": "",
   "photo": true,
   "desc": "Arcuri rectangulare. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-round-ss-ni-ti-wires",
@@ -3414,8 +3403,7 @@
   "price": "",
   "photo": true,
   "desc": "Arcuri rotunde. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-twisted-multi-strand",
@@ -3428,8 +3416,7 @@
   "price": "",
   "photo": true,
   "desc": "Sârmă împletită. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "dsi-tad-accessories",
@@ -3481,8 +3468,7 @@
   "price": "",
   "photo": true,
   "desc": "Arc închis. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-crimpable-ball-hooks",
@@ -3495,8 +3481,7 @@
   "price": "",
   "photo": true,
   "desc": "Cârlige. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-elastic-ligatures",
@@ -3509,8 +3494,7 @@
   "price": "",
   "photo": true,
   "desc": "Elastice și ligaturi. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-implant-hooks-l-r",
@@ -3523,8 +3507,7 @@
   "price": "",
   "photo": true,
   "desc": "Cârlige pentru mini-implant. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-kobayashi-wire",
@@ -3537,8 +3520,7 @@
   "price": "",
   "photo": true,
   "desc": "Ligaturi Kobayashi. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-lingual-buttons",
@@ -3551,8 +3533,7 @@
   "price": "",
   "photo": true,
   "desc": "Butoni linguali. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "matt-orthodontics-open-coil-spring",
@@ -3565,8 +3546,7 @@
   "price": "",
   "photo": true,
   "desc": "Arc deschis. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "dsi-debonding-burs",
@@ -3644,8 +3624,7 @@
   "price": "",
   "photo": true,
   "desc": "Oglindă ortodontică. Produs ortodontic Matt Orthodontics, livrat în ambalaj original. Prescripția (MBT/Roth) și dimensiunile se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "okodent-bond-remover",
@@ -5699,8 +5678,7 @@
   "price": "",
   "photo": true,
   "desc": "Bloc de disilicat de litiu precristalizat pentru restaurări chairside: frezezi și lustruiești, fără cuptor, cu margini stabile și adaptare foarte bună.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "imicryl-rolene-bonding-brushes",
@@ -6872,8 +6850,7 @@
   "note": "Preț pentru o freză",
   "price": "45",
   "photo": true,
-  "desc": "Preț pentru o freză. Produs ökoDENT pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă.",
-  "hidden": true
+  "desc": "Preț pentru o freză. Produs ökoDENT pentru cabinet. Tipul de cuplă și compatibilitatea cu unitul le verificăm împreună la comandă."
  },
  {
   "id": "deprag-dia-burs",
@@ -7964,8 +7941,7 @@
   "price": "55.100",
   "photo": true,
   "desc": "Autoclav cu abur de 22 l, clasa B, pentru sterilizarea instrumentelor împachetate și cu canal.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-basic-series",
@@ -7978,8 +7954,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizatoare. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-daslav",
@@ -7992,8 +7967,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizatoare. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-entry-level-23-l-clasa-b",
@@ -8006,8 +7980,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizator YS-23L-LL. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-entry-level-23-l-clasa-n",
@@ -8020,8 +7993,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizator YS-23L-LL. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-pro-series-8-12-l",
@@ -8034,8 +8006,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizatoare. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-tsd",
@@ -8048,8 +8019,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizatoare. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-x-series-29-45-l",
@@ -8062,8 +8032,7 @@
   "price": "",
   "photo": true,
   "desc": "Sterilizatoare orizontale. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-foster-8lb-12lb",
@@ -8141,8 +8110,7 @@
   "price": "de la 290",
   "photo": true,
   "desc": "Rolă pentru ambalarea instrumentelor. Echipament MEDSET pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-ys-f300a",
@@ -8155,8 +8123,7 @@
   "price": "3.500",
   "photo": true,
   "desc": "Sigilator pentru pungi de sterilizare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-fast-cutting-sealer-p1",
@@ -8169,8 +8136,7 @@
   "price": "",
   "photo": true,
   "desc": "Sigilator. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-fast-cutting-sealer-p3",
@@ -8183,8 +8149,7 @@
   "price": "",
   "photo": true,
   "desc": "Sigilator. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-foseal",
@@ -8275,8 +8240,7 @@
   "price": "",
   "photo": true,
   "desc": "Baie cu ultrasunete. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-foclean-25",
@@ -8315,8 +8279,7 @@
   "price": "2.500",
   "photo": true,
   "desc": "Distilator de apă pentru autoclave și aparatură de cabinet.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "yeson-ro-water-purifier",
@@ -8329,8 +8292,7 @@
   "price": "",
   "photo": true,
   "desc": "Purificator cu osmoză inversă. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-aqua",
@@ -8369,8 +8331,7 @@
   "price": "11.000",
   "photo": true,
   "desc": "Aparat automat de curățare și lubrifiere a pieselor de mână.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-folub",
@@ -8410,8 +8371,7 @@
   "price": "",
   "photo": true,
   "desc": "Dispozitiv de testare. Echipament YESON pentru sterilizare și igienă în cabinet sau laborator. Instalarea și punerea în funcțiune se stabilesc la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-s2-dark-knight",
@@ -8424,8 +8384,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar premium. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-s2-implant",
@@ -8438,8 +8397,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit pentru implantologie. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-s3-folding",
@@ -8452,8 +8410,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit pliabil. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-top308-kid-unit",
@@ -8466,8 +8423,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit pentru copii. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-top308-rotary",
@@ -8480,8 +8436,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar premium. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-top308-rotary-25-style",
@@ -8494,8 +8449,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar premium. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-top308-standard",
@@ -8508,8 +8462,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar premium. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts-8830-25-style",
@@ -8522,8 +8475,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar premium. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts-top303-youth",
@@ -8536,8 +8488,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts5830",
@@ -8550,8 +8501,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts6830-standard",
@@ -8564,8 +8514,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts6830-youth",
@@ -8578,8 +8527,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts7830",
@@ -8592,8 +8540,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts8830",
@@ -8606,8 +8553,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "detes-ts8830-green-youth",
@@ -8620,8 +8566,7 @@
   "price": "",
   "photo": true,
   "desc": "Unit dentar. Echipament DETES pentru cabinet. Configurația, culoarea tapițeriei și montajul se stabilesc la ofertă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "fomos-fovac-01",
@@ -9431,8 +9376,7 @@
   "price": "",
   "photo": true,
   "desc": "Scaner intraoral de precizie pentru implanturi, coroane și restaurări pe arcadă completă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-aoralscan-3-wireless",
@@ -9445,8 +9389,7 @@
   "price": "",
   "photo": true,
   "desc": "Scaner intraoral fără cablu, ușor și ergonomic, pentru cabinete cu volum mare de lucru.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-aoralscan-elf",
@@ -9459,8 +9402,7 @@
   "price": "",
   "photo": true,
   "desc": "Scaner intraoral compact pentru fluxul chairside, la un preț accesibil.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-aoralscan-elite",
@@ -9473,8 +9415,7 @@
   "price": "",
   "photo": true,
   "desc": "Scanerul intraoral de top Shining 3D, cu fotogrametrie intraorală (IPG), scanare asistată de AI și precizie pe arcadă completă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-aoralscan-elite-wireless",
@@ -9487,8 +9428,7 @@
   "price": "",
   "photo": true,
   "desc": "Varianta fără fir a scanerului Aoralscan Elite, cu fotogrametrie intraorală și scanare asistată de AI.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "up3d-up610",
@@ -9952,8 +9892,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă chairside cu capsule pentru coroane printate în aceeași zi.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "up3d-p42-plus",
@@ -10254,8 +10193,7 @@
   "price": "de la 2.400",
   "photo": true,
   "desc": "Blocuri de vitroceramică din disilicat de litiu pentru frezare CAD/CAM. Opalescență și fluorescență naturale, mai multe translucențe, pentru fațete, coroane și inlay-uri. 19 nuanțe, mărimile C14, C32 și C40.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-rosetta-sm",
@@ -10268,8 +10206,7 @@
   "price": "de la 2.100",
   "photo": true,
   "desc": "Blocuri și discuri CAD/CAM din vitroceramică pe bază de disilicat de litiu, cu rezistență de 440 MPa după cristalizare și frezabilitate foarte bună.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "deprag-directa",
@@ -10572,8 +10509,7 @@
   "price": "",
   "photo": true,
   "desc": "Disilicat de litiu LS2 pentru frezare uscată, în blocuri și discuri. Elimină frezarea umedă din fluxul de lucru al laboratorului sau al cabinetului.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-lisi-pom",
@@ -10585,8 +10521,7 @@
   "note": "",
   "price": "",
   "photo": true,
-  "desc": "Lingouri Amber Lisi pentru presare pe structuri metalice.",
-  "hidden": true
+  "desc": "Lingouri Amber Lisi pentru presare pe structuri metalice."
  },
  {
   "id": "hass-amber-lisi-poz",
@@ -10599,8 +10534,7 @@
   "price": "",
   "photo": true,
   "desc": "Lingouri pentru presarea disilicatului de litiu pe structuri de zirconiu, pentru restaurări estetice și rezistente.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-mill-abut-crown",
@@ -10612,8 +10546,7 @@
   "note": "Bloc pentru coroană pe bont",
   "price": "",
   "photo": true,
-  "desc": "Bloc pentru coroană cu bont dintr-o singură piesă: fără cimentare, cu mai puțini pași de lucru în restaurările pe implant.",
-  "hidden": true
+  "desc": "Bloc pentru coroană cu bont dintr-o singură piesă: fără cimentare, cu mai puțini pași de lucru în restaurările pe implant."
  },
  {
   "id": "hass-amber-mill-h",
@@ -10626,8 +10559,7 @@
   "price": "",
   "photo": true,
   "desc": "Ceramică hibridă cu translucență de 35% și conținut mare de filler, pentru coroane și inlay-uri, fără cristalizare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-mill-meso",
@@ -10640,8 +10572,7 @@
   "price": "",
   "photo": true,
   "desc": "Disilicat de litiu pentru mezostructuri pe implant, cu mai multe translucențe dintr-un singur bloc.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-mill-q",
@@ -10654,8 +10585,7 @@
   "price": "",
   "photo": true,
   "desc": "Bloc cu miez de zirconiu pentru restaurări pe implant, fabricate dintr-o singură piesă, fără ardere.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "zotion-glass-ceramic",
@@ -10714,8 +10644,7 @@
   "price": "de la 1.440",
   "photo": true,
   "desc": "Lingouri de presare din disilicat de litiu cu strat de reacție minim, fără tratament cu acid după presare, pentru restaurări cu translucență naturală.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-press-master",
@@ -10727,8 +10656,7 @@
   "note": "Lingouri pentru structuri",
   "price": "",
   "photo": true,
-  "desc": "Lingouri de presare cu temperatură de tranziție vitroasă ridicată, stabile la arderi repetate, pentru structuri sub ceramică feldspatică și fațete subțiri.",
-  "hidden": true
+  "desc": "Lingouri de presare cu temperatură de tranziție vitroasă ridicată, stabile la arderi repetate, pentru structuri sub ceramică feldspatică și fațete subțiri."
  },
  {
   "id": "hass-rosetta-sp",
@@ -10741,8 +10669,7 @@
   "price": "",
   "photo": true,
   "desc": "Lingouri de presare din disilicat de litiu cu rezistență de 460 MPa după cristalizare, pentru restaurări estetice cu indicații largi.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-amber-glow",
@@ -10755,8 +10682,7 @@
   "price": "990",
   "photo": true,
   "desc": "Pastă de lustruit pentru restaurări ceramice, pentru un luciu natural fără glazurare. Borcan de 10 g.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "aidite-aidite-stain-glaze",
@@ -10921,8 +10847,7 @@
   "note": "Glazură estetică",
   "price": "",
   "photo": true,
-  "desc": "Glazură estetică pentru disilicat de litiu și zirconiu, pentru finisarea detaliată a restaurărilor.",
-  "hidden": true
+  "desc": "Glazură estetică pentru disilicat de litiu și zirconiu, pentru finisarea detaliată a restaurărilor."
  },
  {
   "id": "hass-amber-arte-universal-glaze",
@@ -10934,8 +10859,7 @@
   "note": "Glazură",
   "price": "",
   "photo": true,
-  "desc": "Glazură universală Amber Arte pentru finisarea restaurărilor estetice.",
-  "hidden": true
+  "desc": "Glazură universală Amber Arte pentru finisarea restaurărilor estetice."
  },
  {
   "id": "mpf-brush-cerano-lc-stain-glaze-kit",
@@ -11113,8 +11037,7 @@
   "price": "",
   "photo": true,
   "desc": "Material pentru sigilarea canalelor de șurub în restaurările pe implant: igienă mai bună și mai puține retenții alimentare.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hass-selection-tip",
@@ -11127,8 +11050,7 @@
   "price": "",
   "photo": true,
   "desc": "Cheie de culori pentru Amber Mill și Rosetta, pentru alegerea ușoară a nuanței.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-modeling-liquid-hv",
@@ -12276,8 +12198,7 @@
   "price": "",
   "photo": true,
   "desc": "Discuri de zirconiu din pulbere Tosoh 100% premium, în variantele Multi NEO, Multi Luster și Ultra Luster.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "luhluh-ld-z150",
@@ -12313,8 +12234,7 @@
      "D4"
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "luhluh-zirconia-block",
@@ -12402,8 +12322,7 @@
      "D4"
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "zotion-zirconia-3d-multilayer",
@@ -12869,8 +12788,7 @@
   "price": "",
   "photo": true,
   "desc": "Disc transparent pentru gutiere. Material HPdent pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-infinitytemp",
@@ -12883,8 +12801,7 @@
   "price": "",
   "photo": true,
   "desc": "Disc pentru provizorii frezate. Material HPdent pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "zotion-flexible-resin",
@@ -13040,8 +12957,7 @@
   "price": "",
   "photo": true,
   "desc": "Ceară pentru frezare. Material HPdent pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-trivest-cam",
@@ -13054,8 +12970,7 @@
   "price": "",
   "photo": true,
   "desc": "Disc de ceară pentru frezare. Material HPdent pentru frezare CAD/CAM în laborator. Dimensiunile discurilor și nuanțele se aleg la comandă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "zotion-peek",
@@ -13830,8 +13745,7 @@
      ]
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "luhluh-52w",
@@ -13897,8 +13811,7 @@
      ]
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "up3d-p53-plus",
@@ -15428,8 +15341,7 @@
   "price": "",
   "photo": true,
   "desc": "Mașină de frezat în 5 axe, umed și uscat, cu trecere dintr-o singură apăsare între moduri, pentru toate tipurile de materiale.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "luhluh-lm-5x-pro",
@@ -15499,8 +15411,7 @@
      ]
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "up3d-iron-core-i5-pro",
@@ -16532,8 +16443,7 @@
      "10 l"
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "luhluh-lf-1600",
@@ -16546,8 +16456,7 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor de sinterizare de precizie până la 1600 °C, cu încălzire uniformă, pentru sinterizarea zirconiului și cristalizarea vitroceramicii.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "zotion-f1",
@@ -16826,8 +16735,7 @@
   "price": "",
   "photo": true,
   "desc": "Cuptor dedicat cristalizării vitroceramicii, cu control precis al temperaturii.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-plunger",
@@ -16840,8 +16748,7 @@
   "price": "",
   "photo": true,
   "desc": "Piston pentru presare. Echipament HPdent pentru tratamentul termic al restaurărilor în laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-lx-230",
@@ -17453,8 +17360,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D DLP de precizie pentru modele, ghiduri chirurgicale și coroane provizorii.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "luhluh-p1",
@@ -17467,8 +17373,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D DLP pentru modele dentare și ghiduri chirurgicale.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-rxdent-d130",
@@ -17762,8 +17667,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D pentru modele dentare, cu precizie de 34 µm, autonivelare și ecran cu schimbare rapidă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-accufab-cel",
@@ -17776,8 +17680,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D cu precizie de 35 µm, tehnologie CPL și control inteligent al camerei de lucru.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-accufab-f1",
@@ -17790,8 +17693,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D chairside pentru coroane, ghiduri chirurgicale și gutiere, compatibilă cu o gamă largă de rășini validate.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-accufab-l4d-l4k",
@@ -17804,8 +17706,7 @@
   "price": "",
   "photo": true,
   "desc": "Imprimantă 3D de mare productivitate pentru laboratoare: până la 30 de unități pe ciclu.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-metal-3d-printer-m-150",
@@ -18733,8 +18634,7 @@
   "price": "",
   "photo": true,
   "desc": "Curățarea pieselor printate. Produs HPdent pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-baie-cu-ultrasunete",
@@ -18812,8 +18712,7 @@
   "price": "",
   "photo": true,
   "desc": "Unitate de polimerizare finală cu control automat al căldurii și luminii, pentru piese printate 3D.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-fabcure-n2",
@@ -18826,8 +18725,7 @@
   "price": "",
   "photo": true,
   "desc": "Unitate de polimerizare UV la 365 nm, pentru piese printate mai rezistente și biocompatibile.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "shining-3d-fabwash",
@@ -18840,8 +18738,7 @@
   "price": "",
   "photo": true,
   "desc": "Unitate de spălare. Produs Shining 3D pentru imprimarea 3D dentară.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "riton-cuptor-de-tratament-termic",
@@ -19140,8 +19037,7 @@
   "price": "",
   "photo": true,
   "desc": "Scaner de laborator de precizie pentru digitalizare rapidă, cu import și export STL, integrat în fluxul CAD/CAM al laboratorului.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "luhluh-s1",
@@ -19195,8 +19091,7 @@
      ]
     ]
    }
-  ],
-  "hidden": true
+  ]
  },
  {
   "id": "up3d-up560hd",
@@ -19374,8 +19269,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-forte-200",
@@ -19388,8 +19282,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-forte-400",
@@ -19402,8 +19295,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-oz",
@@ -19416,8 +19308,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-oz-black",
@@ -19430,8 +19321,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-oz-elite",
@@ -19444,8 +19334,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-strong-207b",
@@ -19458,8 +19347,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-strong-207s",
@@ -19471,8 +19359,7 @@
   "note": "Micromotor",
   "price": "",
   "photo": true,
-  "desc": "Micromotor. Produs Saeshin pentru laboratorul dentar.",
-  "hidden": true
+  "desc": "Micromotor. Produs Saeshin pentru laboratorul dentar."
  },
  {
   "id": "saeshin-strong-b140",
@@ -19485,8 +19372,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "saeshin-traus-b110",
@@ -19499,8 +19385,7 @@
   "price": "",
   "photo": true,
   "desc": "Micromotor BLDC de genunchi. Produs Saeshin pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "nakamura-micromotor-set",
@@ -19637,8 +19522,7 @@
   "price": "",
   "photo": true,
   "desc": "Freză de laborator. Produs HPdent pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "okodent-laborfr-ser",
@@ -19742,8 +19626,7 @@
   "price": "",
   "photo": true,
   "desc": "Polipant universal. Produs HPdent pentru laboratorul dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "okodent-occlusionsspray",
@@ -19834,8 +19717,7 @@
   "price": "60",
   "photo": true,
   "desc": "Perii pentru lustruit cu Amber Glow, 12 bucăți în ambalaj.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-optimum-ceramic-brush",
@@ -19848,8 +19730,7 @@
   "price": "de la 800",
   "photo": true,
   "desc": "Pensulă cu vârfuri înlocuibile din păr de samur Kolinsky și ac integrat pentru eliberarea bonturilor.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-optimum-spring-3-in-1-brush-kit",
@@ -19862,8 +19743,7 @@
   "price": "4.430",
   "photo": true,
   "desc": "Set de 3 pensule cu arc. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-optimum-spring-ceramic-brush",
@@ -19876,8 +19756,7 @@
   "price": "de la 1.340",
   "photo": true,
   "desc": "Pensulă cu arc pentru ceramică. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-optimum-spring-master-kit",
@@ -19890,8 +19769,7 @@
   "price": "de la 4.070",
   "photo": true,
   "desc": "Set complet de pensule. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-zirconia-stain-brush",
@@ -19904,8 +19782,7 @@
   "price": "de la 465",
   "photo": true,
   "desc": "Pensulă pentru pigmenții de zirconiu: fără metal, cu păr sintetic, potrivită pentru lichide pe bază de apă și acizi.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-fusionbrush",
@@ -19917,8 +19794,7 @@
   "note": "Pensulă hibridă pentru stratificare",
   "price": "",
   "photo": true,
-  "desc": "Pensulă hibridă pentru stratificare. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hidden": true
+  "desc": "Pensulă hibridă pentru stratificare. Instrument HPdent pentru ceramist și tehnician dentar."
  },
  {
   "id": "hpdent-nylobrush",
@@ -19931,8 +19807,7 @@
   "price": "",
   "photo": true,
   "desc": "Pensulă cu vârf magnetic. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-purabrush",
@@ -19945,8 +19820,7 @@
   "price": "",
   "photo": true,
   "desc": "Pensulă din păr Kolinsky. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-hybrid-brush-tips",
@@ -19959,8 +19833,7 @@
   "price": "de la 439",
   "photo": true,
   "desc": "Vârfuri de schimb universale. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-optimum-replacement-brush-tips",
@@ -19972,8 +19845,7 @@
   "note": "Vârfuri de schimb",
   "price": "de la 950",
   "photo": true,
-  "desc": "Vârfuri de schimb. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hidden": true
+  "desc": "Vârfuri de schimb. Instrument MPF Brush pentru ceramist și tehnician dentar."
  },
  {
   "id": "mpf-brush-standard-replacement-tips",
@@ -19985,8 +19857,7 @@
   "note": "Vârfuri de schimb",
   "price": "de la 530",
   "photo": true,
-  "desc": "Vârfuri de schimb. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hidden": true
+  "desc": "Vârfuri de schimb. Instrument MPF Brush pentru ceramist și tehnician dentar."
  },
  {
   "id": "mpf-brush-evolution-master-ceramic-palette",
@@ -19999,8 +19870,7 @@
   "price": "6.530",
   "photo": true,
   "desc": "Paletă cu suprafață de sticlă și benzi care țin ceramica umedă, cu sertar ascuns pentru pigmenți.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-marble-ceramic-palette",
@@ -20013,8 +19883,7 @@
   "price": "4.160",
   "photo": true,
   "desc": "Paletă cu suprafață din marmură italiană și foaie de nailon; capilaritatea ține masa ceramică umedă.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-stain-opaque-palette",
@@ -20027,8 +19896,7 @@
   "price": "2.550",
   "photo": true,
   "desc": "Paletă pentru pigmenți și opaquer. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-honeycomb-tray-for-veneers-40-20-mm",
@@ -20040,8 +19908,7 @@
   "note": "Tavă de ardere pentru fațete",
   "price": "480",
   "photo": true,
-  "desc": "Tavă de ardere pentru fațete. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hidden": true
+  "desc": "Tavă de ardere pentru fațete. Instrument MPF Brush pentru ceramist și tehnician dentar."
  },
  {
   "id": "mpf-brush-honeycomb-tray-10-ceramic-pins",
@@ -20053,8 +19920,7 @@
   "note": "Tavă pentru ardere",
   "price": "de la 255",
   "photo": true,
-  "desc": "Tavă de ardere pentru coroane și punți, rezistentă până la 1.500 °C, cu 10 pini ceramici.",
-  "hidden": true
+  "desc": "Tavă de ardere pentru coroane și punți, rezistentă până la 1.500 °C, cu 10 pini ceramici."
  },
  {
   "id": "mpf-brush-honeycomb-tray-10-metal-pins",
@@ -20066,8 +19932,7 @@
   "note": "Tavă pentru ardere",
   "price": "de la 300",
   "photo": true,
-  "desc": "Tavă de ardere pentru coroane și punți, rezistentă până la 1.500 °C, cu 10 pini metalici.",
-  "hidden": true
+  "desc": "Tavă de ardere pentru coroane și punți, rezistentă până la 1.500 °C, cu 10 pini metalici."
  },
  {
   "id": "mpf-brush-ceramic-brush-hydrator",
@@ -20080,8 +19945,7 @@
   "price": "1.107",
   "photo": true,
   "desc": "Hidrator pentru pensule. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-ceramic-table-mat",
@@ -20094,8 +19958,7 @@
   "price": "755",
   "photo": true,
   "desc": "Covoraș de lucru pentru ceramist. Instrument MPF Brush pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "mpf-brush-master-klip",
@@ -20107,8 +19970,7 @@
   "note": "Accesoriu ceramist",
   "price": "680",
   "photo": true,
-  "desc": "Pensetă cu arc și vârfuri din oțel inoxidabil, pentru manipularea pieselor fine.",
-  "hidden": true
+  "desc": "Pensetă cu arc și vârfuri din oțel inoxidabil, pentru manipularea pieselor fine."
  },
  {
   "id": "mpf-brush-rainbow-drops",
@@ -20120,8 +19982,7 @@
   "note": "Accesoriu ceramist",
   "price": "1.700",
   "photo": true,
-  "desc": "Coloranți de calitate pentru amestecul ceramic.",
-  "hidden": true
+  "desc": "Coloranți de calitate pentru amestecul ceramic."
  },
  {
   "id": "aidite-3d-pro-shade-matcher",
@@ -20184,8 +20045,7 @@
   "price": "",
   "photo": true,
   "desc": "Lichid universal pentru ceramică. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-composite-by-nena",
@@ -20198,8 +20058,7 @@
   "price": "",
   "photo": true,
   "desc": "Instrumente pentru compozit. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-pasta-de-ardere",
@@ -20212,8 +20071,7 @@
   "price": "",
   "photo": true,
   "desc": "Fixarea obiectelor la ardere. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "hpdent-speedpolish",
@@ -20226,8 +20084,7 @@
   "price": "",
   "photo": true,
   "desc": "Pastă de lustruit rapid pentru ceramică. Instrument HPdent pentru ceramist și tehnician dentar.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "protechno-durguix-25-kg",
@@ -20268,8 +20125,7 @@
   "price": "2.500",
   "photo": true,
   "desc": "Masă de ambalat pentru presarea ceramicii: 50 × 100 g pulbere și 1 l lichid.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "protechno-alcovest-rapid",
@@ -20435,8 +20291,7 @@
   "price": "",
   "photo": true,
   "desc": "Lampă de lucru pentru laborator. Iluminat profesional HPdent pentru posturile de lucru din laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "led2work-cenaled-lens-flexarm",
@@ -20449,8 +20304,7 @@
   "price": "",
   "photo": true,
   "desc": "Lampă cu braț flexibil și lentilă. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "led2work-cenaled-spot-articulated-head",
@@ -20462,8 +20316,7 @@
   "note": "Lampă cu braț articulat",
   "price": "",
   "photo": true,
-  "desc": "Lampă cu braț articulat. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hidden": true
+  "desc": "Lampă cu braț articulat. Iluminat profesional LED2WORK pentru posturile de lucru din laborator."
  },
  {
   "id": "led2work-cenaled-spot-flexarm",
@@ -20475,8 +20328,7 @@
   "note": "Lampă cu braț flexibil",
   "price": "",
   "photo": true,
-  "desc": "Lampă cu braț flexibil. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hidden": true
+  "desc": "Lampă cu braț flexibil. Iluminat profesional LED2WORK pentru posturile de lucru din laborator."
  },
  {
   "id": "led2work-profiled",
@@ -20489,8 +20341,7 @@
   "price": "",
   "photo": true,
   "desc": "Lampă liniară pentru post de lucru. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "led2work-systemled-evo",
@@ -20503,8 +20354,7 @@
   "price": "",
   "photo": true,
   "desc": "Iluminat de sistem pentru mese de lucru. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  },
  {
   "id": "led2work-uniled-sl",
@@ -20517,7 +20367,6 @@
   "price": "",
   "photo": true,
   "desc": "Lampă de sistem. Iluminat profesional LED2WORK pentru posturile de lucru din laborator.",
-  "hq": true,
-  "hidden": true
+  "hq": true
  }
 ]
